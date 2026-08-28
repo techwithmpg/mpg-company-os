@@ -1,7 +1,7 @@
 # Company Growth Model
 
 > **Document:** Company Growth Model
-> **Status:** RECOMMENDED — pending Stage 0 owner acceptance
+> **Status:** ACCEPTED — STAGE 0 BASELINE
 > **Stage:** Stage 0 — Governance and Source of Truth
 > **Owner:** MPG Founder
 > **Last Updated:** 2026-08-28
@@ -102,7 +102,7 @@ Organizational modes describe **how MPG is staffed and operated**. Company OS st
 
 | Stage | Company system | Transition rule |
 |---|---|---|
-| Stage 0 | Governance and Source of Truth | Current stage; owner acceptance required before Stage 1. |
+| Stage 0 | Governance and Source of Truth | Accepted governing baseline under `MPG-DEC-032`; Stage 1 remains separately gated. |
 | Stage 1 | Company and Brand Foundation | Must be explicitly activated. |
 | Stage 2 | Services, Offers and Pricing | Must not invent active offers or prices. |
 | Stage 3 | Sales System | Requires qualified, capability-aware intake design. |
@@ -117,4 +117,4 @@ A company may mature organizationally without skipping a Company OS stage, and a
 
 ## Current baseline
 
-MPG is explicitly founder-led in strategy, but Stage 0 has not verified a complete people or resourcing record. Therefore Mode A is the baseline operating assumption to be confirmed by the owner, not a claim that no other contributors exist. The current stage remains **Stage 0**, the current primary service build track remains **Professional Business Websites**, and the next gate is owner review and Stage 0 acceptance.
+MPG is explicitly founder-led in strategy, but Stage 0 has not verified a complete people or resourcing record. Therefore Mode A remains a conservative baseline operating assumption, not a claim that no other contributors exist. **Stage 0 is accepted**, the current primary service build track remains **Professional Business Websites**, and the next master-control gate is a separate owner decision on whether to activate Stage 1.

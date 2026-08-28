@@ -1,7 +1,7 @@
 # Risk Management
 
 > **Document:** Risk Management
-> **Status:** RECOMMENDED — pending Stage 0 owner acceptance
+> **Status:** ACCEPTED — STAGE 0 BASELINE
 > **Stage:** Stage 0 — Governance and Source of Truth
 > **Owner:** MPG Founder
 > **Last Updated:** 2026-08-28

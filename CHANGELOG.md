@@ -12,6 +12,18 @@
 
 This changelog records material Company OS changes. It does not replace Git history, the project status, or the decision register. No versions or earlier baselines are inferred where none exist.
 
+## 2026-08-28 — Stage 0 accepted
+
+### Accepted
+
+- The MPG Founder explicitly accepted **Stage 0 — Governance and Source of Truth** as the governing Company OS baseline under `MPG-DEC-032`.
+- The Stage 0 governance gate is closed.
+
+### Governance effect
+
+- **Stage 1 — Company and Brand Foundation remains NOT ACTIVATED** and requires a separate explicit owner decision.
+- No service, capability validation, price, marketing approval, additional WIP, or future-stage implementation was activated by Stage 0 acceptance.
+
 ## 2026-08-28 — Unified Stage 0 reconciliation
 
 ### Reconciled

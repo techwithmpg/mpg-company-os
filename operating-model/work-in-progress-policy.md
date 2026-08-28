@@ -1,7 +1,7 @@
 # Work-in-Progress Policy
 
 > **Document:** Work-in-Progress Policy
-> **Status:** RECOMMENDED — pending Stage 0 owner acceptance
+> **Status:** ACCEPTED — STAGE 0 BASELINE
 > **Stage:** Stage 0 — Governance and Source of Truth
 > **Owner:** MPG Founder
 > **Last Updated:** 2026-08-28
@@ -34,7 +34,7 @@ The current commercial build order is:
 6. Social Media Management
 7. Trade, Sourcing and Distribution
 
-This sequence controls company productization, not all personal learning or broad owner declarations. Adding Mobile Applications to internal architecture does not admit it to either WIP slot. Stage 0 governance work enables the system and is not a second service-family productization track. Stage 1 must not begin until the owner accepts the Stage 0 gate.
+This sequence controls company productization, not all personal learning or broad owner declarations. Adding Mobile Applications to internal architecture does not admit it to either WIP slot. Stage 0 governance work enables the system and is not a second service-family productization track. Stage 0 is accepted, but Stage 1 must not begin without a separate explicit owner activation decision.
 
 ## What counts as primary-track WIP
 

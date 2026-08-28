@@ -3,7 +3,7 @@
 | Metadata | Value |
 |---|---|
 | Document | Current project status |
-| Status | CURRENT — STAGE 0 REVIEW PENDING |
+| Status | CURRENT — STAGE 0 ACCEPTED |
 | Stage | Stage 0 — Governance and Source of Truth |
 | Owner | MPG Founder |
 | Last Updated | 2026-08-28 |
@@ -14,7 +14,9 @@
 
 **Stage 0 — Governance and Source of Truth**
 
-Stage 1 has not been activated.
+**Stage 0 status: ACCEPTED.** The MPG Founder explicitly authorized acceptance under `MPG-DEC-032`.
+
+**Stage 1 — Company and Brand Foundation: NOT ACTIVATED.** No later stage is currently active.
 
 ## CURRENT COMMERCIAL PRIORITY
 
@@ -43,14 +45,15 @@ The following are supported by the owner-directed bootstrap and repository state
 - Commercial sequence established.
 - Company OS Stage 0 governance initialized.
 - Post-bootstrap owner decisions reconciled into the Stage 0 candidate baseline: Mobile Applications, founder capability declarations, the seven-family sequence, future Brand & Content architecture, and the Client Project Readiness backlog requirement.
+- Stage 0 — Governance and Source of Truth explicitly accepted by the MPG Founder.
 
-Initialization is not the same as owner acceptance of Stage 0.
+Acceptance closes the Stage 0 governance gate. It does not activate Stage 1 or alter any service-readiness control.
 
 ## ACTIVE WORK
 
-**Stage 0 reconciliation complete; owner acceptance review pending.**
+**Operating under the accepted Stage 0 governance baseline; Stage 1 not activated.**
 
-The candidate baseline now reflects the bootstrap and the authorized post-bootstrap reconciliation. The active governance task is to present it for owner review. Reconciliation is not Stage 0 acceptance, and no later stage is active.
+Professional Business Websites remains the sole primary commercial productization track under the existing lifecycle, evidence, WIP, and publication controls. No later company stage is active.
 
 ## RISKS
 
@@ -67,7 +70,7 @@ The candidate baseline now reflects the bootstrap and the authorized post-bootst
 
 ## CONSTRAINTS IN FORCE
 
-- Current stage remains Stage 0.
+- Stage 0 remains the accepted governing baseline; Stage 1 is not activated.
 - Professional Business Websites remains the first commercial build priority.
 - One major new service family is productized at a time by default.
 - Secondary learning track remains unassigned until owner decision.
@@ -85,16 +88,6 @@ No answer is assumed at Stage 0.
 
 ## NEXT GATE
 
-**Owner review and Stage 0 acceptance.**
+**Explicit owner decision on whether to activate Stage 1 — Company and Brand Foundation.**
 
-The review should confirm:
-
-- the source-of-truth hierarchy and decision states;
-- the accepted brand and commercial architecture;
-- lifecycle, readiness, publication, and work-in-progress controls;
-- public-repository safety boundaries;
-- the website readiness-audit backlog;
-- unresolved `TBD` and `UNKNOWN` items; and
-- whether the baseline is accepted or requires amendment.
-
-Do **not** automatically begin Stage 1 after repository validation. A separate explicit owner decision is required.
+Until that separate decision is recorded, Stage 1 and all later stages remain inactive. Stage 0 acceptance does not answer unresolved `TBD` or `UNKNOWN` items and does not authorize future-stage execution.

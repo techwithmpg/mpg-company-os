@@ -107,7 +107,7 @@ Passing an internal readiness review does not itself grant marketing approval. P
 
 ## What must NOT yet be assumed
 
-- That Stage 2 is active, Stage 0 is accepted, or required Stage 1 decisions exist.
+- That Stage 2 is active merely because Stage 0 is accepted, or that required Stage 1 decisions already exist.
 - That a service registry entry is an offer.
 - That Professional Business Websites—or any service—is `ACTIVE`, market-approved, priced, validated, or available.
 - That priority, `BUILDING_CAPABILITY`, internal readiness, pilot readiness, delivery readiness, or `MARKET_APPROVED` alone authorizes public selling.

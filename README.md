@@ -3,12 +3,12 @@
 | Metadata | Value |
 |---|---|
 | Document | Executive repository overview |
-| Status | ACTIVE GOVERNANCE — STAGE 0 REVIEW PENDING |
+| Status | ACTIVE GOVERNANCE — STAGE 0 ACCEPTED |
 | Stage | Stage 0 — Governance and Source of Truth |
 | Owner | MPG Founder |
 | Last Updated | 2026-08-28 |
 | Public Safe | Yes |
-| Authority | Owner-directed Stage 0 baseline; subordinate only to a later explicit owner decision |
+| Authority | Owner-accepted Stage 0 baseline under `MPG-DEC-032`; subordinate only to a later explicit owner decision |
 
 MPG Company OS is the durable operating system for building **MPG** into a credible, diversified company without allowing ambition to outrun delivery capability. It records decisions, controls service development, protects focus, and separates strategic possibilities from offers that customers can actually buy.
 
@@ -20,14 +20,15 @@ This is a company repository, not merely a website repository. The website is on
 
 | Item | Current state |
 |---|---|
-| Company development stage | **Stage 0 — Governance and Source of Truth** |
+| Completed governance stage | **Stage 0 — Governance and Source of Truth — ACCEPTED** |
+| Next company stage | **Stage 1 — Company and Brand Foundation — NOT ACTIVATED** |
 | Commercial priority | **Professional Business Websites** |
 | Primary build track | Website service productization |
-| Secondary learning track | TBD / owner decision |
+| Secondary learning track | UNALLOCATED / owner decision required |
 | Publicly marketable services | Determined only by the service registry and publication gate; never inferred from this README |
-| Next gate | Owner review and explicit Stage 0 acceptance |
+| Next gate | Explicit owner decision on whether to activate Stage 1 — Company and Brand Foundation |
 
-Stage 1 has **not** begun. No future stage, service, price, customer segment, partnership, capability claim, or marketing claim is activated merely because its framework exists in this repository.
+Stage 0 is accepted. Stage 1 is **NOT ACTIVATED** and has not begun. No future stage, service, price, customer segment, partnership, capability claim, or marketing claim is activated merely because Stage 0 was accepted or its framework exists in this repository.
 
 ## Company direction
 
@@ -126,8 +127,8 @@ Framework documents for later stages intentionally contain questions, inputs, ou
 
 | Stage | Purpose | Current? |
 |---|---|---|
-| 0 | Governance and source of truth | **Yes** |
-| 1 | Company and brand foundation | No |
+| 0 | Governance and source of truth | **Accepted** |
+| 1 | Company and brand foundation | **Not activated** |
 | 2 | Services, offers, and pricing | No |
 | 3 | Sales system | No |
 | 4 | Delivery and client experience | No |

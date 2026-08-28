@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "metadata": {
     "document": "MPG Asset Registry",
-    "status": "IMPLEMENTED_PENDING_OWNER_ACCEPTANCE",
+    "status": "ACCEPTED",
     "stage": "STAGE_0",
     "owner": "MPG Founder",
     "lastUpdated": "2026-08-28",
@@ -20,7 +20,7 @@
       "requiredFor": ["Company governance"],
       "evidence": ["README.md", "docs/00-project-charter.md"],
       "publicSafe": true,
-      "notes": "Availability means the Stage 0 baseline exists; it does not mean Stage 0 has been owner-accepted."
+      "notes": "Availability means the Stage 0 repository baseline exists; Stage 0 acceptance is recorded separately under MPG-DEC-032."
     },
     {
       "id": "AST-DOMAIN-001",

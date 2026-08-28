@@ -84,7 +84,7 @@ Completion of this framework is not activation. Brand outputs remain `PROPOSED` 
 
 ## What must NOT yet be assumed
 
-- That Stage 1 is active or Stage 0 has been accepted.
+- That Stage 1 is active merely because Stage 0 has been accepted.
 - That `Build. Grow. Connect.` is the final tagline.
 - That strategic domains are active services, staffed divisions, or separate legal entities.
 - That MPG has a validated target segment, positioning, promise, values, voice, or channel strategy.

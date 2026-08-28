@@ -59,6 +59,7 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 | MPG-DEC-029 | ACCEPTED | **The commercial productization sequence is: Professional Business Websites; Custom Business Systems; AI and Workflow Automation; Mobile Applications; Digital Marketing; Social Media Management; Trade, Sourcing and Distribution.** | This replaces `MPG-DEC-007`. It governs company productization, not founder learning; Professional Business Websites remains the sole primary track and the secondary slot remains unallocated. |
 | MPG-DEC-030 | ACCEPTED | **Brand & Content is a future MPG Media / GROW capability area.** | It may address genuine brand and content dependencies discovered in future projects, but it is not an active service, current WIP, or automatic component of website work. |
 | MPG-DEC-031 | ACCEPTED | **Client Project Readiness & Dependency Detection is a future Company OS backlog requirement.** | It will distinguish client-specific prerequisites from MPG service readiness and classify dependencies as `REQUIRED`, `RECOMMENDED`, or `OPTIONAL`; implementation remains deferred to later authorized stages. |
+| MPG-DEC-032 | ACCEPTED | **Stage 0 — Governance and Source of Truth is accepted as the governing baseline for the MPG Company OS.** | Acceptance closes the Stage 0 governance gate. Stage 1 remains inactive and requires a separate explicit owner activation decision. This decision does not activate services, approve marketing, validate capabilities, set pricing, allocate new WIP, or override readiness controls. |
 
 ## Decision dependencies
 
@@ -67,6 +68,7 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 - `MPG-DEC-001` through `004`, `027`, `028`, and `030` govern brand architecture, capability architecture, and founder/company language.
 - `MPG-DEC-013` through `015` govern repository authority and stage transitions.
 - `MPG-DEC-031` governs the deferred Client Project Readiness requirement without activating its implementation.
+- `MPG-DEC-032` closes the Stage 0 acceptance gate while preserving the separate Stage 1 activation requirement.
 
 ## Superseded decisions
 
@@ -79,7 +81,6 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 The following remain unresolved and are **not** accepted decisions:
 
 - secondary capability-development track;
-- Stage 0 acceptance;
 - Stage 1 activation;
 - final tagline and detailed brand strategy;
 - priority customer segment and geography;

@@ -89,7 +89,7 @@ Implementation depends on later authorized customer discovery, service-definitio
 
 ## Required Inputs
 
-- Stage 0 owner review and any recorded acceptance or requested corrections.
+- The accepted Stage 0 governing baseline and any later recorded corrections.
 - Current project status, decision register, WIP policy, service lifecycle, and launch gates.
 - Professional Business Websites service, capability, tool, asset, partner, and evidence records.
 - Customer research, process observations, capacity facts, risk reviews, and qualified professional advice where applicable.
@@ -105,7 +105,7 @@ Implementation depends on later authorized customer discovery, service-definitio
 
 ## Activation Gate
 
-The backlog may be activated only after the MPG Founder reviews the Stage 0 baseline, records the appropriate decision, and explicitly authorizes the next stage or bounded research task. Stage 0 acceptance must not be inferred. Professional Business Websites may advance through its lifecycle only on evidence; public marketing requires all applicable gates, explicit owner marketing approval, lifecycleStatus = ACTIVE, and marketingApproved = true.
+Stage 0 acceptance is recorded under `MPG-DEC-032`, but it does not activate this backlog. Work may begin only after the MPG Founder separately authorizes the next stage or a bounded research task. Professional Business Websites may advance through its lifecycle only on evidence; public marketing requires all applicable gates, explicit owner marketing approval, lifecycleStatus = ACTIVE, and marketingApproved = true.
 
 ## Dependencies
 
