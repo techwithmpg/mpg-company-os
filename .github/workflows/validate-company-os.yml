@@ -1,0 +1,29 @@
+name: Validate Company OS
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check generated marketable catalogue
+        run: python scripts/generate_marketable_services.py --check
+
+      - name: Test release controls
+        run: python scripts/test_company_os.py
+
+      - name: Validate Company OS
+        run: python scripts/validate_company_os.py

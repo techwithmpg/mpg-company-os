@@ -1,0 +1,80 @@
+# MPG Company OS — Decision Register
+
+| Metadata | Value |
+|---|---|
+| Document | Durable decision register |
+| Status | ACTIVE |
+| Stage | Stage 0 — Governance and Source of Truth |
+| Owner | MPG Founder |
+| Last Updated | 2026-08-28 |
+| Public Safe | Yes |
+| Authority | Authoritative record of explicit owner decisions captured by the Stage 0 bootstrap |
+
+## How this register works
+
+Decision states are:
+
+- `PROPOSED` — option offered for consideration;
+- `RECOMMENDED` — preferred option without final approval;
+- `ACCEPTED` — explicitly approved direction;
+- `FROZEN` — explicitly protected from routine change;
+- `DEPRECATED` — superseded but retained for history.
+
+The entries below are marked `ACCEPTED` only where the owner-directed bootstrap explicitly establishes the decision. None are marked `FROZEN` because the baseline did not explicitly freeze them.
+
+When a decision changes, add a new stable ID, retain the earlier entry, update its state only with owner authority, and cross-reference the replacement. Never erase superseded history.
+
+## Registered decisions
+
+| ID | State | Decision | Constraint or implication |
+|---|---|---|---|
+| MPG-DEC-001 | ACCEPTED | **MPG is the master company brand.** | Products, divisions, and services remain subordinate to the MPG company architecture unless a later owner decision changes it. |
+| MPG-DEC-002 | ACCEPTED | **Malcom Gwanmesia is the founder brand.** | Malcom represents founder leadership, trust, expertise, journey, thinking, and relationships; MPG represents company systems, offers, delivery, and commercial operations. |
+| MPG-DEC-003 | ACCEPTED | **Build/Grow/Connect is the current brand architecture.** | MPG Technologies owns BUILD, MPG Media owns GROW, and MPG Trade & Distribution owns CONNECT as strategic capability domains. This does not prove active divisions or services. |
+| MPG-DEC-004 | ACCEPTED | **`Build. Grow. Connect.` is a working brand idea, not a frozen final tagline.** | Future brand work may evaluate it; no contributor may describe it as immutable without a later owner decision. |
+| MPG-DEC-005 | ACCEPTED | **The website is one business component, not the whole MPG project.** | The Company OS governs the future website. Website delivery must not replace company, service, sales, delivery, or operations governance. |
+| MPG-DEC-006 | ACCEPTED | **Commercial capability is developed progressively.** | Strategic inclusion may precede delivery readiness. Learning, tooling, or a potential partner alone does not authorize a service. |
+| MPG-DEC-007 | ACCEPTED | **The commercial productization sequence is: Professional Business Websites; Custom Business Systems; AI and Workflow Automation; Digital Marketing; Social Media Management; Trade, Sourcing and Distribution.** | The order governs company productization, not personal learning. A later family must not displace the primary track without owner authority. |
+| MPG-DEC-008 | ACCEPTED | **Professional Business Websites are the first commercial priority.** | They are the first service family to undergo readiness review. Priority is not `ACTIVE` status or marketing approval. |
+| MPG-DEC-009 | ACCEPTED | **Custom Business Systems follow Professional Business Websites.** | Systems remain a future productization family until the applicable stage, evidence, and owner authorization. |
+| MPG-DEC-010 | ACCEPTED | **AI and workflow automation follow Custom Business Systems.** | Automation requires a defined problem, reliable workflow, data/security review, fallback, monitoring, error handling, cost clarity, ownership, and maintenance expectations before selling. |
+| MPG-DEC-011 | ACCEPTED | **Media capabilities follow later and may activate separately.** | Strategy, creative, copywriting, organic social, paid media, tracking, analytics, SEO, and conversion optimization must not be collapsed into an unsupported full-service claim. |
+| MPG-DEC-012 | ACCEPTED | **Trade, sourcing, and distribution are long-term capability areas.** | MPG must not claim to be a freight forwarder, customs broker, licensed importer, manufacturer representative, distributor, or shipping company without evidence and an accurate delivery role. |
+| MPG-DEC-013 | ACCEPTED | **GitHub is the durable repository source of truth.** | Accepted decisions belong in the repository; chat history alone is not durable authority. The repository remains public-safe. |
+| MPG-DEC-014 | ACCEPTED | **The source hierarchy is: latest explicit owner decision; latest ACCEPTED/FROZEN repository documentation; current project context; individual chat/history.** | Lower sources cannot silently override higher-authority sources. |
+| MPG-DEC-015 | ACCEPTED | **Company development uses Stages 0 through 9, and major stage transitions require owner approval.** | Current state remains Stage 0 — Governance and Source of Truth. Creating framework files does not activate Stage 1. |
+| MPG-DEC-016 | ACCEPTED | **Evidence over hype governs public and internal claims.** | Do not fabricate customers, testimonials, revenue, staff, offices, locations, relationships, experience, results, certifications, infrastructure, or metrics. |
+| MPG-DEC-017 | ACCEPTED | **Undeveloped capabilities cannot be marketed as active.** | Planned or internal capability records may exist without becoming public offers. |
+| MPG-DEC-018 | ACCEPTED | **Custom systems are not priced like simple websites.** | Future pricing must account for requirements, complexity, risk, integrations, change load, support, and other service-specific economics; no final prices are set at Stage 0. |
+| MPG-DEC-019 | ACCEPTED | **MPG may plan broadly but sells narrowly.** | Long-term diversification is encouraged; premature commercialization is prohibited. |
+| MPG-DEC-020 | ACCEPTED | **One primary commercial capability is productized at a time by default.** | At most one meaningful secondary learning/research/incubation track may run alongside it unless the owner explicitly authorizes otherwise. |
+| MPG-DEC-021 | ACCEPTED | **Public service publication requires readiness plus owner marketing approval.** | Public marketing requires `lifecycleStatus = ACTIVE` and `marketingApproved = true`; both conditions are mandatory. |
+| MPG-DEC-022 | ACCEPTED | **A service uses an explicit delivery mode: OWNED DELIVERY, PARTNER DELIVERY, or HYBRID DELIVERY.** | MPG must disclose roles accurately and must never imply ownership of partner infrastructure. |
+| MPG-DEC-023 | ACCEPTED | **Partner-dependent services cannot become active until required partnerships are sufficiently validated.** | A vendor is not an official MPG partner merely because it was researched or contacted. |
+| MPG-DEC-024 | ACCEPTED | **MPG should prefer doing fewer things extremely well over offering many things poorly.** | A service launches only when MPG can reliably deliver a defined outcome, not merely because it appears profitable. |
+| MPG-DEC-025 | ACCEPTED | **Public communication has three categories: active-offer content, capability-journey content, and thought leadership.** | Only active-offer content may solicit clients, and it requires the publication gate. Journey and thought-leadership language must not imply an unapproved offer. |
+| MPG-DEC-026 | ACCEPTED | **The public repository must contain only public-safe information.** | Confidential operations require approved private storage or an explicit repository-visibility and access-control decision before storage. |
+
+## Decision dependencies
+
+- `MPG-DEC-007`, `008`, and `020` govern current work prioritization.
+- `MPG-DEC-006`, `016`, `017`, `021`, `022`, and `023` govern service readiness and public claims.
+- `MPG-DEC-001` through `004` govern brand architecture and founder/company language.
+- `MPG-DEC-013` through `015` govern repository authority and stage transitions.
+
+## Superseded decisions
+
+None are recorded in this initial baseline. This statement does not imply that future changes should delete earlier entries; superseded decisions must remain visible as `DEPRECATED` with a replacement reference.
+
+## Pending owner decisions
+
+The following remain unresolved and are **not** accepted decisions:
+
+- secondary capability-development track;
+- Stage 0 acceptance;
+- Stage 1 activation;
+- final tagline and detailed brand strategy;
+- priority customer segment and geography;
+- final service scope, pricing, capacity, and delivery model;
+- any service lifecycle advancement to `ACTIVE`;
+- any marketing approval or named partner relationship.

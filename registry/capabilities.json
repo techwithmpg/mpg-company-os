@@ -1,0 +1,354 @@
+{
+  "schemaVersion": "1.0.0",
+  "metadata": {
+    "document": "MPG Capability and Skills Registry",
+    "status": "IMPLEMENTED_PENDING_OWNER_ACCEPTANCE",
+    "stage": "STAGE_0",
+    "owner": "MPG Founder",
+    "lastUpdated": "2026-08-28",
+    "publicSafe": true,
+    "authority": "Owner-authorized Company OS bootstrap"
+  },
+  "allowedStatuses": [
+    "UNASSESSED",
+    "LEARNING",
+    "PRACTICING",
+    "COMPETENT",
+    "VALIDATED",
+    "PARTNER_DEPENDENT",
+    "NOT_REQUIRED"
+  ],
+  "validationRule": "VALIDATED requires suitable evidence; course completion alone does not prove professional delivery capability.",
+  "capabilities": [
+    {
+      "id": "CAP-TECH-REQ-001",
+      "category": "Technology",
+      "name": "Requirements discovery",
+      "description": "Elicit, clarify, document, and confirm client needs and constraints.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-TECH-UX-001",
+      "category": "Technology",
+      "name": "UX and UI design",
+      "description": "Translate user and business needs into usable, accessible interface structures and visual designs.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-TECH-FE-001",
+      "category": "Technology",
+      "name": "Frontend development",
+      "description": "Implement reliable, responsive, accessible browser interfaces.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-TECH-BE-001",
+      "category": "Technology",
+      "name": "Backend development",
+      "description": "Design and implement secure server-side application behavior and data access.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-TECH-DEPLOY-001",
+      "category": "Technology",
+      "name": "Deployment and release management",
+      "description": "Deploy, verify, monitor, and safely update production web properties.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-TECH-DNS-001",
+      "category": "Technology",
+      "name": "Domain and DNS management",
+      "description": "Configure and troubleshoot domains, DNS, certificates, and ownership handover.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-TECH-SEC-001",
+      "category": "Technology",
+      "name": "Web security fundamentals",
+      "description": "Apply proportionate security, access, dependency, data, backup, and incident basics.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No certification or professional security claim is made."
+    },
+    {
+      "id": "CAP-TECH-QA-001",
+      "category": "Technology",
+      "name": "Website quality assurance",
+      "description": "Test functional, responsive, content, compatibility, performance, accessibility, and release acceptance criteria.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-TECH-SUPPORT-001",
+      "category": "Technology",
+      "name": "Technical maintenance and support",
+      "description": "Triage, communicate, resolve, escalate, and document post-launch issues within defined support boundaries.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No support commitment is made."
+    },
+    {
+      "id": "CAP-SYS-BA-001",
+      "category": "Business Systems",
+      "name": "Business analysis",
+      "description": "Identify business needs, stakeholders, constraints, value, and solution fit.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-SYS-WORKFLOW-001",
+      "category": "Business Systems",
+      "name": "Workflow modelling",
+      "description": "Map current and target processes, decisions, exceptions, roles, and handoffs.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-SYS-DB-001",
+      "category": "Business Systems",
+      "name": "Database design",
+      "description": "Design appropriate data models, integrity rules, access patterns, and lifecycle controls.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-SYS-ARCH-001",
+      "category": "Business Systems",
+      "name": "Integration architecture",
+      "description": "Define safe, maintainable system boundaries, interfaces, ownership, and failure handling.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-SYS-CHANGE-001",
+      "category": "Business Systems",
+      "name": "Change management",
+      "description": "Plan adoption, stakeholder communication, training, transition, and outcome review.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-AUTO-PROCESS-001",
+      "category": "Automation",
+      "name": "Automation opportunity identification",
+      "description": "Identify stable, valuable, measurable processes suitable for automation rather than automating ambiguity.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-AUTO-WORKFLOW-001",
+      "category": "Automation",
+      "name": "Workflow automation",
+      "description": "Implement controlled workflows with validation, fallbacks, ownership, and maintainability.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-AUTO-API-001",
+      "category": "Automation",
+      "name": "API integration",
+      "description": "Integrate systems using authenticated interfaces, contracts, rate limits, retries, and error handling.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-AUTO-AI-001",
+      "category": "Automation",
+      "name": "AI workflow design",
+      "description": "Design bounded AI-assisted workflows with realistic claims, data controls, human oversight, evaluation, and fallback.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-AUTO-MONITOR-001",
+      "category": "Automation",
+      "name": "Automation monitoring",
+      "description": "Detect, diagnose, communicate, and recover from workflow failures and quality drift.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-MEDIA-STRAT-001",
+      "category": "Media",
+      "name": "Marketing strategy",
+      "description": "Connect audience, positioning, offer, channel, message, evidence, and measurement decisions.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-MEDIA-COPY-001",
+      "category": "Media",
+      "name": "Copywriting",
+      "description": "Write clear, truthful, audience-relevant marketing and conversion copy.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-MEDIA-CONTENT-001",
+      "category": "Media",
+      "name": "Content planning and production operations",
+      "description": "Plan sustainable content themes, formats, production, approvals, rights, publishing, and reuse.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-MEDIA-ADS-001",
+      "category": "Media",
+      "name": "Paid advertising",
+      "description": "Plan, operate, measure, and control paid campaigns within platform, budget, claims, and tracking constraints.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-MEDIA-ANALYTICS-001",
+      "category": "Media",
+      "name": "Marketing analytics",
+      "description": "Define trustworthy measurement, instrumentation, interpretation, reporting, and limitations.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-MEDIA-SEO-001",
+      "category": "Media",
+      "name": "Search visibility and SEO",
+      "description": "Improve discoverability using ethical, technically sound, evidence-led search practices without ranking guarantees.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency or ranking claim is made."
+    },
+    {
+      "id": "CAP-MEDIA-CRO-001",
+      "category": "Media",
+      "name": "Conversion optimization",
+      "description": "Use appropriate evidence and experiments to improve user journeys and defined business outcomes.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-TRADE-SOURCE-001",
+      "category": "Trade",
+      "name": "Supplier sourcing",
+      "description": "Identify potential suppliers against defined, lawful commercial requirements.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No supplier network or proficiency is claimed."
+    },
+    {
+      "id": "CAP-TRADE-VERIFY-001",
+      "category": "Trade",
+      "name": "Supplier verification",
+      "description": "Apply proportionate, documented checks while disclosing limits and residual risk.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No verification service or guarantee is claimed."
+    },
+    {
+      "id": "CAP-TRADE-PROCURE-001",
+      "category": "Trade",
+      "name": "Procurement coordination",
+      "description": "Coordinate requirements, quotations, approvals, orders, documentation, and issue handling.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-TRADE-NEGOTIATE-001",
+      "category": "Trade",
+      "name": "Commercial negotiation",
+      "description": "Prepare and conduct bounded commercial negotiations with clear authority and documented terms.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-TRADE-FREIGHT-001",
+      "category": "Trade",
+      "name": "Freight and logistics coordination",
+      "description": "Coordinate defined logistics activities through appropriately qualified parties without misrepresenting MPG's role.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "Likely partner dependence must be assessed; no partner or proficiency is currently validated."
+    },
+    {
+      "id": "CAP-TRADE-IMPORT-001",
+      "category": "Trade",
+      "name": "Import and export knowledge",
+      "description": "Understand applicable trade processes, documents, roles, risks, and jurisdiction-specific professional boundaries.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No licensing, compliance, or professional claim is made."
+    },
+    {
+      "id": "CAP-TRADE-REP-001",
+      "category": "Trade",
+      "name": "Market representation",
+      "description": "Represent a principal only under verified authority, documented responsibilities, lawful terms, and accurate public disclosure.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "Likely partner or principal dependence must be assessed; no representation authority, relationship, or proficiency is claimed."
+    }
+  ]
+}

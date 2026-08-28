@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0.0",
+  "metadata": {
+    "document": "MPG Tool Registry",
+    "status": "IMPLEMENTED_PENDING_OWNER_ACCEPTANCE",
+    "stage": "STAGE_0",
+    "owner": "MPG Founder",
+    "lastUpdated": "2026-08-28",
+    "publicSafe": true,
+    "authority": "Owner-authorized Company OS bootstrap"
+  },
+  "allowedResourceStatuses": ["UNKNOWN", "REQUIRED", "AVAILABLE", "NOT_AVAILABLE", "NOT_REQUIRED", "PLANNED"],
+  "allowedAdoptionStates": ["CANDIDATE", "EVALUATING", "APPROVED", "OPERATING", "REJECTED", "RETIRED"],
+  "tools": [
+    {
+      "id": "TOOL-GITHUB-001",
+      "tool": "GitHub",
+      "purpose": "Public, durable version control for the MPG Company OS repository.",
+      "capabilityEnabled": "Auditable governance and repository change history",
+      "status": "AVAILABLE",
+      "adoptionState": "OPERATING",
+      "costKnown": "UNKNOWN",
+      "accountAvailable": "YES",
+      "ownerApproved": true,
+      "dataSensitivity": "PUBLIC_ONLY",
+      "notes": "Availability is evidenced by the owner-specified public repository. Confidential operations must not be stored here."
+    },
+    {
+      "id": "TOOL-HUBSPOT-001",
+      "tool": "HubSpot",
+      "purpose": "Possible future CRM and sales operations support.",
+      "capabilityEnabled": "Lead, pipeline, and relationship management",
+      "status": "PLANNED",
+      "adoptionState": "CANDIDATE",
+      "costKnown": "UNKNOWN",
+      "accountAvailable": "UNKNOWN",
+      "ownerApproved": false,
+      "dataSensitivity": "CONFIDENTIAL_BUSINESS_DATA_IF_ADOPTED",
+      "notes": "Candidate only. No requirement, account, purchase, or adoption decision is asserted."
+    },
+    {
+      "id": "TOOL-CANVA-001",
+      "tool": "Canva",
+      "purpose": "Possible future brand and content production support.",
+      "capabilityEnabled": "Template-based visual asset production",
+      "status": "PLANNED",
+      "adoptionState": "CANDIDATE",
+      "costKnown": "UNKNOWN",
+      "accountAvailable": "UNKNOWN",
+      "ownerApproved": false,
+      "dataSensitivity": "PUBLIC_OR_INTERNAL_AS_CONFIGURED",
+      "notes": "Candidate only. Need, workflow fit, rights, cost, data handling, and account availability require evaluation."
+    },
+    {
+      "id": "TOOL-ACCOUNTING-001",
+      "tool": "Accounting platform (candidate class)",
+      "purpose": "Possible future bookkeeping, invoicing, expense, and reporting operations.",
+      "capabilityEnabled": "Financial administration",
+      "status": "PLANNED",
+      "adoptionState": "CANDIDATE",
+      "costKnown": "UNKNOWN",
+      "accountAvailable": "UNKNOWN",
+      "ownerApproved": false,
+      "dataSensitivity": "HIGHLY_CONFIDENTIAL_IF_ADOPTED",
+      "notes": "No vendor has been selected. Legal, tax, market, access, export, support, and security needs must drive evaluation."
+    },
+    {
+      "id": "TOOL-SOCIAL-001",
+      "tool": "Social scheduling platform (candidate class)",
+      "purpose": "Possible future scheduling, approval, access, and reporting support for market-approved content operations.",
+      "capabilityEnabled": "Content operations",
+      "status": "PLANNED",
+      "adoptionState": "CANDIDATE",
+      "costKnown": "UNKNOWN",
+      "accountAvailable": "UNKNOWN",
+      "ownerApproved": false,
+      "dataSensitivity": "CONFIDENTIAL_ACCESS_IF_ADOPTED",
+      "notes": "No vendor has been selected. A tool purchase would not authorize MPG to sell social media management."
+    }
+  ]
+}

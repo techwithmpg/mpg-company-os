@@ -1,0 +1,257 @@
+{
+  "schemaVersion": "1.0.0",
+  "metadata": {
+    "document": "MPG Asset Registry",
+    "status": "IMPLEMENTED_PENDING_OWNER_ACCEPTANCE",
+    "stage": "STAGE_0",
+    "owner": "MPG Founder",
+    "lastUpdated": "2026-08-28",
+    "publicSafe": true,
+    "authority": "Owner-authorized Company OS bootstrap"
+  },
+  "allowedStatuses": ["UNKNOWN", "REQUIRED", "AVAILABLE", "NOT_AVAILABLE", "NOT_REQUIRED", "PLANNED"],
+  "assets": [
+    {
+      "id": "AST-GOV-001",
+      "asset": "MPG Company OS repository",
+      "category": "Governance",
+      "purpose": "Durable, auditable, public-safe company governance source of truth.",
+      "status": "AVAILABLE",
+      "requiredFor": ["Company governance"],
+      "evidence": ["README.md", "docs/00-project-charter.md"],
+      "publicSafe": true,
+      "notes": "Availability means the Stage 0 baseline exists; it does not mean Stage 0 has been owner-accepted."
+    },
+    {
+      "id": "AST-DOMAIN-001",
+      "asset": "Company domain",
+      "category": "Digital infrastructure",
+      "purpose": "Future official web and email identity.",
+      "status": "UNKNOWN",
+      "requiredFor": ["Future public website", "Potential company email"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No domain ownership or availability is asserted."
+    },
+    {
+      "id": "AST-WEBSITE-001",
+      "asset": "MPG public website",
+      "category": "Digital infrastructure",
+      "purpose": "Future company narrative and publication of market-approved offers.",
+      "status": "PLANNED",
+      "requiredFor": ["Stage 7 website"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "A website is one company component, not the whole MPG project."
+    },
+    {
+      "id": "AST-EMAIL-001",
+      "asset": "Company email",
+      "category": "Digital infrastructure",
+      "purpose": "Future professional company communication.",
+      "status": "UNKNOWN",
+      "requiredFor": ["Commercial operations"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No address or account availability is asserted."
+    },
+    {
+      "id": "AST-LOGO-001",
+      "asset": "Approved MPG logo system",
+      "category": "Brand",
+      "purpose": "Consistent future visual identification.",
+      "status": "UNKNOWN",
+      "requiredFor": ["Stage 5 visual identity"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No final logo approval is asserted."
+    },
+    {
+      "id": "AST-PHOTOS-001",
+      "asset": "Approved brand photography",
+      "category": "Brand",
+      "purpose": "Truthful founder and company visual communications where appropriate.",
+      "status": "UNKNOWN",
+      "requiredFor": ["Future brand and marketing assets"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No photography availability or usage rights are asserted."
+    },
+    {
+      "id": "AST-PROPOSAL-001",
+      "asset": "Approved proposal template",
+      "category": "Commercial",
+      "purpose": "Consistent, scoped, reviewable client proposals.",
+      "status": "REQUIRED",
+      "requiredFor": ["TECH-WEB-001", "Future client services"],
+      "evidence": ["templates/proposal-outline-template.md"],
+      "publicSafe": true,
+      "notes": "The Stage 0 outline is a framework, not an approved branded commercial document."
+    },
+    {
+      "id": "AST-CONTRACT-001",
+      "asset": "Professionally reviewed contract or terms",
+      "category": "Legal and commercial",
+      "purpose": "Define responsibilities, scope, payment, rights, risk, change, support, and termination terms.",
+      "status": "REQUIRED",
+      "requiredFor": ["TECH-WEB-001", "Future client services"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No contract, jurisdiction fit, or legal review is asserted. Sensitive executed contracts must not be stored publicly."
+    },
+    {
+      "id": "AST-PORTFOLIO-001",
+      "asset": "Approved portfolio evidence and screenshots",
+      "category": "Proof",
+      "purpose": "Demonstrate relevant delivery quality with permission and accurate context.",
+      "status": "REQUIRED",
+      "requiredFor": ["TECH-WEB-001"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No projects, screenshots, client permissions, or results are asserted."
+    },
+    {
+      "id": "AST-CASE-001",
+      "asset": "Approved case studies",
+      "category": "Proof",
+      "purpose": "Explain verified context, work, constraints, and outcomes with permission.",
+      "status": "UNKNOWN",
+      "requiredFor": ["Future proof-led marketing where applicable"],
+      "evidence": ["templates/case-study-template.md"],
+      "publicSafe": true,
+      "notes": "The template is not evidence of a completed case study."
+    },
+    {
+      "id": "AST-SOCIAL-001",
+      "asset": "Official social profiles",
+      "category": "Digital presence",
+      "purpose": "Potential future approved communication channels.",
+      "status": "UNKNOWN",
+      "requiredFor": ["Future channel strategy if selected"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No profile ownership or channel decision is asserted."
+    },
+    {
+      "id": "AST-DEMO-001",
+      "asset": "Website service demonstration artifacts",
+      "category": "Proof and QA",
+      "purpose": "Support controlled capability assessment and truthful demonstration.",
+      "status": "REQUIRED",
+      "requiredFor": ["TECH-WEB-001"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No demo exists according to current repository evidence."
+    },
+    {
+      "id": "AST-COMPONENTS-001",
+      "asset": "Reusable website delivery components",
+      "category": "Delivery",
+      "purpose": "Improve repeatability only after quality, licensing, maintenance, and fit are verified.",
+      "status": "REQUIRED",
+      "requiredFor": ["TECH-WEB-001"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No component library or readiness is asserted."
+    },
+    {
+      "id": "AST-LEGAL-001",
+      "asset": "Approved legal and compliance documents",
+      "category": "Legal and risk",
+      "purpose": "Support applicable privacy, commercial, employment, supplier, partner, and operating obligations.",
+      "status": "UNKNOWN",
+      "requiredFor": ["Future operations as applicable"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No legal sufficiency or professional review is asserted."
+    },
+    {
+      "id": "AST-HARDWARE-001",
+      "asset": "Delivery hardware and devices",
+      "category": "Equipment",
+      "purpose": "Support reliable production, testing, communication, and delivery.",
+      "status": "UNKNOWN",
+      "requiredFor": ["Future service readiness assessments"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No equipment inventory or availability is asserted."
+    },
+    {
+      "id": "AST-DEVENV-001",
+      "asset": "Reliable development and test environment",
+      "category": "Digital infrastructure",
+      "purpose": "Support repeatable implementation, testing, version control, build, preview, and release work.",
+      "status": "UNKNOWN",
+      "requiredFor": ["TECH-WEB-001", "Future technology services"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No stack, account, license, device, backup, or reliability claim is made."
+    },
+    {
+      "id": "AST-HOSTING-001",
+      "asset": "Hosting and production environment",
+      "category": "Digital infrastructure",
+      "purpose": "Provide appropriately owned, secured, supported, and costed production hosting when a service requires it.",
+      "status": "UNKNOWN",
+      "requiredFor": ["TECH-WEB-001"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "Provider, ownership, billing, support, backup, security, and handover responsibilities are undecided."
+    },
+    {
+      "id": "AST-PAYMENT-001",
+      "asset": "Approved business payment channel",
+      "category": "Commercial infrastructure",
+      "purpose": "Receive and reconcile authorized customer payments using suitable controls.",
+      "status": "UNKNOWN",
+      "requiredFor": ["Future commercial operations"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No provider, account, currency, fee, settlement, or legal suitability is asserted. Never record bank details here."
+    },
+    {
+      "id": "AST-LICENSE-001",
+      "asset": "Required software licenses and subscriptions",
+      "category": "Digital infrastructure",
+      "purpose": "Track lawful, costed access to tools required by an approved delivery design.",
+      "status": "UNKNOWN",
+      "requiredFor": ["Future service-specific readiness reviews"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No license or subscription availability is asserted; detailed credentials and billing data belong in approved private systems."
+    },
+    {
+      "id": "AST-CAPITAL-001",
+      "asset": "Service-enabling capital",
+      "category": "Financial resource",
+      "purpose": "Confirm that an approved service can fund necessary setup, third-party, operating, contingency, and delivery costs.",
+      "status": "UNKNOWN",
+      "requiredFor": ["Service-specific readiness reviews where capital is material"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No amount, account, funding source, or financial capacity is recorded in this public repository."
+    },
+    {
+      "id": "AST-TRANSPORT-001",
+      "asset": "Transportation access",
+      "category": "Physical resource",
+      "purpose": "Support only future services whose validated delivery process genuinely requires physical movement.",
+      "status": "UNKNOWN",
+      "requiredFor": ["Future trade or field operations if applicable"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No vehicle, logistics capacity, ownership, or availability is asserted."
+    },
+    {
+      "id": "AST-WORKSPACE-001",
+      "asset": "Suitable workspace",
+      "category": "Physical resource",
+      "purpose": "Support reliable, secure work appropriate to the service and information handled.",
+      "status": "UNKNOWN",
+      "requiredFor": ["Future operations as applicable"],
+      "evidence": [],
+      "publicSafe": true,
+      "notes": "No office, location, lease, facility, or current need is asserted."
+    }
+  ]
+}

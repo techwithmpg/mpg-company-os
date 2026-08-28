@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0.0",
+  "metadata": {
+    "document": "MPG Public-Safe Partner Registry",
+    "status": "IMPLEMENTED_PENDING_OWNER_ACCEPTANCE",
+    "stage": "STAGE_0",
+    "owner": "MPG Founder",
+    "lastUpdated": "2026-08-28",
+    "publicSafe": true,
+    "authority": "Owner-authorized Company OS bootstrap"
+  },
+  "allowedValues": {
+    "status": ["CANDIDATE", "UNDER_REVIEW", "VALIDATED", "PAUSED", "REJECTED", "RETIRED"],
+    "relationshipStatus": ["NONE", "EXPLORATORY", "INFORMAL", "CONTRACTED", "INACTIVE"],
+    "dueDiligenceStatus": ["NOT_STARTED", "IN_PROGRESS", "PASSED", "FAILED", "EXPIRED"]
+  },
+  "privacyRule": "Do not store private contact details, confidential terms, contracts, credentials, bank data, or sensitive due-diligence evidence in this public registry.",
+  "partners": []
+}

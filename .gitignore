@@ -1,0 +1,88 @@
+# MPG Company OS — public-repository safety and local development ignores
+# Last updated: 2026-08-28
+
+# Secrets and environment values
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+secrets/
+credentials/
+credentials*.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Confidential or local operational material (never commit to this public repo)
+private/
+confidential/
+client-data/
+supplier-data/
+partner-data/
+financial-data/
+contracts/private/
+backups/
+exports/
+*.bak
+*.backup
+*.dump
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.venv/
+venv/
+
+# JavaScript / web tooling
+node_modules/
+.next/
+.nuxt/
+.svelte-kit/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Local logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Local agent/tool state
+.codex/
+.claude/
+.gemini/
+.agent/
+.agents/local/
+
+# Keep public-safe templates and generated governance outputs tracked.
