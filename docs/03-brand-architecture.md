@@ -8,7 +8,7 @@
 | Owner | MPG Founder |
 | Last Updated | 2026-08-28 |
 | Public Safe | Yes |
-| Authority | `MPG-DEC-001` through `MPG-DEC-004`, with service-claim constraints from the decision register |
+| Authority | `MPG-DEC-001` through `MPG-DEC-004` and `MPG-DEC-027` through `MPG-DEC-030`, with service-claim constraints from the decision register |
 
 ## Architecture at a glance
 
@@ -16,11 +16,26 @@
 
 | Brand domain | Pillar | Strategic capability areas | Current claim boundary |
 |---|---|---|---|
-| MPG Technologies | **BUILD** | Professional business websites, e-commerce, custom software, business systems, AI and workflow automation, integrations, and technical maintenance/support | Strategic capability domain; only registry-approved services may be marketed |
-| MPG Media | **GROW** | Digital marketing, social media management, content strategy, paid advertising, SEO/search visibility, analytics, brand support, and conversion optimization | Strategic capability domain; individual media capabilities require separate readiness |
+| MPG Technologies | **BUILD** | Web Development, Business Systems, Automation, and Mobile Applications | Strategic capability domain; only registry-approved services may be marketed |
+| MPG Media | **GROW** | Brand & Content, Digital Marketing, and Social Media Management, all future | Strategic capability domain; individual media capabilities require separate readiness |
 | MPG Trade & Distribution | **CONNECT** | Supplier sourcing, procurement, manufacturer representation, import/export coordination, distribution, wholesale sourcing, and freight/logistics coordination through qualified partners | Strategic/planned domain; partner, legal, jurisdiction, and delivery-role evidence is required |
 
 The words **BUILD**, **GROW**, and **CONNECT** organize the company's direction. They do not prove that MPG currently employs separate teams, operates separate legal entities, owns specialist infrastructure, or sells every listed capability.
+
+```text
+MPG
+├── MPG Technologies — BUILD
+│   ├── Web Development
+│   ├── Business Systems
+│   ├── Automation
+│   └── Mobile Applications
+├── MPG Media — GROW
+│   ├── Brand & Content — FUTURE
+│   ├── Digital Marketing — FUTURE
+│   └── Social Media Management — FUTURE
+└── MPG Trade & Distribution — CONNECT
+    └── Future strategic capabilities
+```
 
 ## Working brand idea
 
@@ -65,7 +80,7 @@ Appropriate subjects include:
 - company processes and client experience;
 - evidence-backed outcomes and organizational operations.
 
-The founder may learn broadly without being presented as a “developer + marketer + social media manager + sourcing agent + automation expert + shipping expert + designer.” The company may productize only what it can deliver reliably.
+The founder has declared practical capability in the four BUILD families. This broad owner declaration is recorded separately from granular evidence maturity and must not be expanded into unsupported claims about every underlying skill. The company may productize only what it can deliver reliably.
 
 ## Public communication boundary
 
@@ -87,9 +102,18 @@ Unacceptable without an approved active record:
 
 ### BUILD
 
-Professional Business Websites are the first productization priority. Custom systems and automation follow in the accepted order. AI and automation claims must be tied to defined workflows, data/security review, monitoring, human fallback, error handling, costs, access ownership, and maintenance expectations.
+BUILD contains four internal families:
+
+- **Web Development:** business and corporate websites, portfolio sites, web applications, and e-commerce where appropriate;
+- **Business Systems:** CRM and operational systems, booking systems, management platforms, dashboards, and custom internal tools;
+- **Automation:** workflow automation, AI-assisted workflows, integrations, and business-process automation; and
+- **Mobile Applications:** mobile business applications, customer-facing applications, and companion applications for larger systems.
+
+Professional Business Websites are the sole current productization priority. Custom systems, automation, and Mobile Applications follow in that accepted order. Mobile Applications remains planned, does not occupy the secondary WIP slot, and has no implied platforms, proof, or delivery readiness. AI and automation claims must be tied to defined workflows, data/security review, monitoring, human fallback, error handling, costs, access ownership, and maintenance expectations.
 
 ### GROW
+
+**Brand & Content** is future capability architecture covering possible brand foundations, strategy, positioning, messaging, visual identity, photography, copywriting, website content, digital brand assets, and content production. It exists partly because future website or digital-product discovery may reveal missing client inputs. It is not an active offer, is not automatically included in website work, and creates no branding or design proficiency claim.
 
 Creating posts does not establish full-service marketing capability. Strategy, creative, copywriting, organic social, paid media, tracking, analytics, SEO, and conversion optimization must be assessed separately and may activate separately.
 

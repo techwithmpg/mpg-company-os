@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "metadata": {
     "document": "MPG Capability and Skills Registry",
     "status": "IMPLEMENTED_PENDING_OWNER_ACCEPTANCE",
@@ -7,7 +7,7 @@
     "owner": "MPG Founder",
     "lastUpdated": "2026-08-28",
     "publicSafe": true,
-    "authority": "Owner-authorized Company OS bootstrap"
+    "authority": "Owner-authorized Stage 0 baseline with MPG-DEC-027 and MPG-DEC-028 reconciliation"
   },
   "allowedStatuses": [
     "UNASSESSED",
@@ -19,6 +19,56 @@
     "NOT_REQUIRED"
   ],
   "validationRule": "VALIDATED requires suitable evidence; course completion alone does not prove professional delivery capability.",
+  "allowedOwnerDeclarations": [
+    "OWNER_DECLARED_CAPABLE"
+  ],
+  "ownerDeclarationRule": "A broad owner declaration records the founder's statement only. It is independent of granular evidence maturity and cannot satisfy G2, advance a service, prove delivery, or authorize marketing.",
+  "ownerDeclarations": [
+    {
+      "id": "DECL-FOUNDER-WEB-001",
+      "capabilityFamily": "Web Development",
+      "declaredBy": "MPG Founder",
+      "ownerDeclaration": "OWNER_DECLARED_CAPABLE",
+      "evidenceStatus": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "decisionReference": "repo:docs/02-decision-register.md#mpg-dec-028",
+      "notes": "Broad practical-capability declaration only; it does not validate every granular web capability."
+    },
+    {
+      "id": "DECL-FOUNDER-SYSTEMS-001",
+      "capabilityFamily": "Business Systems",
+      "declaredBy": "MPG Founder",
+      "ownerDeclaration": "OWNER_DECLARED_CAPABLE",
+      "evidenceStatus": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "decisionReference": "repo:docs/02-decision-register.md#mpg-dec-028",
+      "notes": "Broad practical-capability declaration only; granular business-systems capabilities remain independently assessed."
+    },
+    {
+      "id": "DECL-FOUNDER-AUTOMATION-001",
+      "capabilityFamily": "Automation",
+      "declaredBy": "MPG Founder",
+      "ownerDeclaration": "OWNER_DECLARED_CAPABLE",
+      "evidenceStatus": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "decisionReference": "repo:docs/02-decision-register.md#mpg-dec-028",
+      "notes": "Broad practical-capability declaration only; granular automation capabilities remain independently assessed."
+    },
+    {
+      "id": "DECL-FOUNDER-MOBILE-001",
+      "capabilityFamily": "Mobile Applications",
+      "declaredBy": "MPG Founder",
+      "ownerDeclaration": "OWNER_DECLARED_CAPABLE",
+      "evidenceStatus": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "decisionReference": "repo:docs/02-decision-register.md#mpg-dec-028",
+      "notes": "Broad practical-capability declaration only; no platform, granular skill, proof, delivery process, or capacity is validated."
+    }
+  ],
   "capabilities": [
     {
       "id": "CAP-TECH-REQ-001",
@@ -209,6 +259,66 @@
       "evidence": [],
       "lastAssessed": null,
       "notes": "No proficiency claim is made."
+    },
+    {
+      "id": "CAP-MOBILE-REQ-001",
+      "category": "Mobile Applications",
+      "name": "Mobile discovery and requirements",
+      "description": "Define the user, business, device, platform, data, integration, release, support, and constraint requirements for a mobile application.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency, platform scope, or delivery readiness is claimed."
+    },
+    {
+      "id": "CAP-MOBILE-UX-001",
+      "category": "Mobile Applications",
+      "name": "Mobile user experience",
+      "description": "Design usable mobile interaction flows and interface behavior appropriate to defined users, devices, and accessibility needs.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No proficiency or supported-platform claim is made."
+    },
+    {
+      "id": "CAP-MOBILE-DEV-001",
+      "category": "Mobile Applications",
+      "name": "Mobile application development",
+      "description": "Implement a mobile application within an explicitly assessed technical and platform boundary.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No language, framework, operating system, device, or delivery proficiency is asserted."
+    },
+    {
+      "id": "CAP-MOBILE-TEST-001",
+      "category": "Mobile Applications",
+      "name": "Mobile platform and device testing",
+      "description": "Test defined functionality, compatibility, accessibility, performance, security, data, and release criteria across an approved device and platform scope.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No device inventory, test environment, scope, or proficiency is asserted."
+    },
+    {
+      "id": "CAP-MOBILE-RELEASE-001",
+      "category": "Mobile Applications",
+      "name": "Mobile release and deployment",
+      "description": "Prepare, authorize, release, verify, monitor, and safely update mobile software within defined account and platform responsibilities.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No store account, release authority, process, or proficiency is asserted."
+    },
+    {
+      "id": "CAP-MOBILE-SUPPORT-001",
+      "category": "Mobile Applications",
+      "name": "Mobile maintenance and support",
+      "description": "Triage, communicate, resolve, escalate, update, and document mobile application issues within an approved support boundary.",
+      "status": "UNASSESSED",
+      "evidence": [],
+      "lastAssessed": null,
+      "notes": "No maintenance capability, service level, platform scope, or support commitment is asserted."
     },
     {
       "id": "CAP-MEDIA-STRAT-001",

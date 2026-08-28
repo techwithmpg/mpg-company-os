@@ -16,7 +16,13 @@ from generate_marketable_services import GENERATED_MARKER, render_catalogue
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY_DIR = ROOT / "registry"
 GENERATED_PATH = ROOT / "generated" / "marketable-services.md"
-SCHEMA_VERSION = "1.0.0"
+SCHEMA_VERSIONS = {
+    "services": "1.0.0",
+    "capabilities": "1.1.0",
+    "tools": "1.0.0",
+    "assets": "1.0.0",
+    "partners": "1.0.0",
+}
 METADATA_STATUSES = {
     "IMPLEMENTED_PENDING_OWNER_ACCEPTANCE",
     "ACTIVE",
@@ -28,6 +34,7 @@ ACCEPTED_SERVICE_ORDER = (
     "TECH-WEB-001",
     "TECH-SYS-001",
     "TECH-AUTO-001",
+    "TECH-MOBILE-001",
     "MEDIA-DM-001",
     "MEDIA-SOCIAL-001",
     "TRADE-SOURCE-001",
@@ -59,6 +66,13 @@ CAPABILITY_STATUSES = {
     "VALIDATED",
     "PARTNER_DEPENDENT",
     "NOT_REQUIRED",
+}
+OWNER_DECLARATION_STATUSES = {"OWNER_DECLARED_CAPABLE"}
+EXPECTED_OWNER_DECLARATIONS = {
+    "DECL-FOUNDER-WEB-001": "Web Development",
+    "DECL-FOUNDER-SYSTEMS-001": "Business Systems",
+    "DECL-FOUNDER-AUTOMATION-001": "Automation",
+    "DECL-FOUNDER-MOBILE-001": "Mobile Applications",
 }
 RESOURCE_STATUSES = {"UNKNOWN", "REQUIRED", "AVAILABLE", "NOT_AVAILABLE", "NOT_REQUIRED", "PLANNED"}
 ADOPTION_STATES = {"CANDIDATE", "EVALUATING", "APPROVED", "OPERATING", "REJECTED", "RETIRED"}
@@ -480,6 +494,53 @@ def validate_capability(capability: Any, index: int, validation: Validation) -> 
         validation.require(is_resolved_text(last_assessed), f"{context}: VALIDATED requires a resolved lastAssessed value.")
 
 
+def validate_owner_declaration(declaration: Any, index: int, validation: Validation) -> None:
+    context = f"registry/capabilities.json ownerDeclarations[{index}]"
+    validation.require(isinstance(declaration, dict), f"{context} must be an object.")
+    if not isinstance(declaration, dict):
+        return
+    required = {
+        "id",
+        "capabilityFamily",
+        "declaredBy",
+        "ownerDeclaration",
+        "evidenceStatus",
+        "evidence",
+        "lastAssessed",
+        "decisionReference",
+        "notes",
+    }
+    validation.require(required <= declaration.keys(), f"{context} missing fields: {', '.join(sorted(required - declaration.keys()))}")
+    for text_field in ("id", "capabilityFamily", "declaredBy", "ownerDeclaration", "evidenceStatus", "decisionReference", "notes"):
+        value = declaration.get(text_field)
+        validation.require(isinstance(value, str) and bool(value.strip()), f"{context}.{text_field} must be non-empty text.")
+    validation.require(
+        isinstance(declaration.get("id"), str) and bool(ID_PATTERN.fullmatch(declaration["id"])),
+        f"{context} has malformed id.",
+    )
+    validation.require(
+        declaration.get("ownerDeclaration") in OWNER_DECLARATION_STATUSES,
+        f"{context} has invalid ownerDeclaration {declaration.get('ownerDeclaration')!r}.",
+    )
+    validation.require(
+        declaration.get("evidenceStatus") in CAPABILITY_STATUSES,
+        f"{context} has invalid evidenceStatus {declaration.get('evidenceStatus')!r}.",
+    )
+    validation.require(declaration.get("declaredBy") == "MPG Founder", f"{context}.declaredBy must remain MPG Founder.")
+    validation.require(
+        is_traceable_reference(declaration.get("decisionReference"), repository_only=True),
+        f"{context}.decisionReference must point to the repository-backed owner decision.",
+    )
+    evidence = require_list(declaration, "evidence", context, validation)
+    validation.require(all(isinstance(item, str) and bool(item.strip()) for item in evidence), f"{context}.evidence must contain only non-empty references.")
+    last_assessed = declaration.get("lastAssessed")
+    validation.require(last_assessed is None or isinstance(last_assessed, str), f"{context}.lastAssessed must be null or text.")
+    if declaration.get("evidenceStatus") in {"COMPETENT", "VALIDATED"}:
+        validation.require(bool(evidence), f"{context}: evidence maturity cannot be inferred from the owner declaration.")
+        validation.require(all(is_traceable_reference(item) for item in evidence), f"{context}: assessed evidence must use traceable repo: or private: references.")
+        validation.require(is_resolved_text(last_assessed), f"{context}: assessed evidence maturity requires lastAssessed.")
+
+
 def validate_tool(tool: Any, index: int, validation: Validation) -> None:
     context = f"registry/tools.json tools[{index}]"
     validation.require(isinstance(tool, dict), f"{context} must be an object.")
@@ -587,7 +648,8 @@ def main() -> int:
         registry = load_json(path, validation)
         if registry is not None:
             registries[name] = registry
-            validation.require(registry.get("schemaVersion") == SCHEMA_VERSION, f"registry/{name}.json must use schemaVersion {SCHEMA_VERSION}.")
+            expected_version = SCHEMA_VERSIONS[name]
+            validation.require(registry.get("schemaVersion") == expected_version, f"registry/{name}.json must use schemaVersion {expected_version}.")
             validate_metadata(name, registry, validation)
 
     if set(registries) != set(REQUIRED_REGISTRIES):
@@ -649,6 +711,28 @@ def main() -> int:
     validation.require(
         declared_string_set(registries["capabilities"].get("allowedStatuses"), "registry/capabilities.json allowedStatuses", validation) == CAPABILITY_STATUSES,
         "registry/capabilities.json allowedStatuses do not match validator constants.",
+    )
+    validation.require(
+        declared_string_set(registries["capabilities"].get("allowedOwnerDeclarations"), "registry/capabilities.json allowedOwnerDeclarations", validation) == OWNER_DECLARATION_STATUSES,
+        "registry/capabilities.json allowedOwnerDeclarations do not match validator constants.",
+    )
+    owner_declarations = registries["capabilities"].get("ownerDeclarations")
+    validation.require(isinstance(owner_declarations, list), "registry/capabilities.json ownerDeclarations must be an array.")
+    owner_declarations = owner_declarations if isinstance(owner_declarations, list) else []
+    declaration_ids: set[str] = set()
+    declaration_families: dict[str, str] = {}
+    for index, declaration in enumerate(owner_declarations):
+        validate_owner_declaration(declaration, index, validation)
+        if isinstance(declaration, dict) and isinstance(declaration.get("id"), str):
+            declaration_id = declaration["id"]
+            validation.require(declaration_id not in declaration_ids, f"Duplicate owner declaration id {declaration_id!r}.")
+            validation.require(declaration_id not in global_ids, f"Owner declaration id {declaration_id!r} collides with a registry record id.")
+            declaration_ids.add(declaration_id)
+            if isinstance(declaration.get("capabilityFamily"), str):
+                declaration_families[declaration_id] = declaration["capabilityFamily"]
+    validation.require(
+        declaration_families == EXPECTED_OWNER_DECLARATIONS,
+        "Owner declarations must cover exactly Web Development, Business Systems, Automation, and Mobile Applications with stable IDs.",
     )
     validation.require(
         declared_string_set(registries["tools"].get("allowedResourceStatuses"), "registry/tools.json allowedResourceStatuses", validation) == RESOURCE_STATUSES,
@@ -735,7 +819,7 @@ def main() -> int:
     build_order = governance.get("commercialBuildOrder")
     validation.require(
         isinstance(build_order, list) and tuple(build_order) == ACCEPTED_SERVICE_ORDER,
-        "Service governance commercialBuildOrder must match the accepted six-family sequence.",
+        "Service governance commercialBuildOrder must match the accepted seven-family sequence.",
     )
     validation.require(
         governance.get("publicationPredicate") == "lifecycleStatus == ACTIVE && marketingApproved == true",

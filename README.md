@@ -35,8 +35,8 @@ MPG is the master company brand. Its accepted working architecture is:
 
 | Strategic domain | Working pillar | Capability direction |
 |---|---|---|
-| MPG Technologies | **BUILD** | Websites, e-commerce, custom software, business systems, automation, integrations, and technical support |
-| MPG Media | **GROW** | Marketing strategy, content, social media, paid advertising, SEO, analytics, brand support, and conversion optimization |
+| MPG Technologies | **BUILD** | Web development, business systems, automation, and mobile applications |
+| MPG Media | **GROW** | Future Brand & Content, digital marketing, and social media management capability areas |
 | MPG Trade & Distribution | **CONNECT** | Sourcing, procurement, representation, import/export coordination, distribution, wholesale sourcing, and logistics coordination through qualified partners |
 
 These are **strategic capability domains**, not proof of active divisions or active commercial services. Each capability must pass the applicable readiness and approval gates before MPG markets it.
@@ -50,7 +50,7 @@ The system keeps two related identities distinct:
 - **Malcom Gwanmesia** is the founder brand: leadership, trust, expertise, journey, thinking, and relationships.
 - **MPG** is the company: systems, offers, processes, delivery, and commercial operations.
 
-Founder learning can be broad. Company productization must remain narrow and evidence-led. Learning a subject, buying a tool, or finding a possible partner does not authorize MPG to sell the associated service.
+Founder learning and practical ability can be broad. Company productization must remain narrow and evidence-led. The founder's owner-declared practical capability in Web Development, Business Systems, Automation, and Mobile Applications is recorded separately from evidence maturity; it does not validate granular capabilities or authorize MPG to sell the associated service.
 
 ## Capability-gated growth
 
@@ -59,9 +59,10 @@ MPG may plan broadly but must sell narrowly. The accepted commercial build order
 1. Professional business websites
 2. Custom business systems
 3. AI and workflow automation
-4. Digital marketing
-5. Social media management
-6. Trade, sourcing, and distribution
+4. Mobile applications
+5. Digital marketing
+6. Social media management
+7. Trade, sourcing, and distribution
 
 This sequence controls **company productization**, not the founder's personal learning. By default, MPG productizes only one major new service family at a time and may run at most one meaningful secondary learning or incubation track unless the owner explicitly authorizes another arrangement.
 
@@ -104,7 +105,7 @@ Start with:
 - [Project status](docs/01-project-status.md) for the current stage, active work, risks, and next gate.
 - [Decision register](docs/02-decision-register.md) for owner-approved direction and decision history.
 - [Project charter](docs/00-project-charter.md) for scope, principles, and success conditions.
-- [Company OS backlog](docs/19-backlog.md) for the single authoritative `WEB-001` through `WEB-027` Professional Business Websites readiness audit.
+- [Company OS backlog](docs/19-backlog.md) for the authoritative `WEB-001` through `WEB-027` Professional Business Websites readiness audit and the separately deferred Client Project Readiness requirement.
 
 ## Repository map
 

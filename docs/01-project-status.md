@@ -28,7 +28,7 @@ This is the first service family to undergo productization and readiness review.
 
 ## SECONDARY LEARNING TRACK
 
-**TBD / owner decision**
+**UNALLOCATED / owner decision required**
 
 No secondary track should be inferred from research files, tool evaluations, or founder learning.
 
@@ -42,14 +42,15 @@ The following are supported by the owner-directed bootstrap and repository state
 - Build/Grow/Connect working architecture established.
 - Commercial sequence established.
 - Company OS Stage 0 governance initialized.
+- Post-bootstrap owner decisions reconciled into the Stage 0 candidate baseline: Mobile Applications, founder capability declarations, the seven-family sequence, future Brand & Content architecture, and the Client Project Readiness backlog requirement.
 
 Initialization is not the same as owner acceptance of Stage 0.
 
 ## ACTIVE WORK
 
-**Company OS bootstrap and Stage 0 governance.**
+**Stage 0 reconciliation complete; owner acceptance review pending.**
 
-The active work is to create, reconcile, validate, and present the Stage 0 baseline for owner review. No later stage is active.
+The candidate baseline now reflects the bootstrap and the authorized post-bootstrap reconciliation. The active governance task is to present it for owner review. Reconciliation is not Stage 0 acceptance, and no later stage is active.
 
 ## RISKS
 
@@ -70,6 +71,8 @@ The active work is to create, reconcile, validate, and present the Stage 0 basel
 - Professional Business Websites remains the first commercial build priority.
 - One major new service family is productized at a time by default.
 - Secondary learning track remains unassigned until owner decision.
+- Mobile Applications remains a future `PLANNED` family and does not consume either WIP slot.
+- Brand & Content remains future GROW architecture, and Client Project Readiness remains an inactive backlog requirement.
 - Future-stage documents are frameworks, not completed strategy.
 - No service is marketable unless its authoritative record is `ACTIVE` and `marketingApproved = true`.
 - No confidential operations may be stored in this public repository.

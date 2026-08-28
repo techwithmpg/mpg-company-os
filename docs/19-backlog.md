@@ -47,7 +47,39 @@ Maintain a public-safe, decision-oriented backlog for authorized future-stage wo
 | WEB-026 | G13 Marketing | What audience, offer wording, proof, limitations, call to action, and enquiry capacity support truthful publication? | Marketing-readiness record |
 | WEB-027 | Publication Gate | Do all required gates pass, does the owner approve marketing, and does authoritative data enforce lifecycleStatus = ACTIVE plus marketingApproved = true? | Signed readiness decision, valid registry record, validator pass, and generated-catalogue review |
 
-### Backlog governance
+## Client Project Readiness & Dependency Detection
+
+**BACKLOG — NOT CURRENTLY ACTIVE**
+
+**Purpose:** Define a future client-specific readiness layer that asks, “What does this particular client need before MPG can successfully deliver the requested outcome?” This differs from Service Readiness, which asks whether MPG can professionally deliver a defined service. Recording the requirement does not implement an intake, scoring, CRM, quoting, sales, or delivery workflow and must not displace Professional Business Websites productization.
+
+When applicable, future discovery should assess:
+
+- **Brand Readiness:** usable logo, visual identity, positioning, messaging, and consistency;
+- **Content Readiness:** photography, website copy, service or product information, team information, visual assets, and content structure;
+- **Business Readiness:** objective, decision maker, workflow clarity, requirements, processes, roles, and responsibilities;
+- **Technical Readiness:** domain, DNS, hosting, accounts, existing systems, data, integrations, infrastructure, and access; and
+- **Compliance Readiness:** only relevant privacy, regulatory, legal-text, data-handling, licensing, accessibility, and other applicable obligations.
+
+Not every project requires every dimension. Each genuine dependency must be classified as:
+
+- `REQUIRED` — necessary for successful delivery of the accepted outcome;
+- `RECOMMENDED` — beneficial but not essential to the accepted core outcome; or
+- `OPTIONAL` — an elective addition that is not a prerequisite.
+
+### Hidden-work protection
+
+> MPG must not silently absorb unscoped prerequisite work into the price of the originally requested service.
+
+Discovery should expose missing brand assets, photography, copy, content structure, technical access, or other dependencies before final scope and quotation. This protects project economics, founder capacity, client expectations, quality, delivery timing, and scope control. Dependencies must be genuine delivery needs, not a mechanism for unnecessary upselling.
+
+### Project composition
+
+A client's requested service and the eventual project composition may differ. For example, a requested Corporate Website may remain the core component while Brand Foundation, photography/content production, website copy, or domain setup are recorded as required prerequisites; an extended brand system may be recommended; and promotional video may be optional. A future proposal may present one coherent commercial scope while the Company OS tracks the underlying components and classifications separately. No price is set by this concept.
+
+Implementation depends on later authorized customer discovery, service-definition, sales, scope/quotation, delivery, information-handling, and change-control work. Until those stages are explicitly activated, this initiative remains backlog architecture only.
+
+## Backlog governance
 
 - Which items are prerequisites, which can be researched in parallel within the WIP policy, and which must wait for an authorized stage?
 - What evidence closes an item, who may accept it, and which source of truth must be updated?

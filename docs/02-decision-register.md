@@ -8,7 +8,7 @@
 | Owner | MPG Founder |
 | Last Updated | 2026-08-28 |
 | Public Safe | Yes |
-| Authority | Authoritative record of explicit owner decisions captured by the Stage 0 bootstrap |
+| Authority | Authoritative record of explicit owner decisions captured by the Stage 0 baseline and reconciliation |
 
 ## How this register works
 
@@ -20,7 +20,7 @@ Decision states are:
 - `FROZEN` — explicitly protected from routine change;
 - `DEPRECATED` — superseded but retained for history.
 
-The entries below are marked `ACCEPTED` only where the owner-directed bootstrap explicitly establishes the decision. None are marked `FROZEN` because the baseline did not explicitly freeze them.
+The entries below are marked `ACCEPTED` only where an explicit owner instruction establishes the decision. None are marked `FROZEN` because no explicit owner instruction has frozen them.
 
 When a decision changes, add a new stable ID, retain the earlier entry, update its state only with owner authority, and cross-reference the replacement. Never erase superseded history.
 
@@ -34,7 +34,7 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 | MPG-DEC-004 | ACCEPTED | **`Build. Grow. Connect.` is a working brand idea, not a frozen final tagline.** | Future brand work may evaluate it; no contributor may describe it as immutable without a later owner decision. |
 | MPG-DEC-005 | ACCEPTED | **The website is one business component, not the whole MPG project.** | The Company OS governs the future website. Website delivery must not replace company, service, sales, delivery, or operations governance. |
 | MPG-DEC-006 | ACCEPTED | **Commercial capability is developed progressively.** | Strategic inclusion may precede delivery readiness. Learning, tooling, or a potential partner alone does not authorize a service. |
-| MPG-DEC-007 | ACCEPTED | **The commercial productization sequence is: Professional Business Websites; Custom Business Systems; AI and Workflow Automation; Digital Marketing; Social Media Management; Trade, Sourcing and Distribution.** | The order governs company productization, not personal learning. A later family must not displace the primary track without owner authority. |
+| MPG-DEC-007 | DEPRECATED | **The commercial productization sequence was: Professional Business Websites; Custom Business Systems; AI and Workflow Automation; Digital Marketing; Social Media Management; Trade, Sourcing and Distribution.** | Superseded by `MPG-DEC-029`, which inserts Mobile Applications after Automation. Retained as the original Stage 0 baseline decision. |
 | MPG-DEC-008 | ACCEPTED | **Professional Business Websites are the first commercial priority.** | They are the first service family to undergo readiness review. Priority is not `ACTIVE` status or marketing approval. |
 | MPG-DEC-009 | ACCEPTED | **Custom Business Systems follow Professional Business Websites.** | Systems remain a future productization family until the applicable stage, evidence, and owner authorization. |
 | MPG-DEC-010 | ACCEPTED | **AI and workflow automation follow Custom Business Systems.** | Automation requires a defined problem, reliable workflow, data/security review, fallback, monitoring, error handling, cost clarity, ownership, and maintenance expectations before selling. |
@@ -54,17 +54,25 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 | MPG-DEC-024 | ACCEPTED | **MPG should prefer doing fewer things extremely well over offering many things poorly.** | A service launches only when MPG can reliably deliver a defined outcome, not merely because it appears profitable. |
 | MPG-DEC-025 | ACCEPTED | **Public communication has three categories: active-offer content, capability-journey content, and thought leadership.** | Only active-offer content may solicit clients, and it requires the publication gate. Journey and thought-leadership language must not imply an unapproved offer. |
 | MPG-DEC-026 | ACCEPTED | **The public repository must contain only public-safe information.** | Confidential operations require approved private storage or an explicit repository-visibility and access-control decision before storage. |
+| MPG-DEC-027 | ACCEPTED | **MPG Technologies / BUILD includes four internal capability families: Web Development, Business Systems, Automation, and Mobile Applications.** | Internal architecture is broader than active public offers. Inclusion does not validate a capability, allocate WIP, or authorize marketing. |
+| MPG-DEC-028 | ACCEPTED | **The founder declares practical capability in Web Development, Business Systems, Automation, and Mobile Applications.** | Owner declaration is recorded separately from evidence maturity. It does not satisfy G2, validate granular skills, prove delivery, or authorize a public capability or service claim. |
+| MPG-DEC-029 | ACCEPTED | **The commercial productization sequence is: Professional Business Websites; Custom Business Systems; AI and Workflow Automation; Mobile Applications; Digital Marketing; Social Media Management; Trade, Sourcing and Distribution.** | This replaces `MPG-DEC-007`. It governs company productization, not founder learning; Professional Business Websites remains the sole primary track and the secondary slot remains unallocated. |
+| MPG-DEC-030 | ACCEPTED | **Brand & Content is a future MPG Media / GROW capability area.** | It may address genuine brand and content dependencies discovered in future projects, but it is not an active service, current WIP, or automatic component of website work. |
+| MPG-DEC-031 | ACCEPTED | **Client Project Readiness & Dependency Detection is a future Company OS backlog requirement.** | It will distinguish client-specific prerequisites from MPG service readiness and classify dependencies as `REQUIRED`, `RECOMMENDED`, or `OPTIONAL`; implementation remains deferred to later authorized stages. |
 
 ## Decision dependencies
 
-- `MPG-DEC-007`, `008`, and `020` govern current work prioritization.
+- `MPG-DEC-008`, `020`, and `029` govern current work prioritization; `MPG-DEC-007` is retained only as superseded history.
 - `MPG-DEC-006`, `016`, `017`, `021`, `022`, and `023` govern service readiness and public claims.
-- `MPG-DEC-001` through `004` govern brand architecture and founder/company language.
+- `MPG-DEC-001` through `004`, `027`, `028`, and `030` govern brand architecture, capability architecture, and founder/company language.
 - `MPG-DEC-013` through `015` govern repository authority and stage transitions.
+- `MPG-DEC-031` governs the deferred Client Project Readiness requirement without activating its implementation.
 
 ## Superseded decisions
 
-None are recorded in this initial baseline. This statement does not imply that future changes should delete earlier entries; superseded decisions must remain visible as `DEPRECATED` with a replacement reference.
+| Deprecated decision | Replacement | Reason |
+|---|---|---|
+| `MPG-DEC-007` | `MPG-DEC-029` | The owner added Mobile Applications between Automation and Media in the accepted commercial productization sequence. |
 
 ## Pending owner decisions
 
@@ -77,4 +85,5 @@ The following remain unresolved and are **not** accepted decisions:
 - priority customer segment and geography;
 - final service scope, pricing, capacity, and delivery model;
 - any service lifecycle advancement to `ACTIVE`;
-- any marketing approval or named partner relationship.
+- any marketing approval or named partner relationship; and
+- implementation or activation of Client Project Readiness & Dependency Detection.

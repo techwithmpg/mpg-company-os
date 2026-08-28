@@ -6,7 +6,7 @@
 > **Owner:** MPG Founder
 > **Last Updated:** 2026-08-28
 > **Public Safe:** Yes
-> **Authority:** Accepted evidence-over-hype and publication rules in MPG Company OS Master Repository Bootstrap v2
+> **Authority:** Accepted evidence-over-hype and publication rules, including `MPG-DEC-028`
 
 ## Policy
 
@@ -46,7 +46,7 @@ Malcom Gwanmesia may share accurate lessons, ideas, observations, and project ex
 - **Malcom:** founder, leadership, trust, expertise, journey, thinking, and relationships.
 - **MPG:** company systems, approved offers, delivery processes, and commercial operations.
 
-Personal learning or experience cannot be rewritten as an MPG service unless the service lifecycle and launch controls are complete. Company copy must not turn the founder into an implausible list of simultaneous expert identities.
+Personal learning, experience, or a broad owner capability declaration cannot be rewritten as an MPG service unless the service lifecycle and launch controls are complete. `OWNER_DECLARED_CAPABLE` is not evidence validation, does not satisfy G2, and cannot support a stronger public claim than the evidence record permits. Company copy must not turn the founder into an implausible list of simultaneous expert identities.
 
 ## Evidence-over-hype rules
 

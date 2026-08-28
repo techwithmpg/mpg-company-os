@@ -12,6 +12,22 @@
 
 This changelog records material Company OS changes. It does not replace Git history, the project status, or the decision register. No versions or earlier baselines are inferred where none exist.
 
+## 2026-08-28 — Unified Stage 0 reconciliation
+
+### Reconciled
+
+- Added Mobile Applications to the internal BUILD architecture and inserted its planned service family into the accepted productization sequence.
+- Recorded founder capability declarations for Web Development, Business Systems, Automation, and Mobile Applications separately from evidence maturity.
+- Added Brand & Content as future GROW capability architecture without creating an active service.
+- Added Client Project Readiness & Dependency Detection as an inactive backlog requirement, including dependency classification and hidden-work protection.
+- Preserved Professional Business Websites as the sole primary productization track and left the secondary track unallocated.
+
+### Governance effect
+
+- No capability was evidence-validated by declaration.
+- No service received marketing approval or became publicly marketable.
+- Stage 1 and all later-stage implementations remain inactive; Stage 0 acceptance still requires owner review.
+
 ## 2026-08-28 — Company OS Stage 0 baseline
 
 ### Added

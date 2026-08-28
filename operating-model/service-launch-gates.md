@@ -6,7 +6,7 @@
 > **Owner:** MPG Founder
 > **Last Updated:** 2026-08-28
 > **Public Safe:** Yes
-> **Authority:** MPG Company OS Master Repository Bootstrap v2
+> **Authority:** MPG Company OS Master Repository Bootstrap v2 and `MPG-DEC-028`
 
 ## Purpose
 
@@ -54,11 +54,12 @@ Required evidence:
 
 - all required knowledge and practical skills are mapped to stable capability records;
 - each critical direct capability is suitably assessed and `VALIDATED` for the claimed scope;
+- a broad owner capability declaration is not substituted for granular assessment evidence;
 - any limitations are built into acceptance criteria and exclusions;
 - partner-dependent capabilities are identified rather than represented as MPG-owned;
 - a course, certificate, tool, or isolated experiment is not used as sole proof of professional delivery.
 
-Unresolved critical capability gaps leave G2 `BLOCKED` or `IN_PROGRESS`. A partner-supported resolution also requires G12 to be `SATISFIED`.
+Unresolved critical capability gaps leave G2 `BLOCKED` or `IN_PROGRESS`. `OWNER_DECLARED_CAPABLE` does not satisfy G2. A partner-supported resolution also requires G12 to be `SATISFIED`.
 
 ## G3 — Tools & Technology
 

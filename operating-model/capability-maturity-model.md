@@ -6,7 +6,7 @@
 > **Owner:** MPG Founder
 > **Last Updated:** 2026-08-28
 > **Public Safe:** Yes
-> **Authority:** MPG Company OS Master Repository Bootstrap v2
+> **Authority:** MPG Company OS Master Repository Bootstrap v2 and `MPG-DEC-028`
 
 ## Purpose
 
@@ -31,6 +31,21 @@ Current project stage is **Stage 0 — Governance and Source of Truth**. This mo
 | `NOT_REQUIRED` | A documented service design does not require the capability. | Rationale and approving reviewer. |
 
 `UNKNOWN`, blank fields, course completion, tool ownership, self-description, or interest must never be translated into `COMPETENT` or `VALIDATED`.
+
+## Separate declaration and evidence dimensions
+
+The capability registry distinguishes:
+
+- **Owner declaration:** what the founder explicitly says he can currently perform at a broad capability-family level; and
+- **Evidence maturity:** what the Company OS has independently assessed for a defined granular capability and delivery boundary.
+
+`ownerDeclaration = OWNER_DECLARED_CAPABLE` records a genuine owner statement. It may coexist with `evidenceStatus = UNASSESSED`. It is not a maturity-ladder state, does not upgrade any granular capability, and does not count as assessment evidence. The current broad declarations cover Web Development, Business Systems, Automation, and Mobile Applications; they must not be falsely mapped onto every underlying skill.
+
+The progression remains:
+
+`owner declaration → evidence review → validated capability → service readiness → delivery readiness → owner marketing approval → active offer`
+
+An owner declaration alone cannot satisfy G2, advance lifecycle status, support portfolio proof, prove a delivery process or capacity, authorize a stronger public capability claim, or grant marketing approval.
 
 ## Evidence standard
 
@@ -96,6 +111,8 @@ A service definition must map every required capability to the capability regist
 5. unresolved gaps leave G2 `BLOCKED` or `IN_PROGRESS` and prevent `MARKET_APPROVED` or `ACTIVE` status.
 
 Capability validation alone does not satisfy the other launch gates and does not authorize marketing.
+
+Owner-declaration records are intentionally excluded from this G2 calculation. G2 reads the evidence status of the granular capability records referenced by the service.
 
 ## Review responsibility
 

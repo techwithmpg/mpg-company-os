@@ -7,7 +7,7 @@
     "owner": "MPG Founder",
     "lastUpdated": "2026-08-28",
     "publicSafe": true,
-    "authority": "Owner-authorized Company OS bootstrap"
+    "authority": "Owner-authorized Stage 0 baseline and MPG-DEC-029 reconciliation"
   },
   "allowedValues": {
     "lifecycleStatus": [
@@ -59,6 +59,7 @@
       "TECH-WEB-001",
       "TECH-SYS-001",
       "TECH-AUTO-001",
+      "TECH-MOBILE-001",
       "MEDIA-DM-001",
       "MEDIA-SOCIAL-001",
       "TRADE-SOURCE-001"
@@ -225,11 +226,64 @@
       "notes": "Planned only; not an active offer. Delivery mode describes the current intended governance model, not present capability."
     },
     {
+      "id": "TECH-MOBILE-001",
+      "division": "MPG Technologies",
+      "name": "Mobile Applications",
+      "description": "A future mobile-application service family retained for structured capability and readiness assessment after the preceding BUILD priorities.",
+      "priority": 4,
+      "lifecycleStatus": "PLANNED",
+      "deliveryMode": "OWNED_DELIVERY",
+      "marketingApproved": false,
+      "publiclyMarketable": false,
+      "marketApprovalDecision": "NONE",
+      "targetCustomer": "TBD",
+      "problem": "TBD",
+      "prerequisites": [
+        "Complete the preceding BUILD productization priorities or obtain an explicit owner exception.",
+        "Assess mobile requirements, user experience, implementation, backend integration, testing, release, support, platform scope, tools, assets, and capacity."
+      ],
+      "requiredCapabilities": [
+        "CAP-MOBILE-REQ-001",
+        "CAP-MOBILE-UX-001",
+        "CAP-MOBILE-DEV-001",
+        "CAP-TECH-BE-001",
+        "CAP-AUTO-API-001",
+        "CAP-MOBILE-TEST-001",
+        "CAP-MOBILE-RELEASE-001",
+        "CAP-MOBILE-SUPPORT-001"
+      ],
+      "requiredTools": [],
+      "requiredAssets": [],
+      "requiredPartners": [],
+      "readinessGates": {
+        "G1": {"status": "NOT_ASSESSED", "evidence": [], "notes": "Customer, problem, demand, and mobile use case remain TBD."},
+        "G2": {"status": "NOT_ASSESSED", "evidence": [], "notes": "The broad owner declaration does not validate the required granular mobile capabilities."},
+        "G3": {"status": "NOT_ASSESSED", "evidence": [], "notes": "Platforms, toolchain, accounts, licenses, reliability, and costs remain unknown."},
+        "G4": {"status": "NOT_ASSESSED", "evidence": [], "notes": "Required devices, environments, reusable assets, and documentation remain unknown."},
+        "G5": {"status": "NOT_ASSESSED", "evidence": [], "notes": "No mobile delivery process or supported-platform boundary is defined."},
+        "G6": {"status": "NOT_ASSESSED", "evidence": [], "notes": "Device, platform, integration, release, and acceptance testing criteria remain undefined."},
+        "G7": {"status": "NOT_ASSESSED", "evidence": [], "notes": "No pricing method, cost model, or commercial terms are approved."},
+        "G8": {"status": "NOT_ASSESSED", "evidence": [], "notes": "Discovery, approvals, account ownership, release, handover, and support remain undefined."},
+        "G9": {"status": "NOT_ASSESSED", "evidence": [], "notes": "Privacy, data, platform, store, accessibility, security, licensing, and jurisdiction questions require later review where applicable."},
+        "G10": {"status": "NOT_ASSESSED", "evidence": [], "notes": "Implementation and support capacity are unassessed."},
+        "G11": {"status": "NOT_ASSESSED", "evidence": [], "notes": "No mobile portfolio or delivery proof is asserted."},
+        "G12": {"status": "NOT_ASSESSED", "evidence": [], "notes": "No partner need or partner readiness is asserted."},
+        "G13": {"status": "NOT_ASSESSED", "evidence": [], "notes": "No mobile offer, claim language, proof, call to action, or marketing approval exists."}
+      },
+      "evidence": [],
+      "readinessReview": "NONE",
+      "deliverySop": "TBD",
+      "qaChecklist": "TBD",
+      "pricingModelStatus": "NOT_STARTED",
+      "capacityStatus": "UNASSESSED",
+      "notes": "Planned only. Not current WIP, evidence-validated, platform-defined, market-approved, or available for sale."
+    },
+    {
       "id": "MEDIA-DM-001",
       "division": "MPG Media",
       "name": "Digital Marketing",
       "description": "A future service family that must be decomposed into separately assessable strategy, creative, copy, organic, paid, tracking, analytics, SEO, and conversion capabilities.",
-      "priority": 4,
+      "priority": 5,
       "lifecycleStatus": "PLANNED",
       "deliveryMode": "HYBRID_DELIVERY",
       "marketingApproved": false,
@@ -270,7 +324,7 @@
       "division": "MPG Media",
       "name": "Social Media Management",
       "description": "A future managed-service family requiring channel scope, content operations, approvals, moderation, measurement, capacity, and escalation controls.",
-      "priority": 5,
+      "priority": 6,
       "lifecycleStatus": "PLANNED",
       "deliveryMode": "OWNED_DELIVERY",
       "marketingApproved": false,
@@ -311,7 +365,7 @@
       "division": "MPG Trade & Distribution",
       "name": "Trade, Sourcing and Distribution",
       "description": "A long-term strategic capability family covering only accurately defined MPG roles and qualified partner-coordination models when prerequisites are eventually satisfied.",
-      "priority": 6,
+      "priority": 7,
       "lifecycleStatus": "PLANNED",
       "deliveryMode": "HYBRID_DELIVERY",
       "marketingApproved": false,

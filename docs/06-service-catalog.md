@@ -30,6 +30,8 @@ Define how MPG will convert strategic capability areas into bounded, evidence-ba
 - Which lifecycle transition is justified, and what explicit owner authority remains required?
 - How will `marketingApproved` and the derived `publiclyMarketable` result remain consistent with lifecycle state?
 - How will generated public content remain derived solely from authoritative approved records?
+- How will a broad owner capability declaration remain separate from granular evidence maturity and G2 readiness?
+- How will future client-project readiness identify genuine prerequisites without silently expanding an offer or encouraging unnecessary upselling?
 
 ### Professional Business Websites readiness handoff
 
@@ -40,8 +42,8 @@ Define how MPG will convert strategic capability areas into bounded, evidence-ba
 
 ## Required inputs
 
-- The accepted commercial sequence: Professional Business Websites; Custom Business Systems; AI and Workflow Automation; Digital Marketing; Social Media Management; Trade, Sourcing and Distribution.
-- Current project status, with Professional Business Websites as the primary productization track and the secondary track still `TBD / owner decision`.
+- The accepted commercial sequence: Professional Business Websites; Custom Business Systems; AI and Workflow Automation; Mobile Applications; Digital Marketing; Social Media Management; Trade, Sourcing and Distribution.
+- Current project status, with Professional Business Websites as the primary productization track and the secondary track still `UNALLOCATED / owner decision required`.
 - Accepted decisions and brand architecture.
 - Authoritative service, capability, tool, asset, and public-safe partner registries.
 - The authoritative Professional Business Websites readiness backlog in `docs/19-backlog.md`.
@@ -64,6 +66,8 @@ Define how MPG will convert strategic capability areas into bounded, evidence-ba
 - A generated public catalogue containing only records with `lifecycleStatus = ACTIVE` and `marketingApproved = true`.
 - Explicit owner decisions for lifecycle advancement, marketing approval, and any public claims.
 - A public-safe record of unresolved website readiness items before the first offer can be considered for market.
+- Separation between owner-declared capability, evidence maturity, service readiness, and public-market approval.
+- A later-stage Client Project Readiness method that may compose genuine required, recommended, and optional dependencies without treating them as hidden work or automatic upsells.
 - Updates to `docs/19-backlog.md` when the authoritative website audit status, evidence requirement, or dependency changes; this catalogue framework must not maintain a duplicate checklist.
 
 Machine-validated registry evidence references use `repo:<relative-path>[#optional-anchor]` for public-safe repository evidence or `private:<public-safe-id>` for evidence held in approved private storage. Release authorization itself must remain inspectable in the repository: `marketApprovalDecision` must point to the governing repository decision, while `readinessReview` and supporting evidence may use either traceable form as permitted by the information-handling policy. Placeholder values such as `NONE`, `TBD`, or `UNKNOWN` never satisfy a release gate.
@@ -110,6 +114,9 @@ Passing an internal readiness review does not itself grant marketing approval. P
 - That any service is publicly marketable unless both `lifecycleStatus = ACTIVE` and `marketingApproved = true` are true in the authoritative record.
 - That target customers, demand, scope, technology, timeline, revisions, hosting, maintenance, support, pricing, contract, capacity, QA, or handover rules have been decided.
 - That founder learning, a completed course, a tool subscription, a demo, or an unverified partner proves professional delivery capability.
+- That the founder's owner-declared BUILD capability satisfies G2, validates any granular capability, or proves service readiness.
+- That Mobile Applications or Brand & Content is active, current WIP, platform-defined, priced, or market-approved.
+- That the deferred Client Project Readiness requirement is an implemented intake, sales, quoting, scoring, or delivery system.
 - That MPG owns partner infrastructure or may publicly name a supplier, contractor, freight provider, broker, specialist, or professional adviser.
 - That every strategic capability should become one bundled full-service offer or appear on the future website.
 - That legal, licensing, regulatory, tax, insurance, privacy, security, accessibility, or compliance requirements have been professionally verified.

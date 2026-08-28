@@ -8,7 +8,7 @@
 | Owner | MPG Founder |
 | Last Updated | 2026-08-28 |
 | Public Safe | Yes |
-| Authority | Owner-directed mandate for the Company OS bootstrap |
+| Authority | Owner-directed Stage 0 mandate and post-bootstrap reconciliation |
 
 ## Charter statement
 
@@ -35,7 +35,7 @@ Success is not measured by how large MPG appears. It is measured by how reliably
 
 The current stage is **Stage 0 — Governance and Source of Truth**. Stage 0 establishes the architecture and controls needed for later work. It does not activate Stage 1.
 
-The current commercial priority is **Professional Business Websites**. The primary build track is website service productization. The secondary capability-development track remains **TBD / owner decision**.
+The current commercial priority is **Professional Business Websites**. The primary build track is website service productization. The secondary capability-development track remains **UNALLOCATED / owner decision required**.
 
 ## Scope
 
@@ -49,7 +49,8 @@ Stage 0 includes:
 - reusable governance and operational templates;
 - framework documents for future stages that state questions rather than invent answers;
 - validation and generation logic connecting market-approved records to a future website catalogue;
-- a readiness-audit backlog for Professional Business Websites; and
+- a readiness-audit backlog for Professional Business Websites;
+- a future Client Project Readiness & Dependency Detection requirement, without implementing later-stage sales or delivery workflows; and
 - basic repository validation automation.
 
 ## Out of scope at Stage 0
@@ -63,6 +64,7 @@ Stage 0 does not:
 - build the MPG website or implement a CRM, accounting, sales, or automation platform;
 - claim employees, customers, testimonials, certifications, partners, locations, or business results;
 - validate founder proficiency without evidence;
+- treat a founder capability declaration as evidence validation or service readiness;
 - approve legal, licensing, regulatory, tax, insurance, privacy, or security compliance; or
 - store confidential company, client, supplier, partner, or financial records in this public repository.
 
@@ -92,7 +94,7 @@ These pillars are capability domains. They do not establish active offers, staff
 
 Malcom represents founder leadership, trust, expertise, learning, thinking, and relationships. MPG represents company systems, offers, processes, delivery, and commercial operations.
 
-The founder may study or discuss a wide set of subjects. MPG productizes and sells only services supported by readiness evidence and approval. Founder learning never automatically becomes a company capability claim.
+The founder may study, discuss, and declare practical ability in a wide set of subjects. The current owner declaration covers Web Development, Business Systems, Automation, and Mobile Applications. This declaration is a distinct source-of-truth dimension, not evidence maturity: granular capability records remain independently assessed, and MPG productizes and sells only services supported by readiness evidence and approval.
 
 ## Commercial build sequence
 
@@ -101,9 +103,10 @@ The accepted productization order is:
 1. Professional business websites
 2. Custom business systems
 3. AI and workflow automation
-4. Digital marketing
-5. Social media management
-6. Trade, sourcing, and distribution
+4. Mobile applications
+5. Digital marketing
+6. Social media management
+7. Trade, sourcing, and distribution
 
 This order does not prohibit personal learning. It controls which company service family receives primary commercialization effort.
 

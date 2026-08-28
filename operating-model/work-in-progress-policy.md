@@ -6,7 +6,7 @@
 > **Owner:** MPG Founder
 > **Last Updated:** 2026-08-28
 > **Public Safe:** Yes
-> **Authority:** Accepted anti-scatter rule in MPG Company OS Master Repository Bootstrap v2
+> **Authority:** Accepted anti-scatter rule and `MPG-DEC-029`
 
 ## Policy
 
@@ -29,11 +29,12 @@ The current commercial build order is:
 1. Professional Business Websites
 2. Custom Business Systems
 3. AI and Workflow Automation
-4. Digital Marketing
-5. Social Media Management
-6. Trade, Sourcing and Distribution
+4. Mobile Applications
+5. Digital Marketing
+6. Social Media Management
+7. Trade, Sourcing and Distribution
 
-This sequence controls company productization, not all personal learning. Stage 0 governance work enables the system and is not a second service-family productization track. Stage 1 must not begin until the owner accepts the Stage 0 gate.
+This sequence controls company productization, not all personal learning or broad owner declarations. Adding Mobile Applications to internal architecture does not admit it to either WIP slot. Stage 0 governance work enables the system and is not a second service-family productization track. Stage 1 must not begin until the owner accepts the Stage 0 gate.
 
 ## What counts as primary-track WIP
 
