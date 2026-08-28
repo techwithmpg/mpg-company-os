@@ -101,8 +101,8 @@ Protect people and existing clients first, preserve evidence, limit further expo
 
 An owner decision to market cannot erase a required legal, quality, or capability condition. Risk acceptance and market approval are separate records.
 
-## Current Stage 0 risk focus
+## Current Stage 1 risk focus
 
-The baseline risk register should include evidence-supported risks of overextension, premature marketing of future capability, founder bandwidth, public-repository confidentiality, capability fragmentation, partner dependency for future services, and tool/vendor dependency. It must not fabricate incidents, losses, probabilities, or controls.
+Under the accepted Stage 0 governance baseline, the current risk focus should include evidence-supported risks of Stage 1 scope expansion, unsupported brand or market conclusions, overextension, premature marketing of future capability, founder bandwidth, public-repository confidentiality, capability fragmentation, partner dependency for future services, and tool/vendor dependency. It must not fabricate incidents, losses, probabilities, or controls.
 
 Review risks at service transitions, partner/tool approvals, project kickoff, major change, incidents, closure, and owner stage gates. Preserve closed and superseded risks for audit history.

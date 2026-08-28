@@ -54,7 +54,7 @@
     "G13": "Marketing Readiness"
   },
   "governance": {
-    "currentStage": "STAGE_0",
+    "currentStage": "STAGE_1",
     "commercialBuildOrder": [
       "TECH-WEB-001",
       "TECH-SYS-001",

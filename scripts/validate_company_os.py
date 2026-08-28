@@ -815,7 +815,7 @@ def main() -> int:
     governance = services_registry.get("governance")
     validation.require(isinstance(governance, dict), "registry/services.json governance must be an object.")
     governance = governance if isinstance(governance, dict) else {}
-    validation.require(governance.get("currentStage") == "STAGE_0", "Service governance must preserve currentStage STAGE_0.")
+    validation.require(governance.get("currentStage") == "STAGE_1", "Service governance must record currentStage STAGE_1.")
     build_order = governance.get("commercialBuildOrder")
     validation.require(
         isinstance(build_order, list) and tuple(build_order) == ACCEPTED_SERVICE_ORDER,

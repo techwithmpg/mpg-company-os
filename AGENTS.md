@@ -4,7 +4,7 @@
 |---|---|
 | Document | Repository-wide agent instructions |
 | Status | ACTIVE |
-| Stage | Stage 0 — Governance and Source of Truth |
+| Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
 | Last Updated | 2026-08-28 |
 | Public Safe | Yes |
@@ -16,7 +16,7 @@ These instructions apply to Codex, ChatGPT, Antigravity, Claude, Gemini, automat
 
 Help MPG build a durable, truthful, capability-gated company operating system. Optimize for reliable delivery, evidence, focus, traceability, and public safety—not the appearance of scale.
 
-The current project state is **Stage 0 — Governance and Source of Truth**. The current commercial priority is **Professional Business Websites**. Do not begin Stage 1 or activate a service without explicit owner authorization.
+**Stage 0 — Governance and Source of Truth** is the accepted governance baseline. **Stage 1 — Company and Brand Foundation** is the current active development stage under `MPG-DEC-033`. The current commercial priority remains **Professional Business Websites**. Agents may work within approved Stage 1 scope, but must not begin Stage 2 or activate a service without separate explicit owner authorization and the required evidence.
 
 ## Mandatory reading order
 
@@ -75,7 +75,7 @@ Do not turn broad founder learning into a list of company services or unsupporte
 
 ### Protect focus
 
-MPG productizes one major new service family at a time by default. The primary track is Professional Business Websites. At most one meaningful secondary learning/incubation track may run concurrently, and the current secondary track is `TBD / owner decision`.
+MPG productizes one major new service family at a time by default. The primary track is Professional Business Websites. At most one meaningful secondary learning/incubation track may run concurrently, and the current secondary track is `UNALLOCATED / owner decision required`.
 
 Do not introduce unrelated scope or advance parked work. Learning, purchasing a tool, or identifying a partner does not authorize productization.
 
@@ -94,13 +94,13 @@ A service may be marketed as an active offer only when its authoritative record 
 
 Both conditions are mandatory. A strategic domain, documentation page, registry entry, roadmap item, or generated catalogue mention does not independently authorize public selling.
 
-### Keep future stages dormant
+### Keep later stages dormant
 
-The owner must accept major stage transitions. Future-stage documents must remain frameworks until activation and must use the exact notice:
+The owner must accept major stage transitions. Documents for Stage 2 and later must remain frameworks until activation and must use the exact notice:
 
 **STATUS: FRAMEWORK — NOT YET ACTIVATED**
 
-Frameworks may define purpose, questions, inputs, outputs, dependencies, activation gates, and non-assumptions. They must not invent the decisions that their future stage is meant to make.
+Frameworks may define purpose, questions, inputs, outputs, dependencies, activation gates, and non-assumptions. They must not invent the decisions that their future stage is meant to make. Active Stage 1 work must likewise preserve open questions and may record outputs as `PROPOSED` or `RECOMMENDED` until the owner explicitly accepts them.
 
 ## Public-safety rules
 
@@ -137,7 +137,7 @@ Use redacted, synthetic, or structural examples only. Confidential records belon
 ### Before handing off
 
 1. Read every changed file for contradictions and unsupported claims.
-2. Confirm the current stage still reads **Stage 0 — Governance and Source of Truth**, unless the owner explicitly changed it.
+2. Confirm **Stage 0 — Governance and Source of Truth** remains the accepted governance baseline, **Stage 1 — Company and Brand Foundation** remains the current active stage, and Stage 2 remains inactive unless the owner explicitly changes them.
 3. Confirm Professional Business Websites remains the first commercial priority unless an accepted decision supersedes it.
 4. Confirm no future capability was made active or marketable by implication.
 5. Validate JSON and run the repository validator when registries, policies, generators, or publication logic are affected.

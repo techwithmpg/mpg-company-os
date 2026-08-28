@@ -8,7 +8,7 @@
 | Owner | MPG Founder |
 | Last Updated | 2026-08-28 |
 | Public Safe | Yes |
-| Authority | Authoritative record of explicit owner decisions captured by the Stage 0 baseline and reconciliation |
+| Authority | Authoritative record of explicit owner decisions under the accepted Stage 0 governance baseline |
 
 ## How this register works
 
@@ -60,6 +60,7 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 | MPG-DEC-030 | ACCEPTED | **Brand & Content is a future MPG Media / GROW capability area.** | It may address genuine brand and content dependencies discovered in future projects, but it is not an active service, current WIP, or automatic component of website work. |
 | MPG-DEC-031 | ACCEPTED | **Client Project Readiness & Dependency Detection is a future Company OS backlog requirement.** | It will distinguish client-specific prerequisites from MPG service readiness and classify dependencies as `REQUIRED`, `RECOMMENDED`, or `OPTIONAL`; implementation remains deferred to later authorized stages. |
 | MPG-DEC-032 | ACCEPTED | **Stage 0 — Governance and Source of Truth is accepted as the governing baseline for the MPG Company OS.** | Acceptance closes the Stage 0 governance gate. Stage 1 remains inactive and requires a separate explicit owner activation decision. This decision does not activate services, approve marketing, validate capabilities, set pricing, allocate new WIP, or override readiness controls. |
+| MPG-DEC-033 | ACCEPTED | **Stage 1 — Company and Brand Foundation is activated under the accepted Stage 0 governance baseline.** | Stage 1 is the active company-development stage. Stage 0 remains the accepted governance baseline; Stage 2 and all later stages remain inactive. This decision does not activate services, approve marketing, validate capabilities, set final service pricing, allocate a secondary productization track, or override readiness, lifecycle, evidence, publication, WIP, public-safety, or decision controls. |
 
 ## Decision dependencies
 
@@ -69,6 +70,7 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 - `MPG-DEC-013` through `015` govern repository authority and stage transitions.
 - `MPG-DEC-031` governs the deferred Client Project Readiness requirement without activating its implementation.
 - `MPG-DEC-032` closes the Stage 0 acceptance gate while preserving the separate Stage 1 activation requirement.
+- `MPG-DEC-033` satisfies that separate Stage 1 activation requirement while preserving the separate Stage 2 gate and all commercial controls.
 
 ## Superseded decisions
 
@@ -81,7 +83,7 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 The following remain unresolved and are **not** accepted decisions:
 
 - secondary capability-development track;
-- Stage 1 activation;
+- Stage 1 completion/acceptance and Stage 2 activation;
 - final tagline and detailed brand strategy;
 - priority customer segment and geography;
 - final service scope, pricing, capacity, and delivery model;

@@ -8,7 +8,7 @@
 | Owner | MPG Founder |
 | Last Updated | 2026-08-28 |
 | Public Safe | Yes |
-| Authority | Owner-accepted Stage 0 mandate under `MPG-DEC-032` |
+| Authority | Owner-accepted Stage 0 mandate under `MPG-DEC-032`; Stage 1 transition under `MPG-DEC-033` |
 
 ## Charter statement
 
@@ -33,7 +33,7 @@ Success is not measured by how large MPG appears. It is measured by how reliably
 
 ## Current mandate
 
-**Stage 0 — Governance and Source of Truth is ACCEPTED** as the governing Company OS baseline under `MPG-DEC-032`. Its acceptance establishes the architecture and controls needed for later work. **Stage 1 — Company and Brand Foundation is NOT ACTIVATED.**
+**Stage 0 — Governance and Source of Truth is ACCEPTED** as the governing Company OS baseline under `MPG-DEC-032`. **Stage 1 — Company and Brand Foundation is ACTIVE** under `MPG-DEC-033` and operates within the architecture and controls established by Stage 0. Stage 2 and all later stages remain inactive pending their own explicit owner decisions.
 
 The current commercial priority is **Professional Business Websites**. The primary build track is website service productization. The secondary capability-development track remains **UNALLOCATED / owner decision required**.
 
@@ -145,7 +145,7 @@ The MPG Founder owns final company, stage, lifecycle-publication, and decision-s
 | Stage | Focus | Activation rule |
 |---|---|---|
 | 0 | Governance and source of truth | Accepted governing baseline under `MPG-DEC-032` |
-| 1 | Company and brand foundation | Explicit owner activation after Stage 0 acceptance |
+| 1 | Company and brand foundation | Active under `MPG-DEC-033`; outputs still require evidence and appropriate owner decisions |
 | 2 | Services, offers, and pricing | Explicit owner activation after required dependencies |
 | 3 | Sales system | Explicit owner activation after required dependencies |
 | 4 | Delivery and client experience | Explicit owner activation after required dependencies |
@@ -170,4 +170,4 @@ The MPG Founder explicitly accepted Stage 0 after review of the governing baseli
 - the Professional Business Websites readiness backlog is explicit; and
 - the owner reviewed unresolved questions and accepted the governing baseline.
 
-This closes the Stage 0 governance gate. It does not activate Stage 1, any service, marketing approval, capability validation, pricing, or additional WIP. Only a separate explicit owner decision may activate Stage 1.
+This closed the Stage 0 governance gate without itself activating Stage 1, any service, marketing approval, capability validation, pricing, or additional WIP. The required separate decision was later recorded as `MPG-DEC-033`, activating Stage 1 only. Stage 2 and all later stages remain separately gated.

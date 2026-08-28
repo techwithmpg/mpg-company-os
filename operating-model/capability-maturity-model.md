@@ -16,7 +16,7 @@ The governing chain is:
 
 > New skills create possibilities. Validated skills create capabilities. Capabilities combined with tools, assets, processes, economics, capacity, proof, compliance, and any required partners create a deliverable service. A deliverable service combined with explicit owner approval may become a marketable offer.
 
-Current project stage is **Stage 0 — Governance and Source of Truth**. This model does not activate Stage 1 or validate any person's proficiency.
+Stage 0 remains the accepted governance baseline, and the current active project stage is **Stage 1 — Company and Brand Foundation**. Stage 1 activation does not validate any person's proficiency or alter a capability evidence state.
 
 ## Canonical capability statuses
 
@@ -118,6 +118,6 @@ Owner-declaration records are intentionally excluded from this G2 calculation. G
 
 The service owner proposes assessments and supplies evidence. A reviewer checks the evidence against the stated standard. The MPG Founder approves material status changes or delegates that authority in an accepted decision record. No AI agent may infer proficiency or promote a capability without recorded evidence and authority.
 
-## Stage 0 rule
+## Current governance rule
 
-During Stage 0, unknown capabilities remain `UNASSESSED`. Professional Business Websites is the first commercial service family to undergo a later readiness audit, but this priority does not itself validate any required capability or approve the service for sale.
+Under the accepted Stage 0 governance baseline, unknown capabilities remain `UNASSESSED` during Stage 1 unless evidence and the required authority support a change. Professional Business Websites remains the first commercial service family to undergo readiness audit, but this priority and the Stage 1 transition do not validate any required capability or approve the service for sale.

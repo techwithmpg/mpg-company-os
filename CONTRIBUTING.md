@@ -109,4 +109,4 @@ A contribution is ready for review when:
 - [ ] relevant validation passes;
 - [ ] changed files and remaining questions are documented.
 
-Stage 0 was explicitly accepted under `MPG-DEC-032`. That acceptance does not activate Stage 1 or any later-stage framework; each still requires its own explicit owner activation decision.
+Stage 0 was explicitly accepted under `MPG-DEC-032`, and Stage 1 was separately activated under `MPG-DEC-033`. Stage 2 and every later-stage framework still require their own explicit owner activation decision.

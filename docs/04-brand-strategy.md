@@ -3,18 +3,18 @@
 | Metadata | Value |
 |---|---|
 | Document | Brand strategy framework |
-| Status | FRAMEWORK — NOT YET ACTIVATED |
+| Status | ACTIVE — STAGE 1 WORK AUTHORIZED |
 | Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
 | Last Updated | 2026-08-28 |
 | Public Safe | Yes |
-| Authority | Framework only; it activates no brand decision |
+| Authority | Stage 1 work activated under `MPG-DEC-033`; outputs require separate evidence and owner decisions |
 
-**STATUS: FRAMEWORK — NOT YET ACTIVATED**
+**STATUS: ACTIVE STAGE 1 WORK — OUTPUTS NOT YET ACCEPTED**
 
 ## Purpose
 
-Provide a disciplined structure for defining MPG's evidence-backed company positioning, message system, founder/company relationship, and brand expression after the owner accepts Stage 0 and explicitly activates the relevant Stage 1 work. The framework must turn the accepted Build/Grow/Connect architecture into clear communication without treating strategic domains as active services.
+Provide a disciplined structure for defining MPG's evidence-backed company positioning, message system, founder/company relationship, and brand expression during the active Stage 1 work authorized under `MPG-DEC-033`. The framework must turn the accepted Build/Grow/Connect architecture into clear communication without treating strategic domains as active services.
 
 ## Questions the stage must answer
 
@@ -59,15 +59,20 @@ Provide a disciplined structure for defining MPG's evidence-backed company posit
 - A list of unresolved questions, evidence gaps, prohibited assumptions, and later-stage dependencies.
 - Decision-register entries showing which outputs are `PROPOSED`, `RECOMMENDED`, or `ACCEPTED`.
 
-## Activation gate
+## Activation status and output gate
 
-- The MPG Founder has explicitly accepted Stage 0.
-- The MPG Founder has explicitly authorized the relevant Stage 1 brand-strategy work.
+**Authorization recorded**
+
+- Stage 0 is accepted under `MPG-DEC-032`.
+- Stage 1 company and brand foundation work is active under `MPG-DEC-033`.
+
+**Execution and output controls**
+
 - Required customer, capability, and proof inputs are available or clearly marked as gaps.
 - The work has an owner-approved scope and does not displace the Professional Business Websites productization priority.
 - Activation is recorded in the project status before substantive strategy decisions are treated as current work.
 
-Completion of this framework is not activation. Brand outputs remain `PROPOSED` or `RECOMMENDED` until the owner explicitly accepts them.
+Stage 1 activation authorizes the work; it does not complete the framework or accept its answers. Brand outputs remain `PROPOSED` or `RECOMMENDED` until the owner explicitly accepts them.
 
 ## Dependencies
 
@@ -84,7 +89,7 @@ Completion of this framework is not activation. Brand outputs remain `PROPOSED` 
 
 ## What must NOT yet be assumed
 
-- That Stage 1 is active merely because Stage 0 has been accepted.
+- That Stage 1 activation means any brand question is answered or any output is accepted.
 - That `Build. Grow. Connect.` is the final tagline.
 - That strategic domains are active services, staffed divisions, or separate legal entities.
 - That MPG has a validated target segment, positioning, promise, values, voice, or channel strategy.

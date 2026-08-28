@@ -12,7 +12,7 @@
 
 The thirteen gates below provide the minimum evidence review before a service may transition to `MARKET_APPROVED` or `ACTIVE`. A promising idea, a completed course, a successful one-off task, a purchased tool, or an available partner does not satisfy these gates by itself.
 
-The current stage remains **Stage 0**. The first later readiness audit is for **Professional Business Websites**; this policy does not price or launch that service.
+Stage 0 remains the accepted governance baseline, and **Stage 1 — Company and Brand Foundation** is active. The first service-readiness audit remains for **Professional Business Websites**; Stage 1 activation and this policy do not price or launch that service.
 
 ## Canonical gate states
 

@@ -102,9 +102,9 @@ When paused:
 4. reassess affected gates before any return;
 5. preserve prior decisions and evidence rather than rewriting history.
 
-## Current Stage 0 application
+## Current application under Stage 1
 
-Professional Business Websites is the priority-one service family and may be recorded as `BUILDING_CAPABILITY` where the service registry follows the accepted bootstrap instruction. It is not automatically market-approved or active. Other strategic families generally remain `PLANNED` unless evidence and an authorized decision support another status. No Stage 1 work is authorized by this policy.
+Professional Business Websites remains the priority-one service family and `BUILDING_CAPABILITY` under the accepted baseline. It is not automatically market-approved or active. Other strategic families remain `PLANNED` unless evidence and an authorized decision support another status. Stage 1 company and brand work is authorized by `MPG-DEC-033`; this policy and that activation do not advance any service lifecycle state.
 
 ## Related controls
 

@@ -17,12 +17,12 @@ MPG may plan broadly but must sell narrowly. The default portfolio limit is:
 
 Everything else remains `IDEA`, `RESEARCH`, `PLANNED`, backlog, or parked until capacity is deliberately released. A lifecycle record can remain in `RESEARCH` without consuming the secondary slot only when work is passive or trivial; scheduled experiments, deliverables, recurring meetings, a budget, or meaningful founder attention make it active WIP.
 
-## Current Stage 0 allocation
+## Current allocation under Stage 1
 
 | Slot | Current allocation | State |
 |---|---|---|
 | Primary commercial build track | Professional Business Websites | Website service productization; not approved for sale |
-| Secondary capability-development track | TBD / owner decision | Unallocated until explicitly selected |
+| Secondary capability-development track | UNALLOCATED / owner decision required | Unallocated until explicitly selected |
 
 The current commercial build order is:
 
@@ -34,7 +34,7 @@ The current commercial build order is:
 6. Social Media Management
 7. Trade, Sourcing and Distribution
 
-This sequence controls company productization, not all personal learning or broad owner declarations. Adding Mobile Applications to internal architecture does not admit it to either WIP slot. Stage 0 governance work enables the system and is not a second service-family productization track. Stage 0 is accepted, but Stage 1 must not begin without a separate explicit owner activation decision.
+This sequence controls company productization, not all personal learning or broad owner declarations. Adding Mobile Applications to internal architecture does not admit it to either WIP slot. Stage 0 governance work and authorized Stage 1 company/brand work do not create another service-family productization track or allocate the secondary slot. Stage 1 is active under `MPG-DEC-033`; Stage 2 remains inactive.
 
 ## What counts as primary-track WIP
 

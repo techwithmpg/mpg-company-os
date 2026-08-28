@@ -3,20 +3,28 @@
 | Metadata | Value |
 |---|---|
 | Document | Current project status |
-| Status | CURRENT — STAGE 0 ACCEPTED |
-| Stage | Stage 0 — Governance and Source of Truth |
+| Status | CURRENT — STAGE 1 ACTIVE |
+| Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
 | Last Updated | 2026-08-28 |
 | Public Safe | Yes |
 | Authority | Current operational snapshot; decisions remain authoritative in the decision register |
 
-## CURRENT STAGE
+## ACCEPTED GOVERNANCE BASELINE
 
-**Stage 0 — Governance and Source of Truth**
+**Stage 0 — Governance and Source of Truth: ACCEPTED**
 
-**Stage 0 status: ACCEPTED.** The MPG Founder explicitly authorized acceptance under `MPG-DEC-032`.
+The MPG Founder explicitly accepted the governing baseline under `MPG-DEC-032`. Stage 0 remains in force as the governance foundation for current and later authorized work.
 
-**Stage 1 — Company and Brand Foundation: NOT ACTIVATED.** No later stage is currently active.
+## CURRENT ACTIVE STAGE
+
+**Stage 1 — Company and Brand Foundation: ACTIVE**
+
+The MPG Founder explicitly activated Stage 1 under `MPG-DEC-033`. Activation authorizes bounded company, customer, market, positioning, messaging, founder/company, and brand-foundation work. It does not accept unanswered Stage 1 outputs or authorize a later stage.
+
+## NOT ACTIVATED
+
+**Stage 2 — Services, Offers and Pricing: NOT ACTIVATED.** All later stages also remain inactive.
 
 ## CURRENT COMMERCIAL PRIORITY
 
@@ -46,18 +54,19 @@ The following are supported by the owner-directed bootstrap and repository state
 - Company OS Stage 0 governance initialized.
 - Post-bootstrap owner decisions reconciled into the Stage 0 candidate baseline: Mobile Applications, founder capability declarations, the seven-family sequence, future Brand & Content architecture, and the Client Project Readiness backlog requirement.
 - Stage 0 — Governance and Source of Truth explicitly accepted by the MPG Founder.
+- Stage 1 — Company and Brand Foundation explicitly activated by the MPG Founder.
 
-Acceptance closes the Stage 0 governance gate. It does not activate Stage 1 or alter any service-readiness control.
+Stage 1 activation preserves every Stage 0 service-readiness and governance control.
 
 ## ACTIVE WORK
 
-**Operating under the accepted Stage 0 governance baseline; Stage 1 not activated.**
+**Execute Stage 1 — Company and Brand Foundation under the accepted Stage 0 governance baseline.**
 
-Professional Business Websites remains the sole primary commercial productization track under the existing lifecycle, evidence, WIP, and publication controls. No later company stage is active.
+Current Stage 1 work may address the authorized company and brand foundations while preserving unanswered matters as `PROPOSED`, `RECOMMENDED`, `TBD`, or `UNKNOWN` until appropriately decided. Professional Business Websites remains the sole primary commercial productization track under the existing lifecycle, evidence, WIP, and publication controls. Stage 2 and all later stages remain inactive.
 
 ## RISKS
 
-| Risk | Current concern | Stage 0 control |
+| Risk | Current concern | Governing control |
 |---|---|---|
 | Overextension | Multiple strategic domains could compete for limited attention | One primary productization track and at most one authorized secondary learning track |
 | Premature marketing | Future capabilities could be presented as available services | `ACTIVE` plus owner marketing approval is required for publication |
@@ -70,7 +79,7 @@ Professional Business Websites remains the sole primary commercial productizatio
 
 ## CONSTRAINTS IN FORCE
 
-- Stage 0 remains the accepted governing baseline; Stage 1 is not activated.
+- Stage 0 remains the accepted governing baseline; Stage 1 is active; Stage 2 and later stages are not activated.
 - Professional Business Websites remains the first commercial build priority.
 - One major new service family is productized at a time by default.
 - Secondary learning track remains unassigned until owner decision.
@@ -84,10 +93,10 @@ Professional Business Websites remains the sole primary commercial productizatio
 
 The first later-stage service review must work through the authoritative `WEB-001` through `WEB-027` Professional Business Websites audit in `docs/19-backlog.md`. It covers customer fit, scope boundaries, proof, delivery approach, content and hosting responsibilities, QA, pricing method, contracts, capacity, support, handover, and the publication gate. `docs/06-service-catalog.md` defines how the resulting service record and catalogue must be governed.
 
-No answer is assumed at Stage 0.
+No readiness answer is supplied merely by Stage 1 activation.
 
 ## NEXT GATE
 
-**Explicit owner decision on whether to activate Stage 1 — Company and Brand Foundation.**
+**Owner acceptance/completion of the required Stage 1 company and brand foundation decisions, followed by a separate decision on whether to activate Stage 2 — Services, Offers and Pricing.**
 
-Until that separate decision is recorded, Stage 1 and all later stages remain inactive. Stage 0 acceptance does not answer unresolved `TBD` or `UNKNOWN` items and does not authorize future-stage execution.
+Stage 2 does not begin automatically when Stage 1 work starts or produces recommendations. Until both later decisions are recorded, Stage 2 and all later stages remain inactive. Unresolved matters remain `TBD`, `UNKNOWN`, `PROPOSED`, or `RECOMMENDED` as appropriate.

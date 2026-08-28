@@ -3,18 +3,18 @@
 | Metadata | Value |
 |---|---|
 | Document | Customer and market discovery framework |
-| Status | FRAMEWORK — NOT YET ACTIVATED |
+| Status | ACTIVE — STAGE 1 WORK AUTHORIZED |
 | Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
 | Last Updated | 2026-08-28 |
 | Public Safe | Yes |
-| Authority | Framework only; it activates no customer or market decision |
+| Authority | Stage 1 work activated under `MPG-DEC-033`; outputs require separate evidence and owner decisions |
 
-**STATUS: FRAMEWORK — NOT YET ACTIVATED**
+**STATUS: ACTIVE STAGE 1 WORK — OUTPUTS NOT YET ACCEPTED**
 
 ## Purpose
 
-Define how MPG will identify, investigate, compare, and select evidence-backed customer segments and market opportunities before converting a strategic capability into a commercial offer. The immediate later-stage use is to establish who, if anyone, Professional Business Websites should serve first and which problems MPG can solve reliably.
+Define how MPG will identify, investigate, compare, and select evidence-backed customer segments and market opportunities during the active Stage 1 work authorized under `MPG-DEC-033`, before converting a strategic capability into a commercial offer. The immediate use is to establish who, if anyone, Professional Business Websites should serve first and which problems MPG can solve reliably.
 
 ## Questions the stage must answer
 
@@ -58,16 +58,21 @@ Define how MPG will identify, investigate, compare, and select evidence-backed c
 - Unresolved questions and a plan to validate or reject remaining hypotheses.
 - Owner decisions recorded in the decision register before recommendations govern brand, service, pricing, sales, or website work.
 
-## Activation gate
+## Activation status and output gate
 
-- The MPG Founder has explicitly accepted Stage 0.
-- The MPG Founder has authorized the relevant Stage 1 customer/market work.
+**Authorization recorded**
+
+- Stage 0 is accepted under `MPG-DEC-032`.
+- Stage 1 customer and market foundation work is active under `MPG-DEC-033`.
+
+**Execution and output controls**
+
 - A public-safe research method and private-data handling method are agreed.
 - Research scope is narrow enough to support the Professional Business Websites priority without activating multiple productization tracks.
 - Relevant capability and capacity records are available or explicitly unknown.
 - Activation is recorded in project status before research outputs are treated as current-stage decisions.
 
-Research activity alone does not activate a service. Customer/market outputs remain `PROPOSED` or `RECOMMENDED` until owner acceptance.
+Stage 1 activation authorizes bounded research; it does not validate a customer, activate a service, or accept an output. Customer/market outputs remain `PROPOSED` or `RECOMMENDED` until owner acceptance.
 
 ## Dependencies
 
@@ -85,7 +90,7 @@ Research activity alone does not activate a service. Customer/market outputs rem
 
 ## What must NOT yet be assumed
 
-- That Stage 1 is active or customer/market work has owner authorization.
+- That Stage 1 activation means a target customer, market finding, or recommendation has already been accepted.
 - That a target customer, industry, geography, buyer role, problem, budget, or channel has been validated.
 - That founder familiarity with a market proves demand or fit.
 - That an addressable market estimate proves an attainable market for MPG.

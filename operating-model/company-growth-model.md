@@ -102,8 +102,8 @@ Organizational modes describe **how MPG is staffed and operated**. Company OS st
 
 | Stage | Company system | Transition rule |
 |---|---|---|
-| Stage 0 | Governance and Source of Truth | Accepted governing baseline under `MPG-DEC-032`; Stage 1 remains separately gated. |
-| Stage 1 | Company and Brand Foundation | Must be explicitly activated. |
+| Stage 0 | Governance and Source of Truth | Accepted governing baseline under `MPG-DEC-032`. |
+| Stage 1 | Company and Brand Foundation | Active under `MPG-DEC-033`; outputs remain evidence- and decision-gated. |
 | Stage 2 | Services, Offers and Pricing | Must not invent active offers or prices. |
 | Stage 3 | Sales System | Requires qualified, capability-aware intake design. |
 | Stage 4 | Delivery and Client Experience | Requires controlled processes and quality evidence. |
@@ -117,4 +117,4 @@ A company may mature organizationally without skipping a Company OS stage, and a
 
 ## Current baseline
 
-MPG is explicitly founder-led in strategy, but Stage 0 has not verified a complete people or resourcing record. Therefore Mode A remains a conservative baseline operating assumption, not a claim that no other contributors exist. **Stage 0 is accepted**, the current primary service build track remains **Professional Business Websites**, and the next master-control gate is a separate owner decision on whether to activate Stage 1.
+MPG is explicitly founder-led in strategy, but the accepted Stage 0 baseline did not verify a complete people or resourcing record. Therefore Mode A remains a conservative baseline operating assumption, not a claim that no other contributors exist. **Stage 0 remains accepted, Stage 1 is active**, the current primary service build track remains **Professional Business Websites**, and Stage 2 remains separately gated.

@@ -3,12 +3,12 @@
 | Metadata | Value |
 |---|---|
 | Document | Executive repository overview |
-| Status | ACTIVE GOVERNANCE — STAGE 0 ACCEPTED |
-| Stage | Stage 0 — Governance and Source of Truth |
+| Status | ACTIVE GOVERNANCE — STAGE 1 ACTIVE |
+| Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
 | Last Updated | 2026-08-28 |
 | Public Safe | Yes |
-| Authority | Owner-accepted Stage 0 baseline under `MPG-DEC-032`; subordinate only to a later explicit owner decision |
+| Authority | Stage 0 governance accepted under `MPG-DEC-032`; Stage 1 activated under `MPG-DEC-033` |
 
 MPG Company OS is the durable operating system for building **MPG** into a credible, diversified company without allowing ambition to outrun delivery capability. It records decisions, controls service development, protects focus, and separates strategic possibilities from offers that customers can actually buy.
 
@@ -20,15 +20,16 @@ This is a company repository, not merely a website repository. The website is on
 
 | Item | Current state |
 |---|---|
-| Completed governance stage | **Stage 0 — Governance and Source of Truth — ACCEPTED** |
-| Next company stage | **Stage 1 — Company and Brand Foundation — NOT ACTIVATED** |
+| Governance baseline | **Stage 0 — Governance and Source of Truth — ACCEPTED** |
+| Current active stage | **Stage 1 — Company and Brand Foundation — ACTIVE** |
+| Next company stage | **Stage 2 — Services, Offers and Pricing — NOT ACTIVATED** |
 | Commercial priority | **Professional Business Websites** |
 | Primary build track | Website service productization |
 | Secondary learning track | UNALLOCATED / owner decision required |
 | Publicly marketable services | Determined only by the service registry and publication gate; never inferred from this README |
-| Next gate | Explicit owner decision on whether to activate Stage 1 — Company and Brand Foundation |
+| Next gate | Owner acceptance/completion of Stage 1 and a separate decision on Stage 2 activation |
 
-Stage 0 is accepted. Stage 1 is **NOT ACTIVATED** and has not begun. No future stage, service, price, customer segment, partnership, capability claim, or marketing claim is activated merely because Stage 0 was accepted or its framework exists in this repository.
+Stage 0 remains the accepted governance baseline. Stage 1 is **ACTIVE** under `MPG-DEC-033` and operates within the Stage 0 controls. Stage 2 and all later stages are **NOT ACTIVATED**. Stage 1 activation does not itself approve a service, price, customer segment, partnership, capability claim, marketing claim, or additional productization track.
 
 ## Company direction
 
@@ -121,15 +122,15 @@ Start with:
 | `brand/`, `sales/`, `marketing/`, `operations/`, `research/` | Domain workspaces governed by the stage and decision system |
 | `.github/workflows/` | Automated governance validation |
 
-Framework documents for later stages intentionally contain questions, inputs, outputs, dependencies, and activation gates—not invented decisions.
+Framework documents for stages later than Stage 1 intentionally contain questions, inputs, outputs, dependencies, and activation gates—not invented decisions. Active Stage 1 frameworks still preserve unanswered questions and distinguish proposals and recommendations from accepted owner decisions.
 
 ## Company development stages
 
 | Stage | Purpose | Current? |
 |---|---|---|
-| 0 | Governance and source of truth | **Accepted** |
-| 1 | Company and brand foundation | **Not activated** |
-| 2 | Services, offers, and pricing | No |
+| 0 | Governance and source of truth | **Accepted governance baseline** |
+| 1 | Company and brand foundation | **Active** |
+| 2 | Services, offers, and pricing | **Not activated** |
 | 3 | Sales system | No |
 | 4 | Delivery and client experience | No |
 | 5 | Visual identity and design system | No |

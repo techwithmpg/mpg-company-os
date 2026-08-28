@@ -130,6 +130,7 @@ class GovernanceRegressionTests(unittest.TestCase):
     def test_professional_websites_is_the_only_primary_productization(self) -> None:
         services = self.registries["services"]
         wip = services["governance"]["wipAllocation"]
+        self.assertEqual(services["governance"]["currentStage"], "STAGE_1")
         self.assertEqual(wip["primaryCommercialTrack"]["serviceId"], "TECH-WEB-001")
         self.assertEqual(wip["secondaryCapabilityTrack"]["status"], "UNALLOCATED")
         self.assertIsNone(wip["secondaryCapabilityTrack"]["subjectId"])

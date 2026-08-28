@@ -12,6 +12,18 @@
 
 This changelog records material Company OS changes. It does not replace Git history, the project status, or the decision register. No versions or earlier baselines are inferred where none exist.
 
+## 2026-08-28 — Stage 1 activated
+
+### Activated
+
+- The MPG Founder explicitly activated **Stage 1 — Company and Brand Foundation** under `MPG-DEC-033`.
+- Stage 1 operates under the accepted Stage 0 governance baseline and may now perform its authorized company, customer, market, positioning, messaging, founder/company, and brand-foundation work.
+
+### Governance effect
+
+- Stage 0 remains accepted, while **Stage 2 — Services, Offers and Pricing remains NOT ACTIVATED**.
+- No service, final service price, marketing approval, capability validation, additional WIP allocation, or later-stage implementation was activated by this transition.
+
 ## 2026-08-28 — Stage 0 accepted
 
 ### Accepted

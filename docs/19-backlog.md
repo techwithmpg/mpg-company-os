@@ -3,7 +3,7 @@
 **STATUS: FRAMEWORK — NOT YET ACTIVATED**
 
 - **Document:** Company OS Backlog
-- **Stage:** Cross-stage planning; current company stage remains Stage 0
+- **Stage:** Cross-stage planning; current active company stage is Stage 1
 - **Owner:** MPG Founder
 - **Last Updated:** 2026-08-28
 - **Public Safe:** Yes
@@ -93,7 +93,7 @@ Implementation depends on later authorized customer discovery, service-definitio
 - Current project status, decision register, WIP policy, service lifecycle, and launch gates.
 - Professional Business Websites service, capability, tool, asset, partner, and evidence records.
 - Customer research, process observations, capacity facts, risk reviews, and qualified professional advice where applicable.
-- Explicit owner authorization before work begins in a future stage.
+- Explicit owner authorization for work outside the active Stage 1 company and brand foundation scope.
 
 ## Required Outputs
 
@@ -105,7 +105,7 @@ Implementation depends on later authorized customer discovery, service-definitio
 
 ## Activation Gate
 
-Stage 0 acceptance is recorded under `MPG-DEC-032`, but it does not activate this backlog. Work may begin only after the MPG Founder separately authorizes the next stage or a bounded research task. Professional Business Websites may advance through its lifecycle only on evidence; public marketing requires all applicable gates, explicit owner marketing approval, lifecycleStatus = ACTIVE, and marketingApproved = true.
+Stage 0 acceptance is recorded under `MPG-DEC-032`, and Stage 1 is active under `MPG-DEC-033`, but those decisions do not activate this cross-stage service-readiness backlog as a whole. Only work within authorized Stage 1 company, customer, market, positioning, and brand-foundation scope may proceed now; later-stage backlog work requires its applicable stage or a separate bounded authorization. Professional Business Websites may advance through its lifecycle only on evidence; public marketing requires all applicable gates, explicit owner marketing approval, lifecycleStatus = ACTIVE, and marketingApproved = true.
 
 ## Dependencies
 
@@ -120,4 +120,4 @@ Stage 0 acceptance is recorded under `MPG-DEC-032`, but it does not activate thi
 - No customer segment, website type, technology, design process, domain or hosting role, content scope, SEO scope, revision rule, delivery time, maintenance offer, support term, project minimum, price, contract term, or handover method is approved.
 - No capability, asset, account, proof, partner, capacity, permission, or professional review is presumed available.
 - Professional Business Websites is the first service to undergo readiness work, but it is not automatically ACTIVE or market-approved.
-- This backlog does not begin Stage 1 or any later stage.
+- Stage 1 activation does not activate later-stage backlog implementation or any later company stage.
