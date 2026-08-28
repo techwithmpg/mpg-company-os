@@ -16,6 +16,21 @@
 
 Define how MPG will identify, investigate, compare, and select evidence-backed customer segments and market opportunities during the active Stage 1 work authorized under `MPG-DEC-033`, before converting a strategic capability into a commercial offer. The immediate use is to establish who, if anyone, Professional Business Websites should serve first and which problems MPG can solve reliably.
 
+## Current market-role recommendation — not accepted
+
+The current Stage 1 research synthesis supports the following working architecture. Every role remains `RECOMMENDED`, requires an inspectable evidence record and owner review, and must not be treated as an accepted target market, active service geography, or claim of operating presence.
+
+| Market | Recommended learning or hypothesis role | Decision state |
+|---|---|---|
+| Philippines | Founder/home-market learning opportunity | `RECOMMENDED` |
+| Australia | Primary structured remote-market hypothesis | `RECOMMENDED` |
+| United Kingdom | Secondary remote-market hypothesis | `RECOMMENDED` |
+| New Zealand | Experimental hypothesis | `RECOMMENDED` |
+| Cameroon | Founder-advantage validation market | `RECOMMENDED` |
+| South Africa | Later structured African-market hypothesis | `RECOMMENDED` |
+
+The accepted Company Intent, Purpose, Vision, and Brand Beliefs must remain usable across these hypotheses without becoming generic. No geography is accepted merely because it appears in this framework.
+
 ## Questions the stage must answer
 
 - Which customer groups experience a problem that fits MPG's current and near-term capability?
@@ -92,6 +107,7 @@ Stage 1 activation authorizes bounded research; it does not validate a customer,
 
 - That Stage 1 activation means a target customer, market finding, or recommendation has already been accepted.
 - That a target customer, industry, geography, buyer role, problem, budget, or channel has been validated.
+- That the current recommended market-role architecture is accepted, funded, operational, or evidence of local presence.
 - That founder familiarity with a market proves demand or fit.
 - That an addressable market estimate proves an attainable market for MPG.
 - That interest, survey responses, social engagement, or competitor activity equals purchase intent.

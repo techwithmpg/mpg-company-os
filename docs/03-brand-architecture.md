@@ -8,7 +8,7 @@
 | Owner | MPG Founder |
 | Last Updated | 2026-08-28 |
 | Public Safe | Yes |
-| Authority | `MPG-DEC-001` through `MPG-DEC-004` and `MPG-DEC-027` through `MPG-DEC-030`, with service-claim constraints from the decision register |
+| Authority | `MPG-DEC-001` through `MPG-DEC-004`, `MPG-DEC-027` through `MPG-DEC-030`, and Stage 1 foundation decisions `MPG-DEC-034` through `MPG-DEC-037` |
 
 ## Architecture at a glance
 
@@ -46,6 +46,16 @@ Until then:
 - it may be described as a working idea or organizing architecture;
 - it must not be described as permanent, registered, tested, or final;
 - no visual identity, slogan ownership, or legal protection is assumed.
+
+## Relationship to the accepted company foundation
+
+The accepted Company Intent, Purpose, Vision, and Brand Beliefs give the architecture long-term direction:
+
+- **BUILD** supports thoughtful technology and practical problem-solving;
+- **GROW** represents future capability to help businesses strengthen communication and growth; and
+- **CONNECT** represents the future ambition to develop meaningful commercial connections between businesses and markets.
+
+This interpretation does not activate a domain or service. In particular, CONNECT does not establish current trade, sourcing, shipping, freight-forwarding, manufacturer-representation, distribution, infrastructure, or partner capability.
 
 ## Master brand and domains
 
@@ -131,9 +141,9 @@ The future website may explain the company narrative and capability direction, b
 
 ## What this document does not decide
 
-This accepted architecture does not decide:
+This accepted architecture, together with the accepted Stage 1 foundation, does not decide:
 
-- final positioning, promise, values, tone of voice, tagline, visual identity, or naming system;
+- final positioning, value proposition, brand promise, detailed voice, tagline, visual identity, or naming system;
 - target customer segments, markets, channels, or campaign strategy;
 - active service scope, pricing, availability, proof, capacity, or service levels;
 - legal structure, staffing, locations, partners, or infrastructure.

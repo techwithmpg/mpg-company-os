@@ -1,10 +1,10 @@
 # Research Workspace
 
-**STATUS: FRAMEWORK — NOT YET ACTIVATED**
+**STATUS: ACTIVE FOR BOUNDED STAGE 1 RESEARCH**
 
 - **Owner:** MPG Founder
 - **Public Safe:** Yes
-- **Purpose:** Future home for public-safe research that informs proposals without silently becoming company policy or a marketable offer.
+- **Purpose:** Home for public-safe, bounded Stage 1 research that informs proposals without silently becoming company policy or a marketable offer.
 
 ## Directory Rules
 
@@ -16,6 +16,6 @@
 - Do not store private interview identities, supplier contacts, confidential quotes, credentials, copyrighted source copies, or sensitive commercial intelligence here.
 - Research, course completion, tool access, travel, or a new contact does not validate capability or authorize public sale.
 
-## Activation
+## Current boundary
 
-This workspace becomes operational only for a bounded, owner-authorized research question. Its existence does not begin a company stage, validate a skill, approve a partner, purchase a tool, or activate a service.
+Stage 1 authorizes bounded company, customer, market, positioning, and brand-foundation research under `MPG-DEC-033`. Each research question still needs a defined scope and public-safe method. Research does not validate a customer or skill, accept a market recommendation, approve a partner, purchase a tool, activate a service, or begin Stage 2.

@@ -12,6 +12,20 @@
 
 This changelog records material Company OS changes. It does not replace Git history, the project status, or the decision register. No versions or earlier baselines are inferred where none exist.
 
+## 2026-08-28 — Stage 1 brand foundation accepted
+
+### Accepted
+
+- Recorded MPG's Company Intent under `MPG-DEC-034`, Company Purpose under `MPG-DEC-035`, and Company Vision plus public-safe economic principle under `MPG-DEC-036`.
+- Accepted the six-principle Brand Belief system under `MPG-DEC-037`: Understand Before Recommending; Truth Before Hype; Solve What Matters; Relationships Over Short-Term Gain; Dependability by Design; and Ambition with Discipline.
+
+### Governance effect
+
+- Stage 1 remains active and incomplete; target customer, positioning, value proposition, brand promise, detailed voice, messaging, claims matrix, final tagline, and visual identity remain unaccepted.
+- Current market-role recommendations remain `RECOMMENDED`, not accepted.
+- Stage 2 remains inactive. No service, final price, marketing approval, capability validation, additional WIP, or marketable offer was activated.
+- The public record contains only the general economic principle; no exact private owner-income milestone or household financial detail was published.
+
 ## 2026-08-28 — Stage 1 activated
 
 ### Activated

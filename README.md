@@ -31,6 +31,29 @@ This is a company repository, not merely a website repository. The website is on
 
 Stage 0 remains the accepted governance baseline. Stage 1 is **ACTIVE** under `MPG-DEC-033` and operates within the Stage 0 controls. Stage 2 and all later stages are **NOT ACTIVATED**. Stage 1 activation does not itself approve a service, price, customer segment, partnership, capability claim, marketing claim, or additional productization track.
 
+## Accepted company foundation
+
+MPG's accepted Stage 1 foundation is recorded under `MPG-DEC-034` through `MPG-DEC-037`.
+
+**Purpose**
+
+> MPG exists to help businesses solve practical problems, save time, and move forward with greater confidence through thoughtful technology, commercial understanding, and dependable human service.
+
+**Intent and vision**
+
+MPG is being built into a sustainable, internationally capable company with strong delivery systems, long-term and recurring client relationships, responsible employment growth, and the future ability to create technology, growth, and commercial solutions while connecting businesses and markets across Africa, Asia, and beyond. This is intended future direction, not a claim of current scale, recurring clients, employees, international operations, trade capability, infrastructure, or partners.
+
+**Brand Beliefs**
+
+1. Understand Before Recommending
+2. Truth Before Hype
+3. Solve What Matters
+4. Relationships Over Short-Term Gain
+5. Dependability by Design
+6. Ambition with Discipline
+
+MPG should become financially sustainable enough to provide reliable owner compensation, create employment, meet operating obligations, maintain resilience, and reinvest responsibly. Private household details and exact private income milestones do not belong in this public repository.
+
 ## Company direction
 
 MPG is the master company brand. Its accepted working architecture is:

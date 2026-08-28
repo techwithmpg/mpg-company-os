@@ -42,7 +42,7 @@ This is the first service family to undergo productization and readiness review.
 
 No secondary track should be inferred from research files, tool evaluations, or founder learning.
 
-## COMPLETED
+## COMPLETED / ACCEPTED MILESTONES
 
 The following are supported by the owner-directed bootstrap and repository state:
 
@@ -55,6 +55,7 @@ The following are supported by the owner-directed bootstrap and repository state
 - Post-bootstrap owner decisions reconciled into the Stage 0 candidate baseline: Mobile Applications, founder capability declarations, the seven-family sequence, future Brand & Content architecture, and the Client Project Readiness backlog requirement.
 - Stage 0 — Governance and Source of Truth explicitly accepted by the MPG Founder.
 - Stage 1 — Company and Brand Foundation explicitly activated by the MPG Founder.
+- Company Intent, Company Purpose, Company Vision, the public-safe economic principle, and the six Brand Beliefs explicitly accepted under `MPG-DEC-034` through `MPG-DEC-037`.
 
 Stage 1 activation preserves every Stage 0 service-readiness and governance control.
 
@@ -62,7 +63,7 @@ Stage 1 activation preserves every Stage 0 service-readiness and governance cont
 
 **Execute Stage 1 — Company and Brand Foundation under the accepted Stage 0 governance baseline.**
 
-Current Stage 1 work may address the authorized company and brand foundations while preserving unanswered matters as `PROPOSED`, `RECOMMENDED`, `TBD`, or `UNKNOWN` until appropriately decided. Professional Business Websites remains the sole primary commercial productization track under the existing lifecycle, evidence, WIP, and publication controls. Stage 2 and all later stages remain inactive.
+Current Stage 1 work should use the accepted intent, purpose, vision, economic principle, and Brand Beliefs to resolve the remaining customer, positioning, value-proposition, promise, voice, messaging, claims, and working-tagline questions. Those remaining matters stay `PROPOSED`, `RECOMMENDED`, `TBD`, or `UNKNOWN` until appropriately decided. Professional Business Websites remains the sole primary commercial productization track under the existing lifecycle, evidence, WIP, and publication controls. Stage 2 and all later stages remain inactive.
 
 ## RISKS
 

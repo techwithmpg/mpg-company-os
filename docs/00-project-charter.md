@@ -37,6 +37,18 @@ Success is not measured by how large MPG appears. It is measured by how reliably
 
 The current commercial priority is **Professional Business Websites**. The primary build track is website service productization. The secondary capability-development track remains **UNALLOCATED / owner decision required**.
 
+## Accepted Stage 1 company foundation
+
+Under `MPG-DEC-034` through `MPG-DEC-037`:
+
+- **Intent:** build MPG into a sustainable, internationally capable company that solves practical problems, develops long-term client relationships and repeatable delivery systems, creates employment as it grows, and eventually connects opportunities between businesses and markets without sacrificing honesty, relationships, human values, quality, or financial resilience.
+- **Purpose:** help businesses solve practical problems, save time, and move forward with greater confidence through thoughtful technology, commercial understanding, and dependable human service.
+- **Vision:** become a trusted international company with recurring client relationships, strong delivery capability, and a growing team—creating technology, growth, and commercial solutions while developing meaningful connections between businesses and markets across Africa, Asia, and beyond.
+- **Economic principle:** become financially sustainable enough to provide reliable owner compensation, create employment, meet operating obligations, maintain resilience, and reinvest responsibly.
+- **Brand Beliefs:** Understand Before Recommending; Truth Before Hype; Solve What Matters; Relationships Over Short-Term Gain; Dependability by Design; and Ambition with Discipline.
+
+These are accepted future direction and decision principles, not evidence of current clients, staff, international operations, trade capability, service readiness, or market approval. Detailed definitions and remaining open brand questions are governed by `docs/04-brand-strategy.md`.
+
 ## Scope
 
 Stage 0 includes:

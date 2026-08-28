@@ -61,6 +61,10 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 | MPG-DEC-031 | ACCEPTED | **Client Project Readiness & Dependency Detection is a future Company OS backlog requirement.** | It will distinguish client-specific prerequisites from MPG service readiness and classify dependencies as `REQUIRED`, `RECOMMENDED`, or `OPTIONAL`; implementation remains deferred to later authorized stages. |
 | MPG-DEC-032 | ACCEPTED | **Stage 0 — Governance and Source of Truth is accepted as the governing baseline for the MPG Company OS.** | Acceptance closes the Stage 0 governance gate. Stage 1 remains inactive and requires a separate explicit owner activation decision. This decision does not activate services, approve marketing, validate capabilities, set pricing, allocate new WIP, or override readiness controls. |
 | MPG-DEC-033 | ACCEPTED | **Stage 1 — Company and Brand Foundation is activated under the accepted Stage 0 governance baseline.** | Stage 1 is the active company-development stage. Stage 0 remains the accepted governance baseline; Stage 2 and all later stages remain inactive. This decision does not activate services, approve marketing, validate capabilities, set final service pricing, allocate a secondary productization track, or override readiness, lifecycle, evidence, publication, WIP, public-safety, or decision controls. |
+| MPG-DEC-034 | ACCEPTED | **MPG's Company Intent is to build a sustainable, internationally capable company that solves practical business problems, develops long-term client relationships, builds project-based and recurring income, creates employment as it grows, strengthens delivery capability and repeatable systems, and eventually connects opportunities between businesses and markets.** | Expansion across BUILD, GROW, and CONNECT must follow evidence and real delivery readiness. The intent is future-facing and does not claim current recurring clients, employees, international operations, trade capability, infrastructure, or partners. Growth must preserve honesty, relationships, human values, quality, and financial resilience. |
+| MPG-DEC-035 | ACCEPTED | **MPG exists to help businesses solve practical problems, save time, and move forward with greater confidence through thoughtful technology, commercial understanding, and dependable human service.** | This Company Purpose guides company and brand decisions but does not establish an active service, guaranteed outcome, final positioning, or marketing approval. |
+| MPG-DEC-036 | ACCEPTED | **MPG's Company Vision is to become a trusted international company with recurring client relationships, strong delivery capability, and a growing team—creating technology, growth, and commercial solutions while developing meaningful connections between businesses and markets across Africa, Asia, and beyond.** | This is an intended future state, not a current operating claim. MPG should become financially sustainable enough to provide reliable owner compensation, create employment, meet operating obligations, maintain resilience, and reinvest responsibly. Private household details and exact private income milestones remain outside the public repository. |
+| MPG-DEC-037 | ACCEPTED | **MPG's Brand Beliefs are: Understand Before Recommending; Truth Before Hype; Solve What Matters; Relationships Over Short-Term Gain; Dependability by Design; and Ambition with Discipline.** | The beliefs govern observable decisions and behaviour across BUILD, GROW, and CONNECT. They do not create unlimited client scope, require unsustainable concessions, guarantee outcomes outside MPG's control, activate a service, validate capability, finalize a tagline, or grant marketing approval. |
 
 ## Decision dependencies
 
@@ -71,6 +75,7 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 - `MPG-DEC-031` governs the deferred Client Project Readiness requirement without activating its implementation.
 - `MPG-DEC-032` closes the Stage 0 acceptance gate while preserving the separate Stage 1 activation requirement.
 - `MPG-DEC-033` satisfies that separate Stage 1 activation requirement while preserving the separate Stage 2 gate and all commercial controls.
+- `MPG-DEC-034` through `037` establish the accepted Stage 1 company intent, purpose, vision, economic principle, and behavioural brand foundation without completing Stage 1.
 
 ## Superseded decisions
 
@@ -84,7 +89,7 @@ The following remain unresolved and are **not** accepted decisions:
 
 - secondary capability-development track;
 - Stage 1 completion/acceptance and Stage 2 activation;
-- final tagline and detailed brand strategy;
+- final tagline and remaining detailed brand strategy outputs;
 - priority customer segment and geography;
 - final service scope, pricing, capacity, and delivery model;
 - any service lifecycle advancement to `ACTIVE`;
