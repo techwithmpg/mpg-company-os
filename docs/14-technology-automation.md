@@ -5,13 +5,19 @@
 - **Document:** Technology and Automation
 - **Stage:** Stage 8 — Internal Operations and Automation
 - **Owner:** MPG Founder
-- **Last Updated:** 2026-08-28
+- **Last Updated:** 2026-09-17
 - **Public Safe:** Yes
 - **Authority:** Framework only; no tool, integration, AI use, or automation offer is approved here
 
 ## Purpose
 
 Define safeguards for evaluating and implementing internal or client-facing technology, workflow automation, integrations, and AI-assisted processes. Automation should solve a clear, stable business problem with accountable human oversight; it must not be adopted for novelty or marketed through vague transformation claims.
+
+## Authorized secondary product project
+
+Under `MPG-DEC-038` and `MPG-DEC-039`, [MPG Reputation](../products/mpg-reputation/README.md) is a concrete, bounded incubation/build project spanning business systems, workflow automation, integrations, event-driven architecture and reputation automation. All sources normalize to `CUSTOMER_COMPLETED`; vendor logic belongs behind adapters, and routine operations should be automated with visible exceptions.
+
+This authorization permits product requirements, architecture and eventual development in its separate software repository. It does not activate this Stage 8 internal-operations framework, Stage 2, Stage 7, or the corporate website. The recommended Next.js/TypeScript, Vercel, Supabase/PostgreSQL, Resend, Twilio and monitoring choices are evaluations, not adopted tools, operating accounts, implemented integrations or partner relationships. The product document owns the recommendations and their verification dependencies; resource adoption still follows the tool policy.
 
 ## Questions This Stage Must Answer
 

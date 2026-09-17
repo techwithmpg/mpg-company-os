@@ -6,7 +6,7 @@
 | Status | ACTIVE |
 | Stage | Stage 0 — Governance and Source of Truth |
 | Owner | MPG Founder |
-| Last Updated | 2026-08-28 |
+| Last Updated | 2026-09-17 |
 | Public Safe | Yes |
 | Authority | Authoritative record of explicit owner decisions under the accepted Stage 0 governance baseline |
 
@@ -65,8 +65,16 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 | MPG-DEC-035 | ACCEPTED | **MPG exists to help businesses solve practical problems, save time, and move forward with greater confidence through thoughtful technology, commercial understanding, and dependable human service.** | This Company Purpose guides company and brand decisions but does not establish an active service, guaranteed outcome, final positioning, or marketing approval. |
 | MPG-DEC-036 | ACCEPTED | **MPG's Company Vision is to become a trusted international company with recurring client relationships, strong delivery capability, and a growing team—creating technology, growth, and commercial solutions while developing meaningful connections between businesses and markets across Africa, Asia, and beyond.** | This is an intended future state, not a current operating claim. MPG should become financially sustainable enough to provide reliable owner compensation, create employment, meet operating obligations, maintain resilience, and reinvest responsibly. Private household details and exact private income milestones remain outside the public repository. |
 | MPG-DEC-037 | ACCEPTED | **MPG's Brand Beliefs are: Understand Before Recommending; Truth Before Hype; Solve What Matters; Relationships Over Short-Term Gain; Dependability by Design; and Ambition with Discipline.** | The beliefs govern observable decisions and behaviour across BUILD, GROW, and CONNECT. They do not create unlimited client scope, require unsustainable concessions, guarantee outcomes outside MPG's control, activate a service, validate capability, finalize a tagline, or grant marketing approval. |
+| MPG-DEC-038 | ACCEPTED | **MPG Reputation / Review & Reputation Automation is the authorized secondary learning, incubation and product-build track.** | Owner direction recorded 2026-09-17. Allocates the existing secondary slot; supersedes only the unallocated-slot statement in `MPG-DEC-029`, not its seven-family commercial sequence. Professional Business Websites remains primary; the one-primary-plus-one-secondary WIP limit remains. Requirements, architecture, UX/technical design, prototypes, development, testing, provider evaluation and internal pilots are authorized. No later company stage, public launch, unrestricted solicitation, final pricing, lifecycle `ACTIVE`, or marketing approval follows. |
+| MPG-DEC-039 | ACCEPTED | **MPG Reputation requires its own dedicated product website/application and may be designed, developed, tested and eventually operated independently of the future MPG umbrella website.** | Owner direction recorded 2026-09-17. No umbrella-site prerequisite. The product site and authenticated app may share a product codebase. Company OS remains governance; production application code belongs in a separate software repository. `techwithmpg/mpg-reputation` is a recommended working repository name, not an existence claim or authorization to create it. Commercial operation remains readiness- and approval-gated. |
+| MPG-DEC-040 | ACCEPTED | **The independent MPG Reputation product surface does not activate, replace or restructure Stage 7 — MPG Website or the future corporate/umbrella website.** | Owner direction recorded 2026-09-17. Stage 1 remains active; Stage 2 and all later company stages remain inactive. Do not design or build the corporate site, a temporary umbrella site, MPG-wide service catalogues, or a de facto corporate site through this authorization. BUILD/GROW/CONNECT remains unchanged; Trade/CONNECT need not appear on the product site. |
+| MPG-DEC-041 | ACCEPTED | **MPG Reputation's central experience requirement is: seamless for the business, seamless for the customer, seamless for MPG.** | Owner direction recorded 2026-09-17. Configure sources, destination and rules once where practical; adapt to existing systems without forcing a new CRM; provide a recognizable request and direct review path without an MPG customer account or installation; automate routine work and surface exceptions. Operating principle: Automate the normal. Surface the exception. These are design targets, not claims of implemented performance. |
+| MPG-DEC-042 | ACCEPTED | **Initial MPG Reputation product validation focuses on the United States and Canada, preserving technical compatibility for Australia later.** | Owner direction recorded 2026-09-17. Product-specific validation geography only; no final vertical, validated demand, local offices, employees, legal entities, or current market availability is implied. Does not replace the separate company/website-service market hypotheses. Country-specific communication and privacy implementation still require professional verification. |
+| MPG-DEC-043 | ACCEPTED | **MPG Reputation is the accepted working product identity subordinate to the MPG master brand.** | Owner direction recorded 2026-09-17. The relationship is MPG → MPG Reputation, not a separate unrelated company. The product website may prominently use this identity with an appropriate MPG relationship. This is development naming authority, not a frozen final name, trademark clearance or legal-entity decision. Public operation does not activate other MPG divisions/services or bypass publication gates. |
 
 ## Decision dependencies
+
+- `MPG-DEC-038` through `MPG-DEC-043` govern the bounded MPG Reputation product direction. Technical and commercial recommendations remain in [the product document](../products/mpg-reputation/README.md), not accepted implementation decisions.
 
 - `MPG-DEC-008`, `020`, and `029` govern current work prioritization; `MPG-DEC-007` is retained only as superseded history.
 - `MPG-DEC-006`, `016`, `017`, `021`, `022`, and `023` govern service readiness and public claims.
@@ -76,6 +84,10 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 - `MPG-DEC-032` closes the Stage 0 acceptance gate while preserving the separate Stage 1 activation requirement.
 - `MPG-DEC-033` satisfies that separate Stage 1 activation requirement while preserving the separate Stage 2 gate and all commercial controls.
 - `MPG-DEC-034` through `037` establish the accepted Stage 1 company intent, purpose, vision, economic principle, and behavioural brand foundation without completing Stage 1.
+
+## Partial supersession record
+
+As of 2026-09-17, `MPG-DEC-038` supersedes only the secondary-slot-unallocated implication of `MPG-DEC-029`. The historical row is retained verbatim; its commercial sequence remains accepted. `MPG-DEC-033` still governs Stage 1: its statement that Stage 1 activation did not allocate a secondary track remains historically correct; allocation now comes from `MPG-DEC-038`.
 
 ## Superseded decisions
 
@@ -87,11 +99,11 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 
 The following remain unresolved and are **not** accepted decisions:
 
-- secondary capability-development track;
 - Stage 1 completion/acceptance and Stage 2 activation;
 - final tagline and remaining detailed brand strategy outputs;
-- priority customer segment and geography;
+- priority company/website-service customer segment and geography; MPG Reputation has product-validation geography under `MPG-DEC-042`, while its final vertical remains open;
 - final service scope, pricing, capacity, and delivery model;
 - any service lifecycle advancement to `ACTIVE`;
-- any marketing approval or named partner relationship; and
-- implementation or activation of Client Project Readiness & Dependency Detection.
+- any marketing approval or named partner relationship;
+- implementation or activation of Client Project Readiness & Dependency Detection; and
+- MPG Reputation final naming, vertical, commercial terms, providers/infrastructure, compliance, attribution, support, pilot eligibility and launch decisions listed in `products/mpg-reputation/README.md`.

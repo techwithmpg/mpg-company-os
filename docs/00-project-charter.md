@@ -6,7 +6,7 @@
 | Status | ACTIVE — STAGE 0 ACCEPTED |
 | Stage | Stage 0 — Governance and Source of Truth |
 | Owner | MPG Founder |
-| Last Updated | 2026-08-28 |
+| Last Updated | 2026-09-17 |
 | Public Safe | Yes |
 | Authority | Owner-accepted Stage 0 mandate under `MPG-DEC-032`; Stage 1 transition under `MPG-DEC-033` |
 
@@ -35,7 +35,7 @@ Success is not measured by how large MPG appears. It is measured by how reliably
 
 **Stage 0 — Governance and Source of Truth is ACCEPTED** as the governing Company OS baseline under `MPG-DEC-032`. **Stage 1 — Company and Brand Foundation is ACTIVE** under `MPG-DEC-033` and operates within the architecture and controls established by Stage 0. Stage 2 and all later stages remain inactive pending their own explicit owner decisions.
 
-The current commercial priority is **Professional Business Websites**. The primary build track is website service productization. The secondary capability-development track remains **UNALLOCATED / owner decision required**.
+The current commercial priority is **Professional Business Websites**. The primary build track is website service productization. The secondary incubation/build track is **MPG Reputation / Review & Reputation Automation**, explicitly allocated under `MPG-DEC-038`. Its independent product surface is authorized under `MPG-DEC-039`; the future corporate website and Stage 7 remain separately gated under `MPG-DEC-040`. This is a bounded product authorization, not activation of a later company stage.
 
 ## Accepted Stage 1 company foundation
 

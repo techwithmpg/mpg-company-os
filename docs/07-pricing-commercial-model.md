@@ -5,13 +5,17 @@
 - **Document:** Pricing and Commercial Model
 - **Stage:** Stage 2 — Services, Offers and Pricing
 - **Owner:** MPG Founder
-- **Last Updated:** 2026-08-28
+- **Last Updated:** 2026-09-17
 - **Public Safe:** Yes
 - **Authority:** Framework only; no prices or commercial terms are approved here
 
 ## Purpose
 
 Define the questions and evidence needed for MPG to create repeatable, defensible commercial models for delivery-ready services. The framework prevents arbitrary pricing, hidden delivery costs, and the use of one pricing method across fundamentally different work. It does not price or launch any service.
+
+## MPG Reputation commercial research boundary
+
+The owner-authorized secondary product track may investigate economics under `MPG-DEC-038` without activating Stage 2 or finalizing commercial terms. Its [economic model](../products/mpg-reputation/README.md#economics-and-commercial-hypotheses) is **NOT FINAL / VALIDATION REQUIRED**. The discussed approximate USD $59–$79/month single-location range is a market-validation hypothesis, not an approved price. Final pricing requires verified COGS, support/onboarding burden, payment costs, comparable market evidence, willingness to pay, margin logic, risk allowance and owner approval. Public provider observations must have authoritative sources and retrieval dates; sensitive COGS/margins belong in approved private storage.
 
 ## Questions This Stage Must Answer
 

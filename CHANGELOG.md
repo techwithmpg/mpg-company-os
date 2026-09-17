@@ -6,11 +6,19 @@
 | Status | ACTIVE |
 | Stage | Stage 0 — Governance and Source of Truth |
 | Owner | MPG Founder |
-| Last Updated | 2026-08-28 |
+| Last Updated | 2026-09-17 |
 | Public Safe | Yes |
 | Authority | Historical summary; decisions remain authoritative in the decision register |
 
 This changelog records material Company OS changes. It does not replace Git history, the project status, or the decision register. No versions or earlier baselines are inferred where none exist.
+
+## 2026-09-17 — MPG Reputation secondary build direction accepted
+
+- Recorded `MPG-DEC-038` through `MPG-DEC-043`: secondary allocation, independent product website/application, preserved umbrella-site boundary, three-sided seamless principle, US/Canada validation focus and subordinate working identity.
+- Added the authoritative public-safe product direction and a separate `REP-*` backlog; synchronized current status, agent instructions, architecture, market scope, WIP and registry allocation.
+- Retained all historical decisions, the seven-family commercial sequence and the `WEB-001` through `WEB-027` readiness audit. Stage 1 remains active; Stage 2, Stage 7 and other later company stages remain inactive.
+- Product recommendations do not imply implemented features, adopted providers, accounts, partnerships, final pricing, service lifecycle advancement, marketing approval or public launch. Production software belongs in a separately authorized product repository.
+- Updated the governance regression test for the accepted secondary allocation; the publication gate remains unchanged.
 
 ## 2026-08-28 — Stage 1 brand foundation accepted
 

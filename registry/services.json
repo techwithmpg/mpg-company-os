@@ -5,9 +5,9 @@
     "status": "ACCEPTED",
     "stage": "STAGE_0",
     "owner": "MPG Founder",
-    "lastUpdated": "2026-08-28",
+    "lastUpdated": "2026-09-17",
     "publicSafe": true,
-    "authority": "Owner-authorized Stage 0 baseline and MPG-DEC-029 reconciliation"
+    "authority": "Owner-authorized Stage 0 baseline, MPG-DEC-029 sequence and MPG-DEC-038 secondary allocation"
   },
   "allowedValues": {
     "lifecycleStatus": [
@@ -70,9 +70,12 @@
         "status": "ACTIVE_PRODUCTIZATION"
       },
       "secondaryCapabilityTrack": {
-        "subjectId": null,
-        "status": "UNALLOCATED",
-        "ownerDecision": "NONE"
+        "subjectId": "PROD-REP-001",
+        "status": "ACTIVE",
+        "ownerDecision": "repo:docs/02-decision-register.md#mpg-dec-038",
+        "name": "MPG Reputation / Review & Reputation Automation",
+        "productDocument": "repo:products/mpg-reputation/README.md",
+        "notes": "Allocated secondary incubation/build WIP only; not service lifecycle ACTIVE, marketing approval or later-stage activation."
       }
     },
     "publicationPredicate": "lifecycleStatus == ACTIVE && marketingApproved == true",

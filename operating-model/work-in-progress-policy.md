@@ -4,9 +4,9 @@
 > **Status:** ACCEPTED — STAGE 0 BASELINE
 > **Stage:** Stage 0 — Governance and Source of Truth
 > **Owner:** MPG Founder
-> **Last Updated:** 2026-08-28
+> **Last Updated:** 2026-09-17
 > **Public Safe:** Yes
-> **Authority:** Accepted anti-scatter rule and `MPG-DEC-029`
+> **Authority:** Accepted anti-scatter rule, `MPG-DEC-029`, and bounded allocation under `MPG-DEC-038`
 
 ## Policy
 
@@ -22,7 +22,7 @@ Everything else remains `IDEA`, `RESEARCH`, `PLANNED`, backlog, or parked until 
 | Slot | Current allocation | State |
 |---|---|---|
 | Primary commercial build track | Professional Business Websites | Website service productization; not approved for sale |
-| Secondary capability-development track | UNALLOCATED / owner decision required | Unallocated until explicitly selected |
+| Secondary incubation/build track | MPG Reputation / Review & Reputation Automation (`PROD-REP-001`) | Allocated under `MPG-DEC-038`; development authorized, commercial release gated |
 
 The current commercial build order is:
 
@@ -35,6 +35,18 @@ The current commercial build order is:
 7. Trade, Sourcing and Distribution
 
 This sequence controls company productization, not all personal learning or broad owner declarations. Adding Mobile Applications to internal architecture does not admit it to either WIP slot. Stage 0 governance work and authorized Stage 1 company/brand work do not create another service-family productization track or allocate the secondary slot. Stage 1 is active under `MPG-DEC-033`; Stage 2 remains inactive.
+
+## MPG Reputation admission record
+
+- **Subject/outcome:** `PROD-REP-001`; develop and validate the review-request product defined in [product direction](../products/mpg-reputation/README.md).
+- **Slot and authority:** the one secondary slot, under `MPG-DEC-038` (2026-09-17); no additional track or change to the primary commercial sequence.
+- **Next deliverable/decision:** finalized PRD and implementation-ready architecture; then separately authorize creation of the product repository before production code.
+- **Scope:** requirements, architecture, UX/technical design, prototypes, application development, testing, provider evaluation and internal pilots; actual pilot readiness/data safeguards still apply.
+- **Resources:** founder capacity allocation, time/spend limits and provider accounts remain TBD; record them before spend or pilot commitments. Use synthetic data for design and evaluation until real-data controls are approved.
+- **Review trigger:** each product milestone and before any integration, provider-spend or pilot commitment; MPG Founder assesses impact on website productization and existing obligations.
+- **Pause/stop:** pause secondary commitments when primary obligations/quality suffer, capacity is unavailable, scope exceeds one bounded product, or material data/compliance/cost controls are unresolved. Record the re-entry decision.
+
+The secondary WIP registry value `ACTIVE` means the slot is allocated; it is not service lifecycle `ACTIVE` or permission to market. The product site is independent of the future umbrella website and does not activate Stage 7.
 
 ## What counts as primary-track WIP
 

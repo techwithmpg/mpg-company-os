@@ -6,7 +6,7 @@
 | Status | CURRENT — STAGE 1 ACTIVE |
 | Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
-| Last Updated | 2026-08-28 |
+| Last Updated | 2026-09-17 |
 | Public Safe | Yes |
 | Authority | Current operational snapshot; decisions remain authoritative in the decision register |
 
@@ -34,13 +34,15 @@ This is the first service family to undergo productization and readiness review.
 
 ## PRIMARY BUILD TRACK
 
-**Website service productization**
+**Professional Business Websites — website service productization**
 
-## SECONDARY LEARNING TRACK
+## SECONDARY INCUBATION/BUILD TRACK
 
-**UNALLOCATED / owner decision required**
+**MPG Reputation / Review & Reputation Automation — OWNER-AUTHORIZED** (`MPG-DEC-038`).
 
-No secondary track should be inferred from research files, tool evaluations, or founder learning.
+MPG Reputation is authorized for requirements, architecture, UX/technical design, prototypes, application development, testing, provider evaluation, and internal pilots as the single secondary incubation/build track. Its dedicated product website/application may proceed independently of the future MPG umbrella website under `MPG-DEC-039`. This bounded authorization does not activate Stage 2, Stage 7, or any other later company stage, change the primary commercial sequence, or grant service activation, final pricing, marketing approval, unrestricted customer solicitation, or public launch. The main MPG umbrella website remains a separate later-stage project; no temporary umbrella site is a prerequisite. See the [authoritative product direction](../products/mpg-reputation/README.md).
+
+Product status: **BUILD AUTHORIZED; requirements and architecture preparation; no production implementation or delivery readiness asserted**. The registry secondary-slot value `ACTIVE` means allocated WIP only, not service lifecycle `ACTIVE`. No separate product service record or marketing approval exists yet. The Company OS remains governance; the recommended future `techwithmpg/mpg-reputation` software repository is not created or asserted to exist.
 
 ## COMPLETED / ACCEPTED MILESTONES
 
@@ -56,6 +58,7 @@ The following are supported by the owner-directed bootstrap and repository state
 - Stage 0 — Governance and Source of Truth explicitly accepted by the MPG Founder.
 - Stage 1 — Company and Brand Foundation explicitly activated by the MPG Founder.
 - Company Intent, Company Purpose, Company Vision, the public-safe economic principle, and the six Brand Beliefs explicitly accepted under `MPG-DEC-034` through `MPG-DEC-037`.
+- MPG Reputation secondary build allocation, independent product surface, umbrella-site boundary, seamless principle, US/Canada validation focus, and subordinate working identity accepted under `MPG-DEC-038` through `MPG-DEC-043` on 2026-09-17.
 
 Stage 1 activation preserves every Stage 0 service-readiness and governance control.
 
@@ -64,6 +67,8 @@ Stage 1 activation preserves every Stage 0 service-readiness and governance cont
 **Execute Stage 1 — Company and Brand Foundation under the accepted Stage 0 governance baseline.**
 
 Current Stage 1 work should use the accepted intent, purpose, vision, economic principle, and Brand Beliefs to resolve the remaining customer, positioning, value-proposition, promise, voice, messaging, claims, and working-tagline questions. Those remaining matters stay `PROPOSED`, `RECOMMENDED`, `TBD`, or `UNKNOWN` until appropriately decided. Professional Business Websites remains the sole primary commercial productization track under the existing lifecycle, evidence, WIP, and publication controls. Stage 2 and all later stages remain inactive.
+
+The secondary track may now create/finalize its PRD and implementation-ready architecture, then establish its separate product repository after the required repository-creation authorization. Application code does not belong in Company OS.
 
 ## RISKS
 
@@ -77,13 +82,20 @@ Current Stage 1 work should use the accepted intent, purpose, vision, economic p
 | Partner dependency | Future trade, logistics, regulated, and specialist work may rely on third parties | Partner due diligence, explicit delivery mode, and partner readiness gate |
 | Evidence gaps | Skills, tools, assets, processes, economics, and proof are not yet fully assessed | Readiness registers and service launch gates preserve unknowns |
 | Brand overclaiming | Strategic pillars may be read as active divisions or offers | Brand architecture labels them as capability domains, not market claims |
+| Two concurrent tracks | Reputation work may displace website productization and exceed founder bandwidth | One primary plus one secondary; review capacity before each milestone and pause secondary work if primary obligations suffer |
+| Messaging compliance | US/Canada sender, registration, consent, and unsubscribe controls remain unverified | Email-first trial recommendation; country policy engine and professional pre-launch review |
+| Customer-data privacy | Completion events and attribution introduce personal information | Minimize collection, isolate organizations, define retention/export/deletion; keep private data outside this repository |
+| Provider dependency | Messaging and Google access, pricing, or APIs may change | Provider adapters, current capability/cost checks, failure handling and exit plans |
+| Premature product launch | Build authorization or a product site may be mistaken for public availability | Independent product surface does not satisfy G1–G13 or the publication gate |
+| Integration scope | Supporting many CRMs may consume the secondary track | Quick Complete and universal webhook first; one validated native connector before expansion |
+| Unvalidated economics | Support, onboarding, messaging and shared costs may undermine viability | Usage ledger and full contribution model; no final prices or unlimited allowances |
 
 ## CONSTRAINTS IN FORCE
 
 - Stage 0 remains the accepted governing baseline; Stage 1 is active; Stage 2 and later stages are not activated.
 - Professional Business Websites remains the first commercial build priority.
 - One major new service family is productized at a time by default.
-- Secondary learning track remains unassigned until owner decision.
+- MPG Reputation occupies the only secondary incubation/build slot under `MPG-DEC-038`; no additional track is authorized.
 - Mobile Applications remains a future `PLANNED` family and does not consume either WIP slot.
 - Brand & Content remains future GROW architecture, and Client Project Readiness remains an inactive backlog requirement.
 - Future-stage documents are frameworks, not completed strategy.

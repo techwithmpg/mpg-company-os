@@ -2,16 +2,18 @@
 
 **STATUS: FRAMEWORK — NOT YET ACTIVATED**
 
+**Bounded exception:** MPG Reputation secondary incubation/build work is authorized under `MPG-DEC-038`; its separate `REP-*` backlog below does not activate this framework as a whole or any later company stage.
+
 - **Document:** Company OS Backlog
 - **Stage:** Cross-stage planning; current active company stage is Stage 1
 - **Owner:** MPG Founder
-- **Last Updated:** 2026-08-28
+- **Last Updated:** 2026-09-17
 - **Public Safe:** Yes
-- **Authority:** Framework and readiness questions only; inclusion does not authorize execution
+- **Authority:** Framework and readiness questions; `REP-*` build scope separately authorized by `MPG-DEC-038`. Inclusion alone does not authorize execution, spend or release.
 
 ## Purpose
 
-Maintain a public-safe, decision-oriented backlog for authorized future-stage work. The first concrete readiness audit is Professional Business Websites, MPG's current commercial priority and primary productization track. Every item below is NOT_ASSESSED until evidence and an owner decision are recorded; no item launches or prices the service.
+Maintain a public-safe, decision-oriented backlog for authorized future-stage work. The first concrete readiness audit is Professional Business Websites, MPG's current commercial priority and primary productization track. Every website readiness item below remains NOT_ASSESSED until evidence and an owner decision are recorded; no item launches or prices the service. The separately authorized Reputation backlog has explicit item statuses.
 
 ## Questions This Stage Must Answer
 
@@ -46,6 +48,44 @@ Maintain a public-safe, decision-oriented backlog for authorized future-stage wo
 | WEB-025 | G12 Partner | Which specialist tasks, if any, require a partner and has each required partner passed governance? | Delivery-mode decision and approved partner evidence |
 | WEB-026 | G13 Marketing | What audience, offer wording, proof, limitations, call to action, and enquiry capacity support truthful publication? | Marketing-readiness record |
 | WEB-027 | Publication Gate | Do all required gates pass, does the owner approve marketing, and does authoritative data enforce lifecycleStatus = ACTIVE plus marketingApproved = true? | Signed readiness decision, valid registry record, validator pass, and generated-catalogue review |
+
+## MPG Reputation secondary incubation/build backlog
+
+**OWNER-AUTHORIZED SECONDARY BUILD SCOPE — NOT COMMERCIAL RELEASE**
+
+Authority: `MPG-DEC-038` through `MPG-DEC-043`. Product/WIP subject: `PROD-REP-001`. The [authoritative product direction](../products/mpg-reputation/README.md) owns requirements and recommendations; this section owns task status and closure evidence. These `REP-*` IDs do not alter or duplicate the `WEB-001` through `WEB-027` audit above. The MPG Founder is accountable for prioritization and acceptance; no staffing or budget is inferred.
+
+`RECORDED` means governance direction exists, not product readiness. `TODO` means work is within the authorized development boundary but not completed. `GATED` means dependent evidence or separate authorization is required before the consequential action. `DEFERRED` means excluded from the first build. No row advances a service lifecycle or approves public solicitation.
+
+| ID | Category | Status | Bounded deliverable / closure evidence | Dependencies or gate |
+|---|---|---|---|---|
+| REP-GOV-001 | GOV | RECORDED | Owner decisions `MPG-DEC-038`–`043`, product direction and secondary WIP allocation linked and consistent | Preserve Stage 1, website primary, one secondary and dormant umbrella site |
+| REP-GOV-002 | GOV | TODO | Define bounded product service record, lifecycle evidence and mappings to relevant capabilities/tools/assets; no unsupported readiness claims | PRD scope; G1–G13 and lifecycle policy before pilot/release claims |
+| REP-GOV-003 | GOV | GATED | Obtain separate creation authority, then establish product software repository and governance/implementation ownership links | Finalize PRD/architecture; do not create repository or production code in this task |
+| REP-PRD-001 | PRD | TODO | Finalize PRD with US/Canada validation scope, buyer/vertical research, inclusions/exclusions, success/failure criteria, trial start/count/expiry and measurable seamless targets | Product direction; final vertical and terms remain unresolved |
+| REP-ECON-001 | ECON | TODO | Verify full fixed/variable cost model, support/onboarding effort, segment/number/registration costs, market references, willingness to pay and risk allowance | Dated provider sources; private COGS/margins in approved storage |
+| REP-ECON-002 | ECON | GATED | Owner-approved bounded usage, monthly pricing, overages, billing/payment/refund/tax rules supported by evidence | REP-ECON-001; professional review; $59–$79 is hypothesis only |
+| REP-LEGAL-001 | LEGAL | GATED | Qualified US/Canada messaging/privacy and Google-policy review; retention, export/deletion, suppression, identity, consent, quiet-hours and terms decisions | Before real-data/customer messaging or public launch as applicable; AU compatibility is not AU launch authority |
+| REP-ARCH-001 | ARCH | TODO | Implementation-ready boundaries, provider/adaptor contracts, event flow, deployment/monitoring options, retries, failure recovery and resource assessment | REP-PRD-001; provider/tool recommendations remain unadopted |
+| REP-DATA-001 | DATA | TODO | Organization/location model, normalized completion events, minimal contacts/consent, requests, suppression, observations, versioned attribution and usage ledger | REP-ARCH-001; explicit ownership, idempotency, access and retention contracts |
+| REP-UX-001 | UX | TODO | Business onboarding/Google confirmation, direct customer CTA, neutral private feedback and exception-based admin flows with validation/failure/recovery states | No forced CRM or customer MPG account; no review gating; accessibility criteria |
+| REP-MSG-001 | MSG | TODO | Email-first provider interface, sender/Reply-To model, delivery/bounce/unsubscribe processing, tracked link and one-reminder workflow | Synthetic end-to-end tests first; permission, suppression, destination and trial gates before actual sends |
+| REP-MSG-002 | MSG | GATED | Paid SMS interface/provisioning, local-capable identity, segments, inbound/opt-out/status handling and country policy including applicable US A2P 10DLC | REP-LEGAL-001, REP-ECON-001, provider adoption and registration evidence |
+| REP-INT-001 | INT | TODO | Quick Complete and universal webhook feeding the same canonical pipeline; authentication, replay and duplicate tests | REP-DATA-001; no historical database dependency |
+| REP-INT-002 | INT | GATED | One demand-validated native connector, then supported Completion Inbox parsing and integration-health recovery | REP-INT-001, access/terms and customer-source validation; first CRM remains TBD |
+| REP-GOOGLE-001 | GOOGLE | TODO | Per-location direct review URL validation, test/open and business confirmation; block automation without valid destination; baseline with data limits | Exact safe URL handling and permitted observation source in PRD |
+| REP-GOOGLE-002 | GOOGLE | GATED | OAuth/profile/location selection, link retrieval where supported, permitted review sync/notifications and response workflow | API access/permissions/quotas, security and privacy checks; no existing integration asserted |
+| REP-ATTR-001 | ATTR | TODO | Validate attribution signals, thresholds, time windows, uncertainty and method versioning for three outcome classes | Permitted review observations and privacy review; clicks alone cannot prove reviews or causation |
+| REP-REPORT-001 | REPORT | TODO | Distinct activity, attribution and reputation movement; baseline, missing-data handling, trial result report and admin health/cost views | Defined metrics/denominators; no invented results; attribution conditional on REP-ATTR-001 |
+| REP-PILOT-001 | PILOT | GATED | Synthetic internal validation, then approved bounded pilot plan, eligibility, safeguards, success/failure metrics, capacity, remedy and stop conditions | Internal pilots are within build authority; real-data/customer pilots require readiness and participant safeguards |
+| REP-LAUNCH-001 | LAUNCH | GATED | G1–G13 readiness, legal/commercial/support/claims evidence, owner marketing approval and explicit lifecycle activation | No launch date; no release until authoritative service record is ACTIVE with marketingApproved=true |
+| REP-PRD-002 | PRD | DEFERRED | Full CRM, native mobile apps, HighLevel clone, drag-and-drop workflow builder, dozens of integrations, automatic AI review replies, white-label agency/reseller platform, unlimited messaging, complex marketing platform, microservices/Kubernetes | Excluded from first build; any later scope needs evidence and WIP review |
+| REP-GOV-004 | GOV | DEFERRED | Full MPG umbrella website stays in the separate Stage 7 company project | Not a Reputation prerequisite or deliverable; Stage 7 remains inactive |
+
+Review the secondary scope at each milestone and before spend, integration or pilot commitments. Pause secondary work when it displaces primary obligations or lacks material capacity, compliance, data or cost controls. No calendar deadline, supplier account, validated capability, production environment or completed implementation is implied.
+
+**Immediate next action:** Create/finalize the MPG Reputation PRD and implementation-ready architecture, then obtain the separate authority needed to establish the product software repository before production application code.
+
 
 ## Client Project Readiness & Dependency Detection
 
@@ -105,7 +145,7 @@ Implementation depends on later authorized customer discovery, service-definitio
 
 ## Activation Gate
 
-Stage 0 acceptance is recorded under `MPG-DEC-032`, and Stage 1 is active under `MPG-DEC-033`, but those decisions do not activate this cross-stage service-readiness backlog as a whole. Only work within authorized Stage 1 company, customer, market, positioning, and brand-foundation scope may proceed now; later-stage backlog work requires its applicable stage or a separate bounded authorization. Professional Business Websites may advance through its lifecycle only on evidence; public marketing requires all applicable gates, explicit owner marketing approval, lifecycleStatus = ACTIVE, and marketingApproved = true.
+Stage 0 acceptance is recorded under `MPG-DEC-032`, and Stage 1 is active under `MPG-DEC-033`, but those decisions do not activate this cross-stage service-readiness backlog as a whole. Work within authorized Stage 1 company, customer, market, positioning, and brand-foundation scope may proceed. `MPG-DEC-038` separately authorizes the bounded MPG Reputation secondary build scope above; other later-stage backlog work requires its applicable stage or a separate bounded authorization. Professional Business Websites may advance through its lifecycle only on evidence; public marketing requires all applicable gates, explicit owner marketing approval, lifecycleStatus = ACTIVE, and marketingApproved = true.
 
 ## Dependencies
 

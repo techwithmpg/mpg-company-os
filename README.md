@@ -6,7 +6,7 @@
 | Status | ACTIVE GOVERNANCE — STAGE 1 ACTIVE |
 | Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
-| Last Updated | 2026-08-28 |
+| Last Updated | 2026-09-17 |
 | Public Safe | Yes |
 | Authority | Stage 0 governance accepted under `MPG-DEC-032`; Stage 1 activated under `MPG-DEC-033` |
 
@@ -25,11 +25,13 @@ This is a company repository, not merely a website repository. The website is on
 | Next company stage | **Stage 2 — Services, Offers and Pricing — NOT ACTIVATED** |
 | Commercial priority | **Professional Business Websites** |
 | Primary build track | Website service productization |
-| Secondary learning track | UNALLOCATED / owner decision required |
+| Secondary incubation/build track | MPG Reputation / Review & Reputation Automation — owner-authorized secondary incubation/build track under `MPG-DEC-038` |
 | Publicly marketable services | Determined only by the service registry and publication gate; never inferred from this README |
 | Next gate | Owner acceptance/completion of Stage 1 and a separate decision on Stage 2 activation |
 
 Stage 0 remains the accepted governance baseline. Stage 1 is **ACTIVE** under `MPG-DEC-033` and operates within the Stage 0 controls. Stage 2 and all later stages are **NOT ACTIVATED**. Stage 1 activation does not itself approve a service, price, customer segment, partnership, capability claim, marketing claim, or additional productization track.
+
+MPG Reputation is authorized for requirements, architecture, UX/technical design, prototypes, application development, testing, provider evaluation, and internal pilots as the single secondary incubation/build track. Its dedicated product website/application may proceed independently of the future MPG umbrella website under `MPG-DEC-039`. This bounded authorization does not activate Stage 2, Stage 7, or any other later company stage, change the primary commercial sequence, or grant service activation, final pricing, marketing approval, unrestricted customer solicitation, or public launch. The main MPG umbrella website remains a separate later-stage project; no temporary umbrella site is a prerequisite. See the [authoritative product direction](products/mpg-reputation/README.md).
 
 ## Accepted company foundation
 
@@ -137,6 +139,7 @@ Start with:
 | Area | Purpose |
 |---|---|
 | `docs/` | Charter, status, decisions, accepted architecture, and stage frameworks |
+| `products/` | Owner-authorized product direction and architecture; application code belongs in separate software repositories |
 | `operating-model/` | Lifecycle, launch gates, focus, claims, partner, quality, risk, information, and tool policies |
 | `registry/` | Machine-readable services, capabilities, tools, assets, and public-safe partner records |
 | `templates/` | Reusable decision, readiness, delivery, commercial, risk, and due-diligence tools |

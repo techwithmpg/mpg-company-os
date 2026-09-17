@@ -6,7 +6,7 @@
 | Status | ACCEPTED |
 | Stage | Stage 0 — Governance and Source of Truth |
 | Owner | MPG Founder |
-| Last Updated | 2026-08-28 |
+| Last Updated | 2026-09-17 |
 | Public Safe | Yes |
 | Authority | `MPG-DEC-001` through `MPG-DEC-004`, `MPG-DEC-027` through `MPG-DEC-030`, and Stage 1 foundation decisions `MPG-DEC-034` through `MPG-DEC-037` |
 
@@ -36,6 +36,19 @@ MPG
 └── MPG Trade & Distribution — CONNECT
     └── Future strategic capabilities
 ```
+
+## Subordinate product identity — MPG Reputation
+
+Under `MPG-DEC-039`, `MPG-DEC-040`, and `MPG-DEC-043`:
+
+```text
+MPG
+└── MPG Reputation
+```
+
+MPG remains the master brand. MPG Reputation is a subordinate MPG product/system using BUILD business-systems and automation capabilities, not a separate unrelated company or a fourth pillar. Its accepted working identity may be used prominently on its independent product website with an appropriate MPG relationship. Final naming/trademark freeze remains unresolved.
+
+The dedicated product site is a product operating surface, not the corporate site or a replacement for it. It may function before the future umbrella site exists. Stage 7, the umbrella-site strategy, and BUILD/GROW/CONNECT remain unchanged. Product operation does not imply active MPG divisions/services; do not expose Trade/CONNECT or MPG-wide service catalogues merely because they exist in the master architecture. See [product direction](../products/mpg-reputation/README.md).
 
 ## Working brand idea
 
@@ -119,7 +132,7 @@ BUILD contains four internal families:
 - **Automation:** workflow automation, AI-assisted workflows, integrations, and business-process automation; and
 - **Mobile Applications:** mobile business applications, customer-facing applications, and companion applications for larger systems.
 
-Professional Business Websites are the sole current productization priority. Custom systems, automation, and Mobile Applications follow in that accepted order. Mobile Applications remains planned, does not occupy the secondary WIP slot, and has no implied platforms, proof, or delivery readiness. AI and automation claims must be tied to defined workflows, data/security review, monitoring, human fallback, error handling, costs, access ownership, and maintenance expectations.
+Professional Business Websites remain the sole primary commercial productization priority; MPG Reputation is the bounded secondary incubation/build track under `MPG-DEC-038`. Custom systems, automation, and Mobile Applications follow in that accepted order. Mobile Applications remains planned, does not occupy the secondary WIP slot, and has no implied platforms, proof, or delivery readiness. AI and automation claims must be tied to defined workflows, data/security review, monitoring, human fallback, error handling, costs, access ownership, and maintenance expectations.
 
 ### GROW
 
@@ -144,7 +157,7 @@ The future website may explain the company narrative and capability direction, b
 This accepted architecture, together with the accepted Stage 1 foundation, does not decide:
 
 - final positioning, value proposition, brand promise, detailed voice, tagline, visual identity, or naming system;
-- target customer segments, markets, channels, or campaign strategy;
+- final target customer segments, company/website-service markets, channels, or campaign strategy; the product-specific US/Canada validation direction is separately accepted under `MPG-DEC-042`;
 - active service scope, pricing, availability, proof, capacity, or service levels;
 - legal structure, staffing, locations, partners, or infrastructure.
 

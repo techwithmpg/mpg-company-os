@@ -6,7 +6,7 @@
 | Status | ACTIVE — STAGE 1 FOUNDATION PARTIALLY ACCEPTED |
 | Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
-| Last Updated | 2026-08-28 |
+| Last Updated | 2026-09-17 |
 | Public Safe | Yes |
 | Authority | Stage 1 active under `MPG-DEC-033`; accepted foundation under `MPG-DEC-034` through `MPG-DEC-037` |
 
@@ -214,12 +214,16 @@ The customer encounters a company whose ambition is credible because commitments
 
 > Is this the responsible next step, supported by evidence and capacity, or are we running ahead of readiness?
 
+## Product-specific accepted direction
+
+`MPG-DEC-043` accepts MPG Reputation as a subordinate working product identity for development, with no final name or trademark freeze. `MPG-DEC-041` establishes its seamless business/customer/MPG experience principle; `MPG-DEC-042` accepts US/Canada product-validation focus. These bounded decisions do not complete company positioning or messaging, alter BUILD/GROW/CONNECT, activate the umbrella website, or approve marketing. See [product direction](../products/mpg-reputation/README.md).
+
 ## Still open — not yet accepted
 
 The accepted foundation does not decide:
 
 - final target customer or ideal customer profile;
-- final market and geography priorities;
+- final company/website-service market and geography priorities; the separate MPG Reputation validation geography is accepted under `MPG-DEC-042`;
 - final positioning;
 - final value proposition;
 - final brand promise;

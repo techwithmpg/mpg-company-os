@@ -6,7 +6,7 @@
 | Status | FRAMEWORK — NOT YET ACTIVATED |
 | Stage | Stage 2 — Services, Offers and Pricing |
 | Owner | MPG Founder |
-| Last Updated | 2026-08-28 |
+| Last Updated | 2026-09-17 |
 | Public Safe | Yes |
 | Authority | Framework only; authoritative service state remains in `registry/services.json` |
 
@@ -15,6 +15,10 @@
 ## Purpose
 
 Define how MPG will convert strategic capability areas into bounded, evidence-backed service definitions and maintain a clear separation between the internal strategic catalogue and publicly marketable offers. This file governs the future catalogue structure; the single authoritative detailed readiness backlog for **Professional Business Websites**, the accepted first commercial productization priority, is maintained in `docs/19-backlog.md`.
+
+## Bounded product-build authorization
+
+[MPG Reputation](../products/mpg-reputation/README.md) is authorized under `MPG-DEC-038` through `MPG-DEC-043` as the secondary incubation/build track, independently of the future umbrella website. This does not activate this Stage 2 framework. Its WIP subject `PROD-REP-001` identifies a product initiative, not an active service record. The seven-family commercial sequence and all current service lifecycle/marketing flags remain unchanged. Before any pilot lifecycle claim or commercial release, define the bounded product service record and assess the applicable lifecycle and G1–G13 evidence (`REP-GOV-002`, `REP-PILOT-001`, `REP-LAUNCH-001`).
 
 ## Questions the stage must answer
 
@@ -43,7 +47,7 @@ Define how MPG will convert strategic capability areas into bounded, evidence-ba
 ## Required inputs
 
 - The accepted commercial sequence: Professional Business Websites; Custom Business Systems; AI and Workflow Automation; Mobile Applications; Digital Marketing; Social Media Management; Trade, Sourcing and Distribution.
-- Current project status, with Professional Business Websites as the primary productization track and the secondary track still `UNALLOCATED / owner decision required`.
+- Current project status, with Professional Business Websites as the primary productization track and MPG Reputation allocated as the secondary incubation/build track under `MPG-DEC-038`.
 - Accepted decisions and brand architecture.
 - Authoritative service, capability, tool, asset, and public-safe partner registries.
 - The authoritative Professional Business Websites readiness backlog in `docs/19-backlog.md`.

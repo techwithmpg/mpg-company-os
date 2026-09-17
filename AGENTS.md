@@ -6,7 +6,7 @@
 | Status | ACTIVE |
 | Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
-| Last Updated | 2026-08-28 |
+| Last Updated | 2026-09-17 |
 | Public Safe | Yes |
 | Authority | Mandatory repository instruction subject to the source-of-truth hierarchy |
 
@@ -75,9 +75,11 @@ Do not turn broad founder learning into a list of company services or unsupporte
 
 ### Protect focus
 
-MPG productizes one major new service family at a time by default. The primary track is Professional Business Websites. At most one meaningful secondary learning/incubation track may run concurrently, and the current secondary track is `UNALLOCATED / owner decision required`.
+MPG productizes one major new service family at a time by default. The primary track is Professional Business Websites. At most one meaningful secondary learning/incubation track may run concurrently. The allocated track is MPG Reputation / Review & Reputation Automation — owner-authorized secondary incubation/build track under `MPG-DEC-038`.
 
 Do not introduce unrelated scope or advance parked work. Learning, purchasing a tool, or identifying a partner does not authorize productization.
+
+For MPG Reputation, follow [the product direction](products/mpg-reputation/README.md) and `MPG-DEC-038` through `MPG-DEC-043`. Product design and development are a bounded authorization within the secondary slot, not later-stage company activation. Keep production application code in a separately authorized product repository. Do not create that repository without separate authorization. Stage 7 and the main MPG umbrella website remain untouched; all commercial and publication gates still apply.
 
 ### Protect the service gate
 

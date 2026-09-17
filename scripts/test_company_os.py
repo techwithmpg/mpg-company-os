@@ -132,8 +132,6 @@ class GovernanceRegressionTests(unittest.TestCase):
         wip = services["governance"]["wipAllocation"]
         self.assertEqual(services["governance"]["currentStage"], "STAGE_1")
         self.assertEqual(wip["primaryCommercialTrack"]["serviceId"], "TECH-WEB-001")
-        self.assertEqual(wip["secondaryCapabilityTrack"]["status"], "UNALLOCATED")
-        self.assertIsNone(wip["secondaryCapabilityTrack"]["subjectId"])
         active_states = {
             "BUILDING_CAPABILITY",
             "INTERNAL_READY",
@@ -146,6 +144,19 @@ class GovernanceRegressionTests(unittest.TestCase):
             [service["id"] for service in services["services"] if service["lifecycleStatus"] in active_states],
             ["TECH-WEB-001"],
         )
+
+    def test_reputation_allocation_does_not_authorize_publication(self) -> None:
+        services = self.registries["services"]
+        secondary = services["governance"]["wipAllocation"]["secondaryCapabilityTrack"]
+        self.assertEqual(secondary["status"], "ACTIVE")
+        self.assertEqual(secondary["subjectId"], "PROD-REP-001")
+        self.assertEqual(secondary["ownerDecision"], "repo:docs/02-decision-register.md#mpg-dec-038")
+        self.assertTrue(validator.is_traceable_reference(secondary["ownerDecision"], repository_only=True))
+        self.assertTrue(validator.is_traceable_reference(secondary["productDocument"], repository_only=True))
+        self.assertTrue(all(service["lifecycleStatus"] != "ACTIVE" for service in services["services"]))
+        self.assertTrue(all(not service["marketingApproved"] for service in services["services"]))
+        self.assertTrue(all(not service["publiclyMarketable"] for service in services["services"]))
+        self.assertIn("No services are currently approved", render_catalogue(services))
 
     def test_brand_content_is_future_architecture_not_a_service(self) -> None:
         architecture = (validator.ROOT / "docs" / "03-brand-architecture.md").read_text(encoding="utf-8")
