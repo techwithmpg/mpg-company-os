@@ -42,7 +42,7 @@ This is the first service family to undergo productization and readiness review.
 
 MPG Reputation is authorized for requirements, architecture, UX/technical design, prototypes, application development, testing, provider evaluation, and internal pilots as the single secondary incubation/build track. Its dedicated product website/application may proceed independently of the future MPG umbrella website under `MPG-DEC-039`. This bounded authorization does not activate Stage 2, Stage 7, or any other later company stage, change the primary commercial sequence, or grant service activation, final pricing, marketing approval, unrestricted customer solicitation, or public launch. The main MPG umbrella website remains a separate later-stage project; no temporary umbrella site is a prerequisite. See the [authoritative product direction](../products/mpg-reputation/README.md).
 
-Product status: **BUILD AUTHORIZED; requirements and architecture preparation; no production implementation or delivery readiness asserted**. The registry secondary-slot value `ACTIVE` means allocated WIP only, not service lifecycle `ACTIVE`. No separate product service record or marketing approval exists yet. The Company OS remains governance; the recommended future `techwithmpg/mpg-reputation` software repository is not created or asserted to exist.
+Product status: **OWNER-AUTHORIZED IMPLEMENTATION BASELINE; implementation may proceed in a separate product repository; no delivery readiness asserted** (`MPG-DEC-044`). The registry secondary-slot value `ACTIVE` means allocated WIP only, not service lifecycle `ACTIVE`. No separate product service record or marketing approval exists yet. Company OS remains governance; product code, migrations and tests belong in the separately authorized `mpg-reputation` software repository.
 
 ## COMPLETED / ACCEPTED MILESTONES
 
@@ -59,6 +59,7 @@ The following are supported by the owner-directed bootstrap and repository state
 - Stage 1 — Company and Brand Foundation explicitly activated by the MPG Founder.
 - Company Intent, Company Purpose, Company Vision, the public-safe economic principle, and the six Brand Beliefs explicitly accepted under `MPG-DEC-034` through `MPG-DEC-037`.
 - MPG Reputation secondary build allocation, independent product surface, umbrella-site boundary, seamless principle, US/Canada validation focus, and subordinate working identity accepted under `MPG-DEC-038` through `MPG-DEC-043` on 2026-09-17.
+- MPG Reputation PRD v0.1 and the first separate-repository implementation baseline authorized under `MPG-DEC-044` on 2026-09-17 without activating or launching the service.
 
 Stage 1 activation preserves every Stage 0 service-readiness and governance control.
 
@@ -68,7 +69,7 @@ Stage 1 activation preserves every Stage 0 service-readiness and governance cont
 
 Current Stage 1 work should use the accepted intent, purpose, vision, economic principle, and Brand Beliefs to resolve the remaining customer, positioning, value-proposition, promise, voice, messaging, claims, and working-tagline questions. Those remaining matters stay `PROPOSED`, `RECOMMENDED`, `TBD`, or `UNKNOWN` until appropriately decided. Professional Business Websites remains the sole primary commercial productization track under the existing lifecycle, evidence, WIP, and publication controls. Stage 2 and all later stages remain inactive.
 
-The secondary track may now create/finalize its PRD and implementation-ready architecture, then establish its separate product repository after the required repository-creation authorization. Application code does not belong in Company OS.
+The secondary track may now implement [PRD v0.1](../products/mpg-reputation/PRD.md) in its separately authorized product repository, beginning with the complete synthetic vertical slice. Application code does not belong in Company OS. Real customer messaging, a live pilot, paid infrastructure, pricing, marketing approval and launch remain separately gated.
 
 ## RISKS
 

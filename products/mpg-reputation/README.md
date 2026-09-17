@@ -3,14 +3,14 @@
 | Metadata | Value |
 |---|---|
 | Product / WIP subject | MPG Reputation / Review & Reputation Automation — `PROD-REP-001` |
-| Status | OWNER-AUTHORIZED SECONDARY INCUBATION/BUILD; requirements and architecture preparation |
+| Status | OWNER-AUTHORIZED IMPLEMENTATION BASELINE; separate product repository authorized |
 | Company stage | Stage 1 active; Stage 2 and all later company stages not activated |
 | Owner | MPG Founder |
 | Last Updated | 2026-09-17 |
 | Public Safe | Yes — synthetic examples only |
-| Authority | [Decision register](../../docs/02-decision-register.md): `MPG-DEC-038` through `MPG-DEC-043` |
+| Authority | [Decision register](../../docs/02-decision-register.md): `MPG-DEC-038` through `MPG-DEC-044` |
 
-This is the single authoritative Company OS product-direction document. It consolidates the owner's requirements and identifies recommendations and unresolved implementation decisions. It is not a completed PRD, final technical specification, live offer, or evidence of implemented functionality. The next phase must finalize the PRD and implementation-ready architecture against this direction.
+This is the single authoritative Company OS product-direction document. It consolidates the owner's requirements and identifies recommendations and unresolved decisions. [PRD v0.1](PRD.md) is the owner-authorized implementation baseline under this direction. Neither document is a live offer, evidence of delivery readiness, final commercial model, marketing approval or launch authority.
 
 ## Authority and current boundaries
 
@@ -22,6 +22,7 @@ This is the single authoritative Company OS product-direction document. It conso
 | Experience principle | **ACCEPTED**, `MPG-DEC-041`: seamless for the business, customer and MPG; automate normal work and surface exceptions. |
 | Validation geography | **ACCEPTED**, `MPG-DEC-042`: United States and Canada first; Australian technical compatibility later. |
 | Working identity | **ACCEPTED**, `MPG-DEC-043`: MPG → MPG Reputation; subordinate product/system, not a separate unrelated company. No final name/trademark freeze. |
+| Implementation baseline | **ACCEPTED**, `MPG-DEC-044`: PRD v0.1, separate repository creation and the first synthetic vertical slice are authorized. No service activation, production messaging or public launch follows. |
 | Development scope | Requirements, architecture, UX/technical design, prototypes, application development, testing, provider evaluation and internal pilots are owner-authorized within the secondary slot. Pilot safeguards and resource approvals still apply. |
 | Commercial release | **NOT AUTHORIZED** by the build decision: no unrestricted solicitation, public launch, final prices, blanket legal-compliance claims, service lifecycle `ACTIVE`, or marketing approval. |
 | Implementation choices | Stack, providers, trial terms, sequencing and commercial hypotheses below are **RECOMMENDED / VALIDATION REQUIRED**, not immutable decisions or adopted tools. |
@@ -40,7 +41,7 @@ mpg-reputation → future product website/application source code
 
 The dedicated site is a **product operating surface**, not the corporate MPG website. It may prominently use MPG Reputation with an appropriate MPG relationship. It does not change BUILD/GROW/CONNECT, activate other divisions/services, or require Trade/CONNECT navigation. The future umbrella website remains a separate later-stage company project and must remain untouched.
 
-The recommended working software repository name is `techwithmpg/mpg-reputation`. Its existence is not asserted; do not create it without separate authorization. Production application code does not belong in Company OS. The product website and authenticated application may share that future codebase. Development authorization does not require building any part of the main MPG website.
+The authorized working software repository name is `techwithmpg/mpg-reputation`, with private visibility by default when remote creation is available. `MPG-DEC-044` authorizes establishing it for the first implementation baseline. Production application code does not belong in Company OS. The product website and authenticated application may share that codebase. Development authorization does not require building any part of the main MPG website.
 
 ## Purpose, customer and market
 
@@ -367,4 +368,4 @@ Unresolved: final vertical; final product name/brand freeze and trademark review
 
 Material risks: founder bandwidth and two concurrent tracks, messaging compliance, customer-data privacy, provider/API dependency, premature launch, uncontrolled integration scope, unvalidated economics and false certainty in attribution. The [current project status](../../docs/01-project-status.md#risks) records the controls; these risks are not accepted as resolved.
 
-**Next action:** Create/finalize the MPG Reputation Product Requirements Document and implementation-ready architecture, then establish the separate product code repository before writing production application code. Obtain the separate repository-creation authorization at that step. Company OS remains the governance source of truth; the future product software repository will be the implementation source of truth.
+**Next action:** Implement the [owner-authorized PRD v0.1](PRD.md) in the separate product repository, proving the synthetic login-to-tracked-redirect vertical slice with tenant isolation, idempotency and automated tests. Company OS remains the governance source of truth; the product repository is the implementation source of truth. Commercial and production gates remain closed.

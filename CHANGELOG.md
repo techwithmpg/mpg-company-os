@@ -12,6 +12,13 @@
 
 This changelog records material Company OS changes. It does not replace Git history, the project status, or the decision register. No versions or earlier baselines are inferred where none exist.
 
+## 2026-09-17 — MPG Reputation implementation baseline authorized
+
+- Recorded `MPG-DEC-044`, authorizing PRD v0.1, implementation-ready architecture, the separate product repository and the first synthetic vertical slice.
+- Added `products/mpg-reputation/PRD.md` as the owner-authorized, non-frozen implementation baseline and synchronized the product direction, project status and `REP-*` backlog.
+- Preserved Stage 0 governance, active Stage 1, Professional Business Websites as the primary track, MPG Reputation as the sole secondary track and the inactive status of Stage 2, Stage 7 and all later stages.
+- Did not grant delivery readiness, lifecycle `ACTIVE`, marketing approval, final pricing, public launch, production customer messaging, paid infrastructure purchasing or legal/compliance claims.
+
 ## 2026-09-17 — MPG Reputation secondary build direction accepted
 
 - Recorded `MPG-DEC-038` through `MPG-DEC-043`: secondary allocation, independent product website/application, preserved umbrella-site boundary, three-sided seamless principle, US/Canada validation focus and subordinate working identity.

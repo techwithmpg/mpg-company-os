@@ -53,20 +53,20 @@ Maintain a public-safe, decision-oriented backlog for authorized future-stage wo
 
 **OWNER-AUTHORIZED SECONDARY BUILD SCOPE — NOT COMMERCIAL RELEASE**
 
-Authority: `MPG-DEC-038` through `MPG-DEC-043`. Product/WIP subject: `PROD-REP-001`. The [authoritative product direction](../products/mpg-reputation/README.md) owns requirements and recommendations; this section owns task status and closure evidence. These `REP-*` IDs do not alter or duplicate the `WEB-001` through `WEB-027` audit above. The MPG Founder is accountable for prioritization and acceptance; no staffing or budget is inferred.
+Authority: `MPG-DEC-038` through `MPG-DEC-044`. Product/WIP subject: `PROD-REP-001`. The [authoritative product direction](../products/mpg-reputation/README.md) and [PRD v0.1](../products/mpg-reputation/PRD.md) own requirements and the implementation baseline; this section owns task status and closure evidence. These `REP-*` IDs do not alter or duplicate the `WEB-001` through `WEB-027` audit above. The MPG Founder is accountable for prioritization and acceptance; no staffing or budget is inferred.
 
 `RECORDED` means governance direction exists, not product readiness. `TODO` means work is within the authorized development boundary but not completed. `GATED` means dependent evidence or separate authorization is required before the consequential action. `DEFERRED` means excluded from the first build. No row advances a service lifecycle or approves public solicitation.
 
 | ID | Category | Status | Bounded deliverable / closure evidence | Dependencies or gate |
 |---|---|---|---|---|
-| REP-GOV-001 | GOV | RECORDED | Owner decisions `MPG-DEC-038`–`043`, product direction and secondary WIP allocation linked and consistent | Preserve Stage 1, website primary, one secondary and dormant umbrella site |
+| REP-GOV-001 | GOV | RECORDED | Owner decisions `MPG-DEC-038`–`044`, product direction and secondary WIP allocation linked and consistent | Preserve Stage 1, website primary, one secondary and dormant umbrella site |
 | REP-GOV-002 | GOV | TODO | Define bounded product service record, lifecycle evidence and mappings to relevant capabilities/tools/assets; no unsupported readiness claims | PRD scope; G1–G13 and lifecycle policy before pilot/release claims |
-| REP-GOV-003 | GOV | GATED | Obtain separate creation authority, then establish product software repository and governance/implementation ownership links | Finalize PRD/architecture; do not create repository or production code in this task |
-| REP-PRD-001 | PRD | TODO | Finalize PRD with US/Canada validation scope, buyer/vertical research, inclusions/exclusions, success/failure criteria, trial start/count/expiry and measurable seamless targets | Product direction; final vertical and terms remain unresolved |
+| REP-GOV-003 | GOV | RECORDED | Separate product-repository creation and first implementation baseline authorized by `MPG-DEC-044`; establish local repository and private remote where safely available | Keep Company OS as governance; no public release or production customer messaging |
+| REP-PRD-001 | PRD | RECORDED | Owner-authorized [PRD v0.1](../products/mpg-reputation/PRD.md) defines the bounded vertical slice, security, test and failure requirements | Final vertical, trial terms, commercial terms and later-product requirements remain unresolved |
 | REP-ECON-001 | ECON | TODO | Verify full fixed/variable cost model, support/onboarding effort, segment/number/registration costs, market references, willingness to pay and risk allowance | Dated provider sources; private COGS/margins in approved storage |
 | REP-ECON-002 | ECON | GATED | Owner-approved bounded usage, monthly pricing, overages, billing/payment/refund/tax rules supported by evidence | REP-ECON-001; professional review; $59–$79 is hypothesis only |
 | REP-LEGAL-001 | LEGAL | GATED | Qualified US/Canada messaging/privacy and Google-policy review; retention, export/deletion, suppression, identity, consent, quiet-hours and terms decisions | Before real-data/customer messaging or public launch as applicable; AU compatibility is not AU launch authority |
-| REP-ARCH-001 | ARCH | TODO | Implementation-ready boundaries, provider/adaptor contracts, event flow, deployment/monitoring options, retries, failure recovery and resource assessment | REP-PRD-001; provider/tool recommendations remain unadopted |
+| REP-ARCH-001 | ARCH | IN_PROGRESS | Implement and verify the PRD boundaries, provider/adaptor contracts, event flow, deployment/monitoring options, retries, failure recovery and resource assessment in the product repository | REP-PRD-001 recorded; production providers/infrastructure remain unadopted |
 | REP-DATA-001 | DATA | TODO | Organization/location model, normalized completion events, minimal contacts/consent, requests, suppression, observations, versioned attribution and usage ledger | REP-ARCH-001; explicit ownership, idempotency, access and retention contracts |
 | REP-UX-001 | UX | TODO | Business onboarding/Google confirmation, direct customer CTA, neutral private feedback and exception-based admin flows with validation/failure/recovery states | No forced CRM or customer MPG account; no review gating; accessibility criteria |
 | REP-MSG-001 | MSG | TODO | Email-first provider interface, sender/Reply-To model, delivery/bounce/unsubscribe processing, tracked link and one-reminder workflow | Synthetic end-to-end tests first; permission, suppression, destination and trial gates before actual sends |
@@ -84,7 +84,7 @@ Authority: `MPG-DEC-038` through `MPG-DEC-043`. Product/WIP subject: `PROD-REP-0
 
 Review the secondary scope at each milestone and before spend, integration or pilot commitments. Pause secondary work when it displaces primary obligations or lacks material capacity, compliance, data or cost controls. No calendar deadline, supplier account, validated capability, production environment or completed implementation is implied.
 
-**Immediate next action:** Create/finalize the MPG Reputation PRD and implementation-ready architecture, then obtain the separate authority needed to establish the product software repository before production application code.
+**Immediate next action:** Establish the separately authorized product repository and implement the PRD v0.1 synthetic vertical slice. Do not begin real customer messaging, commercial launch or any deferred integration.
 
 
 ## Client Project Readiness & Dependency Detection
