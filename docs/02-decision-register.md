@@ -6,7 +6,7 @@
 | Status | ACTIVE |
 | Stage | Stage 0 — Governance and Source of Truth |
 | Owner | MPG Founder |
-| Last Updated | 2026-09-17 |
+| Last Updated | 2026-09-18 |
 | Public Safe | Yes |
 | Authority | Authoritative record of explicit owner decisions under the accepted Stage 0 governance baseline |
 
@@ -72,10 +72,11 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 | MPG-DEC-042 | ACCEPTED | **Initial MPG Reputation product validation focuses on the United States and Canada, preserving technical compatibility for Australia later.** | Owner direction recorded 2026-09-17. Product-specific validation geography only; no final vertical, validated demand, local offices, employees, legal entities, or current market availability is implied. Does not replace the separate company/website-service market hypotheses. Country-specific communication and privacy implementation still require professional verification. |
 | MPG-DEC-043 | ACCEPTED | **MPG Reputation is the accepted working product identity subordinate to the MPG master brand.** | Owner direction recorded 2026-09-17. The relationship is MPG → MPG Reputation, not a separate unrelated company. The product website may prominently use this identity with an appropriate MPG relationship. This is development naming authority, not a frozen final name, trademark clearance or legal-entity decision. Public operation does not activate other MPG divisions/services or bypass publication gates. |
 | MPG-DEC-044 | ACCEPTED | **MPG Reputation may move from requirements and architecture preparation into the first implementation baseline in a separate product repository.** | Owner direction recorded 2026-09-17. Authorizes PRD v0.1, implementation-ready architecture, creation of the local product repository and a private remote where safely available, initial application development, prototypes, automated tests, synthetic internal testing and the first complete vertical slice. It does not grant delivery readiness, service lifecycle `ACTIVE`, public launch, unrestricted solicitation, final pricing, marketing approval, production customer messaging, paid infrastructure purchasing or legal/compliance claims. Company OS remains governance; product code belongs in the separate repository. |
+| MPG-DEC-045 | ACCEPTED | **MPG Reputation V0.1 technical foundation and synthetic vertical slice have passed the internal engineering acceptance gate.** | Owner direction recorded 2026-09-18. The accepted implementation baseline includes multi-tenant organization isolation, role-aware PostgreSQL RLS, atomic organization onboarding, explicit messaging-permission handling, transactional customer-completion/outbox persistence, automatic outbox recovery, durable workflow processing, post-delay eligibility rechecking, suppression handling, request/send idempotency protections, system-owned workflow-state protections, safe tracked redirects, first-click accounting, and synthetic runtime integration validation. This accepts an internal technical milestone and authorizes controlled staging plus founder product-usability validation only. It does not establish delivery readiness, lifecycle `ACTIVE`, public launch, marketing approval, final pricing, unrestricted selling, a real-customer pilot, production customer messaging, legal/compliance readiness, or Stage 2 or any later-stage activation. |
 
 ## Decision dependencies
 
-- `MPG-DEC-038` through `MPG-DEC-044` govern the bounded MPG Reputation product direction and implementation baseline. Technical and commercial recommendations outside the accepted baseline remain in [the product document](../products/mpg-reputation/README.md) and [PRD v0.1](../products/mpg-reputation/PRD.md), not accepted commercial decisions.
+- `MPG-DEC-038` through `MPG-DEC-045` govern the bounded MPG Reputation product direction, implementation baseline and internal V0.1 engineering acceptance. Technical and commercial recommendations outside the accepted baseline remain in [the product document](../products/mpg-reputation/README.md) and [PRD v0.1](../products/mpg-reputation/PRD.md), not accepted commercial decisions.
 
 - `MPG-DEC-008`, `020`, and `029` govern current work prioritization; `MPG-DEC-007` is retained only as superseded history.
 - `MPG-DEC-006`, `016`, `017`, `021`, `022`, and `023` govern service readiness and public claims.

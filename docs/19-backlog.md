@@ -7,7 +7,7 @@
 - **Document:** Company OS Backlog
 - **Stage:** Cross-stage planning; current active company stage is Stage 1
 - **Owner:** MPG Founder
-- **Last Updated:** 2026-09-17
+- **Last Updated:** 2026-09-18
 - **Public Safe:** Yes
 - **Authority:** Framework and readiness questions; `REP-*` build scope separately authorized by `MPG-DEC-038`. Inclusion alone does not authorize execution, spend or release.
 
@@ -53,13 +53,13 @@ Maintain a public-safe, decision-oriented backlog for authorized future-stage wo
 
 **OWNER-AUTHORIZED SECONDARY BUILD SCOPE — NOT COMMERCIAL RELEASE**
 
-Authority: `MPG-DEC-038` through `MPG-DEC-044`. Product/WIP subject: `PROD-REP-001`. The [authoritative product direction](../products/mpg-reputation/README.md) and [PRD v0.1](../products/mpg-reputation/PRD.md) own requirements and the implementation baseline; this section owns task status and closure evidence. These `REP-*` IDs do not alter or duplicate the `WEB-001` through `WEB-027` audit above. The MPG Founder is accountable for prioritization and acceptance; no staffing or budget is inferred.
+Authority: `MPG-DEC-038` through `MPG-DEC-045`. Product/WIP subject: `PROD-REP-001`. The [authoritative product direction](../products/mpg-reputation/README.md) and [PRD v0.1](../products/mpg-reputation/PRD.md) own requirements and the implementation baseline; this section owns task status and closure evidence. These `REP-*` IDs do not alter or duplicate the `WEB-001` through `WEB-027` audit above. The MPG Founder is accountable for prioritization and acceptance; no staffing or budget is inferred.
 
-`RECORDED` means governance direction exists, not product readiness. `TODO` means work is within the authorized development boundary but not completed. `GATED` means dependent evidence or separate authorization is required before the consequential action. `DEFERRED` means excluded from the first build. No row advances a service lifecycle or approves public solicitation.
+`RECORDED` means governance direction exists, not product readiness. `VERIFIED` means a bounded internal technical closure has passed its recorded engineering checks; it does not imply pilot, delivery, market or legal readiness. `IN_PROGRESS` means active work remains inside the authorized boundary. `TODO` means work is within the authorized development boundary but not completed. `GATED` means dependent evidence or separate authorization is required before the consequential action. `DEFERRED` means excluded from the first build. No row advances a service lifecycle or approves public solicitation.
 
 | ID | Category | Status | Bounded deliverable / closure evidence | Dependencies or gate |
 |---|---|---|---|---|
-| REP-GOV-001 | GOV | RECORDED | Owner decisions `MPG-DEC-038`–`044`, product direction and secondary WIP allocation linked and consistent | Preserve Stage 1, website primary, one secondary and dormant umbrella site |
+| REP-GOV-001 | GOV | RECORDED | Owner decisions `MPG-DEC-038`–`045`, product direction and secondary WIP allocation linked and consistent | Preserve Stage 1, website primary, one secondary and dormant umbrella site |
 | REP-GOV-002 | GOV | TODO | Define bounded product service record, lifecycle evidence and mappings to relevant capabilities/tools/assets; no unsupported readiness claims | PRD scope; G1–G13 and lifecycle policy before pilot/release claims |
 | REP-GOV-003 | GOV | RECORDED | Separate product-repository creation and first implementation baseline authorized by `MPG-DEC-044`; establish local repository and private remote where safely available | Keep Company OS as governance; no public release or production customer messaging |
 | REP-PRD-001 | PRD | RECORDED | Owner-authorized [PRD v0.1](../products/mpg-reputation/PRD.md) defines the bounded vertical slice, security, test and failure requirements | Final vertical, trial terms, commercial terms and later-product requirements remain unresolved |
@@ -81,10 +81,12 @@ Authority: `MPG-DEC-038` through `MPG-DEC-044`. Product/WIP subject: `PROD-REP-0
 | REP-LAUNCH-001 | LAUNCH | GATED | G1–G13 readiness, legal/commercial/support/claims evidence, owner marketing approval and explicit lifecycle activation | No launch date; no release until authoritative service record is ACTIVE with marketingApproved=true |
 | REP-PRD-002 | PRD | DEFERRED | Full CRM, native mobile apps, HighLevel clone, drag-and-drop workflow builder, dozens of integrations, automatic AI review replies, white-label agency/reseller platform, unlimited messaging, complex marketing platform, microservices/Kubernetes | Excluded from first build; any later scope needs evidence and WIP review |
 | REP-GOV-004 | GOV | DEFERRED | Full MPG umbrella website stays in the separate Stage 7 company project | Not a Reputation prerequisite or deliverable; Stage 7 remains inactive |
+| REP-GOV-005 | GOV | VERIFIED | V0.1 internal technical foundation and synthetic vertical slice accepted under `MPG-DEC-045`, supported by the recorded clean database reset, 73 passing tests with zero skips, lint, typecheck and production build | Internal milestone only; no real-customer pilot, production messaging, delivery readiness, legal readiness, marketing or launch authority |
+| REP-UX-002 | UX | IN_PROGRESS | Controlled staging and founder product-usability validation: authenticated owner walkthrough, truthful route inventory, business-readable exceptions, responsive critical paths and secret-free owner access instructions | Synthetic data and Console email only; external hosted accounts/credentials may require owner action |
 
 Review the secondary scope at each milestone and before spend, integration or pilot commitments. Pause secondary work when it displaces primary obligations or lacks material capacity, compliance, data or cost controls. No calendar deadline, supplier account, validated capability, production environment or completed implementation is implied.
 
-**Immediate next action:** Establish the separately authorized product repository and implement the PRD v0.1 synthetic vertical slice. Do not begin real customer messaging, commercial launch or any deferred integration.
+**Immediate next action:** Establish controlled staging where available and complete founder product-usability validation of the accepted V0.1 workflow. Do not begin a real-customer pilot, production messaging, commercial launch or any deferred integration.
 
 
 ## Client Project Readiness & Dependency Detection

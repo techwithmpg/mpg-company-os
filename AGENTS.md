@@ -6,7 +6,7 @@
 | Status | ACTIVE |
 | Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
-| Last Updated | 2026-09-17 |
+| Last Updated | 2026-09-18 |
 | Public Safe | Yes |
 | Authority | Mandatory repository instruction subject to the source-of-truth hierarchy |
 
@@ -79,7 +79,7 @@ MPG productizes one major new service family at a time by default. The primary t
 
 Do not introduce unrelated scope or advance parked work. Learning, purchasing a tool, or identifying a partner does not authorize productization.
 
-For MPG Reputation, follow [the product direction](products/mpg-reputation/README.md) and `MPG-DEC-038` through `MPG-DEC-043`. Product design and development are a bounded authorization within the secondary slot, not later-stage company activation. Keep production application code in a separately authorized product repository. Do not create that repository without separate authorization. Stage 7 and the main MPG umbrella website remain untouched; all commercial and publication gates still apply.
+For MPG Reputation, follow [the product direction](products/mpg-reputation/README.md) and `MPG-DEC-038` through `MPG-DEC-045`. Product design, development, controlled staging and founder product-usability validation are bounded authorizations within the secondary slot, not later-stage company activation. The separate product repository is authorized and contains implementation code; do not place that code in Company OS. V0.1 technical acceptance is an internal milestone only. Stage 7 and the main MPG umbrella website remain untouched; all pilot, delivery, commercial and publication gates still apply.
 
 ### Protect the service gate
 

@@ -6,11 +6,18 @@
 | Status | ACTIVE |
 | Stage | Stage 0 — Governance and Source of Truth |
 | Owner | MPG Founder |
-| Last Updated | 2026-09-17 |
+| Last Updated | 2026-09-18 |
 | Public Safe | Yes |
 | Authority | Historical summary; decisions remain authoritative in the decision register |
 
 This changelog records material Company OS changes. It does not replace Git history, the project status, or the decision register. No versions or earlier baselines are inferred where none exist.
+
+## 2026-09-18 — MPG Reputation V0.1 internal technical milestone accepted
+
+- Recorded `MPG-DEC-045`, accepting the V0.1 technical foundation and synthetic vertical slice as an internal engineering milestone after the owner-verified clean reset, 73-test zero-skip suite, lint, typecheck and production build.
+- Authorized the next bounded milestone: controlled synthetic-data staging and founder product-usability validation.
+- Synchronized project status, the Reputation product direction, repository-agent guidance and the `REP-*` backlog without advancing any service lifecycle state.
+- Preserved Stage 1, the Professional Business Websites primary track, MPG Reputation as the sole secondary track, and all pilot, production messaging, legal, pricing, marketing and launch gates.
 
 ## 2026-09-17 — MPG Reputation implementation baseline authorized
 
