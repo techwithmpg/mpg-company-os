@@ -158,7 +158,6 @@ Production messaging architecture may be engineered within authorized milestone 
 - No service is marketable unless its authoritative record is `ACTIVE` and `marketingApproved = true`.
 - The strategic relationship remains: MPG → MPG Reputation.
 - No confidential operations may be stored in this public repository.
-- No confidential operations may be stored in this public repository.
 
 ## WEBSITE READINESS HANDOFF
 
