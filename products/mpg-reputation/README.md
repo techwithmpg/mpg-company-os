@@ -3,12 +3,12 @@
 | Metadata | Value |
 |---|---|
 | Product / WIP subject | MPG Reputation / Review & Reputation Automation — `PROD-REP-001` |
-| Status | V0.1 TECHNICAL FOUNDATION ACCEPTED; V0.2 CONTROLLED STAGING PROVEN BASELINE; MARKET-READY BUILD PROGRAM AUTHORIZED (MPG-DEC-046) |
+| Status | V0.1 TECHNICAL FOUNDATION ACCEPTED; V0.2 CONTROLLED STAGING PROVEN BASELINE; MR-3 COMPLETION SOURCE PLATFORM ACCEPTED; MR-4 TRIAL / USAGE / ECONOMICS ACTIVE (`MPG-DEC-047`) |
 | Company stage | Stage 1 active; Stage 2 and all later company stages not activated |
 | Owner | MPG Founder |
 | Last Updated | 2026-09-19 |
 | Public Safe | Yes — synthetic examples only |
-| Authority | [Decision register](../../docs/02-decision-register.md): `MPG-DEC-038` through `MPG-DEC-046` |
+| Authority | [Decision register](../../docs/02-decision-register.md): `MPG-DEC-038` through `MPG-DEC-047` |
 
 This is the single authoritative Company OS product-direction document. It consolidates the owner's requirements and identifies recommendations and unresolved decisions. [PRD v0.1](PRD.md) is the owner-authorized implementation baseline under this direction. Neither document is a live offer, evidence of delivery readiness, final commercial model, marketing approval or launch authority.
 
@@ -25,6 +25,7 @@ This is the single authoritative Company OS product-direction document. It conso
 | Implementation baseline | **ACCEPTED**, `MPG-DEC-044`: PRD v0.1, separate repository creation and the first synthetic vertical slice are authorized. No service activation, production messaging or public launch follows. |
 | V0.1 technical milestone | **ACCEPTED**, `MPG-DEC-045`: the internal technical foundation and synthetic vertical slice passed engineering acceptance. |
 | V0.2 baseline & Market-ready program | **ACCEPTED**, `MPG-DEC-046`: V0.2 controlled staging and founder product-usability validation forms the proven baseline. Market-ready product-development program is owner-authorized across sequential milestones (MR-0 through MR-11). Commercial release remains gated. |
+| MR-3 acceptance & MR-4 activation | **ACCEPTED**, `MPG-DEC-047`: MR-3 Completion Source Platform passed its engineering acceptance gate; MR-4 Trial / Usage / Economics is the active bounded milestone. Final trial terms, final pricing, billing, live messaging, pilot authority, marketing approval and commercial release remain gated. |
 | Development scope | Production engineering, production email architecture, onboarding/activation, universal completion sources, evidence-based integrations, trial/usage controls, commercial-model research, billing architecture/implementation, admin/support tooling, trust/security/privacy controls, product website, free check acquisition experience, independent acquisition pipeline, controlled pilot preparation, and launch readiness are authorized under `MPG-DEC-046`. |
 | Commercial release | **NOT AUTHORIZED** by the build decision: no unrestricted solicitation, public launch, real-customer messaging, final prices, blanket legal-compliance claims, service lifecycle `ACTIVE`, or marketing approval. |
 | Implementation choices | Stack, providers, trial terms, sequencing and commercial hypotheses below are **RECOMMENDED / VALIDATION REQUIRED**, not immutable decisions or adopted tools. |
@@ -43,8 +44,8 @@ Under `MPG-DEC-046`, MPG Reputation is developed independently through a bounded
 | **MR-0** | Governance Reconciliation | Synchronize Company OS and product repository governance, decisions, status, roadmap, and agent instructions. | **COMPLETE / ACCEPTED BASELINE.** |
 | **MR-1** | Production Messaging Core | Resend production email architecture, templates, sender identity, domain authentication, bounce/complaint webhooks, delivery monitoring, and retry hardening. | **LOCAL ENGINEERING COMPLETE / ACCEPTED; MR-1B-H hosted domain validation deferred.** LIVE customer messaging remains OFF until separately authorized. SMS gated. |
 | **MR-2** | Customer Activation | Business onboarding flow, location setup, verified Google destination confirmation, activation checklist, and recovery states. | **COMPLETE / ACCEPTED.** Automation remains blocked without a confirmed valid destination. |
-| **MR-3** | Completion Source Platform | Universal completion API/webhook with authentication, replay protection, deduplication, and adapter contracts; native CRM connector architecture. | **NEXT / NOT YET STARTED.** Adapter contracts and verification tests required before external-system adoption. |
-| **MR-4** | Trial / Usage / Economics | Configurable server-side trial entitlement engine (current hypothesis: 30 review requests / 30 days; final structure TBD / validation-required), usage metering ledger, cost attribution models, and COGS validation. | No unlimited usage; evidence-backed cost inputs and owner approval before commercial trial commitments. |
+| **MR-3** | Completion Source Platform | Universal completion API/webhook with authentication, replay protection, deduplication, adapter contracts, credential management, audit/debugging tooling, and native-connector-ready architecture. | **COMPLETE / ACCEPTED under `MPG-DEC-047`.** Future native connectors remain demand-validated scope, not implied capability. |
+| **MR-4** | Trial / Usage / Economics | Configurable server-side trial entitlement engine (current hypothesis: 30 review requests / 30 days; final structure TBD / validation-required), usage metering ledger, cost attribution models, and COGS validation. | **ACTIVE under `MPG-DEC-047`.** No unlimited usage; final trial terms and pricing remain unapproved; evidence-backed cost inputs are required before commercial commitments. |
 | **MR-5** | Billing | Stripe billing architecture, subscription lifecycles, payment webhooks, checkout flows, customer portal, and invoice accounting. | Final pricing and refund policies must be owner-approved under the pricing framework before enablement. |
 | **MR-6** | Admin / Support / Observability | MPG operational tooling, tenant inspection, automation health monitoring, deliverability alerts, exception handling, and audit trails. | Role-based access controls and secure operations; no direct DB tampering for support. |
 | **MR-7** | Trust / Security / Compliance | Technical controls supporting applicable US/Canada messaging and privacy requirements, unsubscribe/opt-out durability, suppression sync, consent provenance, RLS audit, and data retention/deletion. | Qualified legal/compliance review before real-customer messaging or public release; technical controls do not replace legal review. |
