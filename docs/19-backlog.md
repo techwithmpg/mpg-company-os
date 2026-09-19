@@ -83,12 +83,12 @@ Authority: `MPG-DEC-038` through `MPG-DEC-046`. Product/WIP subject: `PROD-REP-0
 | REP-GOV-004 | GOV | DEFERRED | Full MPG umbrella website stays in the separate Stage 7 company project | Not a Reputation prerequisite or deliverable; Stage 7 remains inactive |
 | REP-GOV-005 | GOV | VERIFIED | V0.1 internal technical foundation and synthetic vertical slice accepted under `MPG-DEC-045`, supported by the recorded clean database reset, 73 passing tests with zero skips, lint, typecheck and production build | Internal milestone only; no real-customer pilot, production messaging, delivery readiness, legal readiness, marketing or launch authority |
 | REP-UX-002 | UX | VERIFIED | Controlled staging and founder product-usability validation baseline established: authenticated owner walkthrough, responsive critical paths, realtime event dispatch and observability, and secret-free staging access verified | Synthetic data and Console email baseline; external hosted accounts/credentials require owner action; proven usability baseline |
-| REP-MR-000 | GOV | IN_PROGRESS | MR-0 Governance Reconciliation: Synchronize Company OS and product repository decisions, project status, roadmaps, and agent instructions under `MPG-DEC-046` | Prerequisite for MR-1 engineering; no commercial activation |
-| REP-MR-001 | MSG | TODO | MR-1 Production Messaging Core: Resend production email architecture, templates, sender identity, domain authentication, bounce/complaint webhooks, delivery monitoring, and retry hardening | `REP-MR-000`; synthetic and developer testing first; LIVE customer messaging remains OFF until separately authorized; SMS gated |
+| REP-MR-000 | GOV | VERIFIED | MR-0 Governance Reconciliation: Synchronized Company OS and product repository decisions, project status, roadmaps, and agent instructions under `MPG-DEC-046` | Prerequisite for MR-1 engineering; no commercial activation |
+| REP-MR-001 | MSG | IN_PROGRESS | MR-1 Production Messaging Core: Resend production email architecture, templates, sender identity, domain authentication, bounce/complaint webhooks, delivery monitoring, and retry hardening | `REP-MR-000`; synthetic and developer testing first; LIVE customer messaging remains OFF until separately authorized; SMS gated |
 
 Review program scope at each milestone and before spend, integration or pilot commitments. No calendar deadline, supplier account, validated capability, production environment or completed commercial implementation is implied.
 
-**Immediate next action:** Complete MR-0 Governance Reconciliation, then execute MR-1 Production Messaging Core. LIVE customer messaging remains OFF until separately authorized. Do not begin a real-customer pilot, commercial launch, or any deferred integration.
+**Immediate next action:** Execute MR-1 Production Messaging Core (MR-1A Transport + Provider Event Foundation active). LIVE customer messaging remains OFF until separately authorized. Do not begin a real-customer pilot, commercial launch, or any deferred integration.
 
 
 ## Client Project Readiness & Dependency Detection
