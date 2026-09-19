@@ -3,12 +3,12 @@
 | Metadata | Value |
 |---|---|
 | Product / WIP subject | MPG Reputation / Review & Reputation Automation — `PROD-REP-001` |
-| Status | V0.1 TECHNICAL FOUNDATION ACCEPTED; V0.2 CONTROLLED STAGING PROVEN BASELINE; MR-3 COMPLETION SOURCE PLATFORM ACCEPTED; MR-4 TRIAL / USAGE / ECONOMICS ACTIVE (`MPG-DEC-047`) |
+| Status | V0.1 TECHNICAL FOUNDATION ACCEPTED; V0.2 CONTROLLED STAGING PROVEN BASELINE; MR-3 COMPLETION SOURCE PLATFORM ACCEPTED; MR-4 TRIAL / USAGE / ECONOMICS ACCEPTED; MR-5 BILLING ACTIVE (`MPG-DEC-048`) |
 | Company stage | Stage 1 active; Stage 2 and all later company stages not activated |
 | Owner | MPG Founder |
 | Last Updated | 2026-09-19 |
 | Public Safe | Yes — synthetic examples only |
-| Authority | [Decision register](../../docs/02-decision-register.md): `MPG-DEC-038` through `MPG-DEC-047` |
+| Authority | [Decision register](../../docs/02-decision-register.md): `MPG-DEC-038` through `MPG-DEC-048` |
 
 This is the single authoritative Company OS product-direction document. It consolidates the owner's requirements and identifies recommendations and unresolved decisions. [PRD v0.1](PRD.md) is the owner-authorized implementation baseline under this direction. Neither document is a live offer, evidence of delivery readiness, final commercial model, marketing approval or launch authority.
 
@@ -45,8 +45,8 @@ Under `MPG-DEC-046`, MPG Reputation is developed independently through a bounded
 | **MR-1** | Production Messaging Core | Resend production email architecture, templates, sender identity, domain authentication, bounce/complaint webhooks, delivery monitoring, and retry hardening. | **LOCAL ENGINEERING COMPLETE / ACCEPTED; MR-1B-H hosted domain validation deferred.** LIVE customer messaging remains OFF until separately authorized. SMS gated. |
 | **MR-2** | Customer Activation | Business onboarding flow, location setup, verified Google destination confirmation, activation checklist, and recovery states. | **COMPLETE / ACCEPTED.** Automation remains blocked without a confirmed valid destination. |
 | **MR-3** | Completion Source Platform | Universal completion API/webhook with authentication, replay protection, deduplication, adapter contracts, credential management, audit/debugging tooling, and native-connector-ready architecture. | **COMPLETE / ACCEPTED under `MPG-DEC-047`.** Future native connectors remain demand-validated scope, not implied capability. |
-| **MR-4** | Trial / Usage / Economics | Configurable server-side trial entitlement engine (current hypothesis: 30 review requests / 30 days; final structure TBD / validation-required), usage metering ledger, cost attribution models, and COGS validation. | **ACTIVE under `MPG-DEC-047`.** No unlimited usage; final trial terms and pricing remain unapproved; evidence-backed cost inputs are required before commercial commitments. |
-| **MR-5** | Billing | Stripe billing architecture, subscription lifecycles, payment webhooks, checkout flows, customer portal, and invoice accounting. | Final pricing and refund policies must be owner-approved under the pricing framework before enablement. |
+| **MR-4** | Trial / Usage / Economics | Configurable server-side trial entitlements, usage metering, cost attribution and COGS evidence foundation. | **COMPLETE / ACCEPTED under `MPG-DEC-048`.** Trial structure remains subject to future commercial validation; acceptance does not establish final pricing. |
+| **MR-5** | Billing | Billing architecture, subscription lifecycle, payment webhooks, checkout/customer portal foundations and invoice/payment accounting. | **ACTIVE under `MPG-DEC-048`.** Final pricing and refund/commercial policies remain owner-gated before live enablement. |
 | **MR-6** | Admin / Support / Observability | MPG operational tooling, tenant inspection, automation health monitoring, deliverability alerts, exception handling, and audit trails. | Role-based access controls and secure operations; no direct DB tampering for support. |
 | **MR-7** | Trust / Security / Compliance | Technical controls supporting applicable US/Canada messaging and privacy requirements, unsubscribe/opt-out durability, suppression sync, consent provenance, RLS audit, and data retention/deletion. | Qualified legal/compliance review before real-customer messaging or public release; technical controls do not replace legal review. |
 | **MR-8** | Controlled Pilot | Bounded real-customer pilot with a small, owner-approved cohort, participant safeguards, stop triggers, operational support, and objective evaluation. | Separate owner pilot authorization and participant agreements required; pilot does not pre-decide positive validation. |
