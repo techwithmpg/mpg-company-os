@@ -121,7 +121,7 @@ Stage 1 activation preserves every Stage 0 service-readiness and governance cont
 
 **Execute the MPG Reputation Market-Ready Build Program under MPG-DEC-046.**
 
-Execution focus is directed to the sequential market-ready milestones (MR-0 through MR-11), with MR-0 completed as accepted baseline and MR-1 Production Messaging Core active (MR-1A Transport + Provider Event Foundation). Stage 1 — Company and Brand Foundation remains the active company stage under `MPG-DEC-033`, but broad company/brand development is paused while MPG Reputation receives primary execution attention. Stage 2 and all later stages remain NOT ACTIVATED.
+Execution focus is directed to the sequential market-ready milestones (MR-0 through MR-11). MR-0 is the accepted governance baseline; MR-1 Production Messaging Core local engineering is complete with MR-1B-H hosted domain validation deferred; MR-2 Customer Activation is complete / accepted; MR-3 Completion Source Platform is the next planned engineering milestone and has not yet started. Stage 1 — Company and Brand Foundation remains the active company stage under `MPG-DEC-033`, but broad company/brand development is paused while MPG Reputation receives primary execution attention. Stage 2 and all later stages remain NOT ACTIVATED.
 
 Production messaging architecture may be engineered within authorized milestone boundaries, but live customer messaging remains OFF until separately authorized. Professional Business Websites remains first in the accepted commercial productization sequence, with active work paused. Company OS remains governance; application implementation code belongs exclusively in `mpg-reputation`.
 
