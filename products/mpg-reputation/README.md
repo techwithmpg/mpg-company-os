@@ -3,12 +3,12 @@
 | Metadata | Value |
 |---|---|
 | Product / WIP subject | MPG Reputation / Review & Reputation Automation — `PROD-REP-001` |
-| Status | V0.1 INTERNAL TECHNICAL FOUNDATION ACCEPTED; V0.2 CONTROLLED STAGING / FOUNDER USABILITY AUTHORIZED |
+| Status | V0.1 TECHNICAL FOUNDATION ACCEPTED; V0.2 CONTROLLED STAGING PROVEN BASELINE; MARKET-READY BUILD PROGRAM AUTHORIZED (MPG-DEC-046) |
 | Company stage | Stage 1 active; Stage 2 and all later company stages not activated |
 | Owner | MPG Founder |
-| Last Updated | 2026-09-18 |
+| Last Updated | 2026-09-19 |
 | Public Safe | Yes — synthetic examples only |
-| Authority | [Decision register](../../docs/02-decision-register.md): `MPG-DEC-038` through `MPG-DEC-045` |
+| Authority | [Decision register](../../docs/02-decision-register.md): `MPG-DEC-038` through `MPG-DEC-046` |
 
 This is the single authoritative Company OS product-direction document. It consolidates the owner's requirements and identifies recommendations and unresolved decisions. [PRD v0.1](PRD.md) is the owner-authorized implementation baseline under this direction. Neither document is a live offer, evidence of delivery readiness, final commercial model, marketing approval or launch authority.
 
@@ -16,19 +16,42 @@ This is the single authoritative Company OS product-direction document. It conso
 
 | Matter | Decision status and governing boundary |
 |---|---|
-| Track | **ACCEPTED**, `MPG-DEC-038`: the one secondary incubation/build track. Professional Business Websites remains the primary commercial productization track. |
+| Track | **ACCEPTED**, `MPG-DEC-046`: temporary primary execution focus for a bounded market-ready product-development program. Active productization work on Professional Business Websites is temporarily paused so MPG Reputation can receive primary attention, though Professional Business Websites remains first in the accepted commercial productization sequence (`MPG-DEC-029`). `MPG-DEC-046` supersedes only the execution/WIP allocation portions of prior decisions (`MPG-DEC-008`, `MPG-DEC-020`, `MPG-DEC-038`). |
 | Product surface | **ACCEPTED**, `MPG-DEC-039`: a dedicated product website/application may be designed, built, tested and eventually operated without waiting for the future MPG umbrella website. |
 | Company website | **ACCEPTED**, `MPG-DEC-040`: Stage 7 remains inactive. No corporate-site design, temporary umbrella site, MPG-wide catalogue, or restructuring of umbrella-site strategy is authorized. |
 | Experience principle | **ACCEPTED**, `MPG-DEC-041`: seamless for the business, customer and MPG; automate normal work and surface exceptions. |
 | Validation geography | **ACCEPTED**, `MPG-DEC-042`: United States and Canada first; Australian technical compatibility later. |
 | Working identity | **ACCEPTED**, `MPG-DEC-043`: MPG → MPG Reputation; subordinate product/system, not a separate unrelated company. No final name/trademark freeze. |
 | Implementation baseline | **ACCEPTED**, `MPG-DEC-044`: PRD v0.1, separate repository creation and the first synthetic vertical slice are authorized. No service activation, production messaging or public launch follows. |
-| V0.1 technical milestone | **ACCEPTED**, `MPG-DEC-045`: the internal technical foundation and synthetic vertical slice passed engineering acceptance. Controlled staging and founder product-usability validation may proceed. This is not pilot, delivery, market or legal readiness. |
-| Development scope | Requirements, architecture, UX/technical design, prototypes, application development, testing, provider evaluation and internal pilots are owner-authorized within the secondary slot. Pilot safeguards and resource approvals still apply. |
-| Commercial release | **NOT AUTHORIZED** by the build decision: no unrestricted solicitation, public launch, final prices, blanket legal-compliance claims, service lifecycle `ACTIVE`, or marketing approval. |
+| V0.1 technical milestone | **ACCEPTED**, `MPG-DEC-045`: the internal technical foundation and synthetic vertical slice passed engineering acceptance. |
+| V0.2 baseline & Market-ready program | **ACCEPTED**, `MPG-DEC-046`: V0.2 controlled staging and founder product-usability validation forms the proven baseline. Market-ready product-development program is owner-authorized across sequential milestones (MR-0 through MR-11). Commercial release remains gated. |
+| Development scope | Production engineering, production email architecture, onboarding/activation, universal completion sources, evidence-based integrations, trial/usage controls, commercial-model research, billing architecture/implementation, admin/support tooling, trust/security/privacy controls, product website, free check acquisition experience, independent acquisition pipeline, controlled pilot preparation, and launch readiness are authorized under `MPG-DEC-046`. |
+| Commercial release | **NOT AUTHORIZED** by the build decision: no unrestricted solicitation, public launch, real-customer messaging, final prices, blanket legal-compliance claims, service lifecycle `ACTIVE`, or marketing approval. |
 | Implementation choices | Stack, providers, trial terms, sequencing and commercial hypotheses below are **RECOMMENDED / VALIDATION REQUIRED**, not immutable decisions or adopted tools. |
 
 The [service registry](../../registry/services.json) records the secondary slot as `ACTIVE` WIP. This means allocated work only; it is not a service lifecycle state. No separate MPG Reputation service record or market approval is asserted. `REP-GOV-002` must establish that record and its evidence before any pilot lifecycle claim or commercial release. Existing service records and the accepted seven-family commercial sequence remain unchanged. Public offers require applicable G1–G13 readiness, owner approval, `lifecycleStatus = ACTIVE` and `marketingApproved = true`.
+
+## Market-Ready Roadmap (MR-0 through MR-11)
+
+Under `MPG-DEC-046`, MPG Reputation is developed independently through a bounded market-ready build program before broad MPG company/brand development resumes.
+
+> [!IMPORTANT]
+> Roadmap inclusion authorizes development planning and bounded technical/operational implementation, but DOES NOT imply that each gate is already passed. Real customer messaging, live pilot, commercial release, pricing, legal readiness, and marketing approval remain separately gated.
+
+| Milestone | Title | Focus & Scope | Gate / Prerequisite Before Consequential Action |
+|---|---|---|---|
+| **MR-0** | Governance Reconciliation | Synchronize Company OS and product repository governance, decisions, status, roadmap, and agent instructions. | **CURRENT MILESTONE.** Prerequisite for MR-1 engineering. |
+| **MR-1** | Production Messaging Core | Resend production email architecture, templates, sender identity, domain authentication, bounce/complaint webhooks, delivery monitoring, and retry hardening. | Synthetic and developer-controlled validation first; LIVE customer messaging remains OFF until separately authorized. SMS gated. |
+| **MR-2** | Customer Activation | Business onboarding flow, location setup, verified Google destination confirmation, and activation checklist with actionable recovery states. | Valid destination confirmation required; no automation without confirmed destination. |
+| **MR-3** | Completion Source Platform | Universal completion API/webhook with authentication, replay protection, deduplication, and adapter contracts; native CRM connector architecture. | Adapter contracts and verification tests before external system adoption. |
+| **MR-4** | Trial / Usage / Economics | Server-side trial entitlement enforcement (30 requests / 30 days), usage metering ledger, cost attribution models, and COGS validation. | No unlimited usage; evidence-backed cost inputs before commercial commitments. |
+| **MR-5** | Billing | Stripe billing architecture, subscription lifecycles, payment webhooks, checkout flows, customer portal, and invoice accounting. | Final pricing and refund policies must be owner-approved under the pricing framework before enablement. |
+| **MR-6** | Admin / Support / Observability | MPG operational tooling, tenant inspection, automation health monitoring, deliverability alerts, exception handling, and audit trails. | Role-based access controls and secure operations; no direct DB tampering for support. |
+| **MR-7** | Trust / Security / Compliance | US/Canada messaging compliance, unsubscribe/opt-out durability, suppression sync, consent provenance, RLS audit, and data retention/deletion. | Qualified legal/compliance review before real-customer messaging or public release. |
+| **MR-8** | Controlled Pilot | Bounded real-customer pilot program, participant safeguards, stop triggers, success/failure metrics, and dedicated operational support. | Separate owner pilot authorization and participant agreements required. |
+| **MR-9** | Product Website / Acquisition Funnel | Independent product website, Free Reputation Check experience, Reputation Opportunity Report generator, and trial onboarding funnel. | Truthful claims review; publication gate applies before public availability. |
+| **MR-10** | Marketing Engine | Acquisition channels, content, campaign infrastructure, and lead tracking for MPG Reputation. | Public solicitation must respect the publication and marketing approval gates. |
+| **MR-11** | Market Release | Formal commercial release, public marketing launch, lifecycle advancement to `ACTIVE`, and public customer intake. | Mandatory gates: `lifecycleStatus = ACTIVE`, `marketingApproved = true`, full G1–G13 readiness. |
 
 ### Product identity and code ownership
 
@@ -369,4 +392,4 @@ Unresolved: final vertical; final product name/brand freeze and trademark review
 
 Material risks: founder bandwidth and two concurrent tracks, messaging compliance, customer-data privacy, provider/API dependency, premature launch, uncontrolled integration scope, unvalidated economics and false certainty in attribution. The [current project status](../../docs/01-project-status.md#risks) records the controls; these risks are not accepted as resolved.
 
-**Next action:** Progress the accepted V0.1 foundation into controlled synthetic-data staging and founder product-usability validation. The founder should be able to authenticate, onboard, configure a test destination, use Quick Complete, understand workflow/request state, follow a safe tracked redirect and verify truthful dashboard activity without database access. Company OS remains the governance source of truth; commercial, pilot, production-messaging and launch gates remain closed.
+**Next action:** Execute MR-0 Governance Reconciliation, then proceed to MR-1 Production Messaging Core under `MPG-DEC-046`. The V0.1 technical foundation remains ACCEPTED and V0.2 controlled staging / founder usability validation forms the proven baseline. Company OS remains the governance source of truth; commercial, pilot, live customer messaging, pricing, legal, and launch gates remain strictly closed until separately authorized.

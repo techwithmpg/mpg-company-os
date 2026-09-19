@@ -6,7 +6,7 @@
 | Status | CURRENT — STAGE 1 ACTIVE |
 | Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
-| Last Updated | 2026-09-18 |
+| Last Updated | 2026-09-19 |
 | Public Safe | Yes |
 | Authority | Current operational snapshot; decisions remain authoritative in the decision register |
 
@@ -30,19 +30,71 @@ The MPG Founder explicitly activated Stage 1 under `MPG-DEC-033`. Activation aut
 
 **Professional Business Websites**
 
-This is the first service family to undergo productization and readiness review. Priority does not mean the service is `ACTIVE` or approved for marketing.
+This is the first service family in the company's accepted commercial productization sequence (`MPG-DEC-029`). However, under `MPG-DEC-046`, active productization work on Professional Business Websites is temporarily paused so MPG Reputation can receive primary execution attention. Priority in the commercial sequence does not mean the service is `ACTIVE` or approved for marketing.
 
-## PRIMARY BUILD TRACK
+## PRIMARY EXECUTION FOCUS (TEMPORARY)
 
-**Professional Business Websites — website service productization**
+**MPG Reputation / Review & Reputation Automation — OWNER-AUTHORIZED MARKET-READY BUILD PROGRAM** (`MPG-DEC-046`).
+
+Under `MPG-DEC-046`, the MPG Founder has explicitly decided that MPG Reputation will be developed independently through a complete market-ready build program before broad MPG company/brand development resumes. MPG Reputation is now MPG's temporary primary execution focus, superseding the prior secondary-slot allocation for this period. Active productization work on Professional Business Websites is temporarily paused, though Professional Business Websites remains first in the company's accepted commercial sequence (`MPG-DEC-029`).
+
+The authorized market-ready program includes:
+- production product engineering
+- production email architecture
+- customer onboarding and activation
+- universal completion-source API/webhook
+- integrations when evidence supports them
+- trial and usage controls
+- commercial-model research
+- billing architecture and later implementation
+- MPG operational/admin tooling
+- product trust/security/privacy controls
+- product website
+- free reputation-check acquisition experience
+- independent product marketing/acquisition pipeline
+- controlled pilot preparation
+- launch-readiness work
+
+The dedicated product website/application authorization remains in force under `MPG-DEC-039`; the product may be built toward commercial readiness independently from the future MPG umbrella website.
+
+### Market-ready development objective
+
+Development progresses through the following sequential gates:
+```text
+Controlled Staging
+→ Production Core
+→ Activation Experience
+→ Source Platform
+→ Commercial Engine
+→ Billing
+→ Admin & Support
+→ Trust & Compliance
+→ Controlled Pilot
+→ Product Website/Funnel
+→ Marketing Engine
+→ Market Release
+```
+Each transition remains strictly evidence- and gate-controlled.
+
+**Current product status:** V0.1 internal technical foundation accepted (`MPG-DEC-045`); V0.2 controlled staging / founder usability proven baseline; market-ready development program authorized under `MPG-DEC-046`.
+
+**Explicit gating boundaries:**
+Building commercial infrastructure does NOT itself grant:
+- `PILOT_READY`
+- `DELIVERY_READY`
+- `MARKET_APPROVED`
+- `ACTIVE`
+- marketing approval
+- public launch
+- real-customer messaging
+- final pricing
+- legal/compliance approval
+
+Do NOT describe MPG Reputation as commercially available. Real customer pilot, live messaging, public marketing claims, publication, and lifecycle advancement remain separate gated decisions.
 
 ## SECONDARY INCUBATION/BUILD TRACK
 
-**MPG Reputation / Review & Reputation Automation — OWNER-AUTHORIZED** (`MPG-DEC-038`).
-
-MPG Reputation is authorized for requirements, architecture, UX/technical design, prototypes, application development, testing, provider evaluation, and internal pilots as the single secondary incubation/build track. Its dedicated product website/application may proceed independently of the future MPG umbrella website under `MPG-DEC-039`. This bounded authorization does not activate Stage 2, Stage 7, or any other later company stage, change the primary commercial sequence, or grant service activation, final pricing, marketing approval, unrestricted customer solicitation, or public launch. The main MPG umbrella website remains a separate later-stage project; no temporary umbrella site is a prerequisite. See the [authoritative product direction](../products/mpg-reputation/README.md).
-
-Product status: **V0.1 INTERNAL TECHNICAL FOUNDATION — ACCEPTED; V0.2 CONTROLLED STAGING AND FOUNDER PRODUCT-USABILITY VALIDATION — AUTHORIZED** (`MPG-DEC-045`). This is an internal engineering milestone, not delivery readiness. The registry secondary-slot value `ACTIVE` means allocated WIP only, not service lifecycle `ACTIVE`. No separate product service record, pilot authorization, production customer messaging or marketing approval exists. Company OS remains governance; product code, migrations and tests belong in the separate `mpg-reputation` software repository.
+**None currently open.** Under `MPG-DEC-046`, MPG Reputation has been elevated from the secondary slot to the temporary primary execution focus. To protect focus, no additional meaningful productization or incubation track may open during this focused execution period.
 
 ## COMPLETED / ACCEPTED MILESTONES
 
@@ -61,16 +113,17 @@ The following are supported by the owner-directed bootstrap and repository state
 - MPG Reputation secondary build allocation, independent product surface, umbrella-site boundary, seamless principle, US/Canada validation focus, and subordinate working identity accepted under `MPG-DEC-038` through `MPG-DEC-043` on 2026-09-17.
 - MPG Reputation PRD v0.1 and the first separate-repository implementation baseline authorized under `MPG-DEC-044` on 2026-09-17 without activating or launching the service.
 - MPG Reputation V0.1 technical foundation and synthetic vertical slice accepted as an internal engineering milestone under `MPG-DEC-045` on 2026-09-18; progression to controlled staging and founder usability validation authorized without pilot, delivery or market readiness.
+- MPG Reputation temporary primary execution focus and market-ready product-development program explicitly authorized under `MPG-DEC-046` on 2026-09-19; active Professional Business Websites productization temporarily paused; Stage 1 remains active; Stage 2 and later company stages remain not activated; commercial release, live messaging, and public marketing remain gated.
 
 Stage 1 activation preserves every Stage 0 service-readiness and governance control.
 
 ## ACTIVE WORK
 
-**Execute Stage 1 — Company and Brand Foundation under the accepted Stage 0 governance baseline.**
+**Execute the MPG Reputation Market-Ready Build Program under MPG-DEC-046.**
 
-Current Stage 1 work should use the accepted intent, purpose, vision, economic principle, and Brand Beliefs to resolve the remaining customer, positioning, value-proposition, promise, voice, messaging, claims, and working-tagline questions. Those remaining matters stay `PROPOSED`, `RECOMMENDED`, `TBD`, or `UNKNOWN` until appropriately decided. Professional Business Websites remains the sole primary commercial productization track under the existing lifecycle, evidence, WIP, and publication controls. Stage 2 and all later stages remain inactive.
+Execution focus is directed to the sequential market-ready milestones (MR-0 through MR-11), starting with MR-0 Governance Reconciliation and moving into MR-1 Production Messaging Core. Stage 1 — Company and Brand Foundation remains the active company stage under `MPG-DEC-033`, but broad company/brand development is paused while MPG Reputation receives primary execution attention. Stage 2 and all later stages remain NOT ACTIVATED.
 
-The secondary track may now establish a controlled synthetic-data staging environment and conduct founder product-usability validation against the accepted V0.1 foundation. The next milestone is product inspectability: authentication, onboarding, configuration, Quick Complete, workflow state, tracked redirect and truthful dashboard activity must be understandable through the interface without database access. Application code does not belong in Company OS. Real customer messaging, a live pilot, paid infrastructure, pricing, marketing approval and launch remain separately gated.
+Production messaging architecture may be engineered within authorized milestone boundaries, but live customer messaging remains OFF until separately authorized. Professional Business Websites remains first in the accepted commercial productization sequence, with active work paused. Company OS remains governance; application implementation code belongs exclusively in `mpg-reputation`.
 
 ## RISKS
 
@@ -94,14 +147,17 @@ The secondary track may now establish a controlled synthetic-data staging enviro
 
 ## CONSTRAINTS IN FORCE
 
-- Stage 0 remains the accepted governing baseline; Stage 1 is active; Stage 2 and later stages are not activated.
-- Professional Business Websites remains the first commercial build priority.
-- One major new service family is productized at a time by default.
-- MPG Reputation occupies the only secondary incubation/build slot under `MPG-DEC-038`; no additional track is authorized.
-- Mobile Applications remains a future `PLANNED` family and does not consume either WIP slot.
+- Stage 0 remains the accepted governing baseline; Stage 1 is active; Stage 2 and later stages are NOT ACTIVATED.
+- Professional Business Websites remains first in the accepted commercial productization sequence (`MPG-DEC-029`), but its active productization work is temporarily paused.
+- MPG Reputation is the temporary primary execution focus under `MPG-DEC-046`.
+- No additional productization or incubation track is authorized or open during this period.
+- Mobile Applications remains a future `PLANNED` family and does not consume WIP.
 - Brand & Content remains future GROW architecture, and Client Project Readiness remains an inactive backlog requirement.
 - Future-stage documents are frameworks, not completed strategy.
+- Building commercial infrastructure does NOT grant lifecycle `ACTIVE`, marketing approval, public launch, real-customer messaging, final pricing, or legal/compliance approval.
 - No service is marketable unless its authoritative record is `ACTIVE` and `marketingApproved = true`.
+- The strategic relationship remains: MPG → MPG Reputation.
+- No confidential operations may be stored in this public repository.
 - No confidential operations may be stored in this public repository.
 
 ## WEBSITE READINESS HANDOFF

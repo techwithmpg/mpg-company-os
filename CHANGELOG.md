@@ -6,11 +6,19 @@
 | Status | ACTIVE |
 | Stage | Stage 0 — Governance and Source of Truth |
 | Owner | MPG Founder |
-| Last Updated | 2026-09-18 |
+| Last Updated | 2026-09-19 |
 | Public Safe | Yes |
 | Authority | Historical summary; decisions remain authoritative in the decision register |
 
 This changelog records material Company OS changes. It does not replace Git history, the project status, or the decision register. No versions or earlier baselines are inferred where none exist.
+
+## 2026-09-19 — MPG Reputation market-ready build program authorized
+
+- Recorded `MPG-DEC-046`, authorizing MPG Reputation as MPG's temporary primary execution focus for a bounded market-ready product-development program.
+- Paused active productization work on Professional Business Websites while preserving its first position in the accepted commercial productization sequence (`MPG-DEC-029`).
+- Established the market-ready roadmap sequence (MR-0 through MR-11), starting with MR-0 Governance Reconciliation and MR-1 Production Messaging Core.
+- Preserved Stage 0 governance baseline, active Stage 1, Stage 2+ inactive status, and all pilot, production messaging, legal, pricing, marketing and launch gates.
+- Synchronized project status, decision register, product direction, repository agent instructions, and backlog without advancing any service lifecycle state.
 
 ## 2026-09-18 — MPG Reputation V0.1 internal technical milestone accepted
 

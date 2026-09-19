@@ -2,18 +2,18 @@
 
 **STATUS: FRAMEWORK — NOT YET ACTIVATED**
 
-**Bounded exception:** MPG Reputation secondary incubation/build work is authorized under `MPG-DEC-038`; its separate `REP-*` backlog below does not activate this framework as a whole or any later company stage.
+**Bounded exception:** MPG Reputation market-ready product-development program is authorized as MPG's temporary primary execution focus under `MPG-DEC-046` (with prior foundation authorized under `MPG-DEC-038`–`045`); its separate `REP-*` backlog below does not activate this framework as a whole or any later company stage.
 
 - **Document:** Company OS Backlog
 - **Stage:** Cross-stage planning; current active company stage is Stage 1
 - **Owner:** MPG Founder
-- **Last Updated:** 2026-09-18
+- **Last Updated:** 2026-09-19
 - **Public Safe:** Yes
-- **Authority:** Framework and readiness questions; `REP-*` build scope separately authorized by `MPG-DEC-038`. Inclusion alone does not authorize execution, spend or release.
+- **Authority:** Framework and readiness questions; `REP-*` build scope authorized by `MPG-DEC-038` through `MPG-DEC-046`. Inclusion alone does not authorize execution, spend or release.
 
 ## Purpose
 
-Maintain a public-safe, decision-oriented backlog for authorized future-stage work. The first concrete readiness audit is Professional Business Websites, MPG's current commercial priority and primary productization track. Every website readiness item below remains NOT_ASSESSED until evidence and an owner decision are recorded; no item launches or prices the service. The separately authorized Reputation backlog has explicit item statuses.
+Maintain a public-safe, decision-oriented backlog for authorized future-stage work. The first concrete readiness audit is Professional Business Websites, the first service family in MPG's accepted commercial productization sequence (`MPG-DEC-029`), whose active productization work is temporarily paused under `MPG-DEC-046` while MPG Reputation receives primary execution attention. Every website readiness item below remains NOT_ASSESSED until evidence and an owner decision are recorded; no item launches or prices the service. The separately authorized Reputation backlog has explicit item statuses.
 
 ## Questions This Stage Must Answer
 
@@ -49,17 +49,17 @@ Maintain a public-safe, decision-oriented backlog for authorized future-stage wo
 | WEB-026 | G13 Marketing | What audience, offer wording, proof, limitations, call to action, and enquiry capacity support truthful publication? | Marketing-readiness record |
 | WEB-027 | Publication Gate | Do all required gates pass, does the owner approve marketing, and does authoritative data enforce lifecycleStatus = ACTIVE plus marketingApproved = true? | Signed readiness decision, valid registry record, validator pass, and generated-catalogue review |
 
-## MPG Reputation secondary incubation/build backlog
+## MPG Reputation product-development backlog
 
-**OWNER-AUTHORIZED SECONDARY BUILD SCOPE — NOT COMMERCIAL RELEASE**
+**OWNER-AUTHORIZED MARKET-READY BUILD PROGRAM — NOT COMMERCIAL RELEASE**
 
-Authority: `MPG-DEC-038` through `MPG-DEC-045`. Product/WIP subject: `PROD-REP-001`. The [authoritative product direction](../products/mpg-reputation/README.md) and [PRD v0.1](../products/mpg-reputation/PRD.md) own requirements and the implementation baseline; this section owns task status and closure evidence. These `REP-*` IDs do not alter or duplicate the `WEB-001` through `WEB-027` audit above. The MPG Founder is accountable for prioritization and acceptance; no staffing or budget is inferred.
+Authority: `MPG-DEC-038` through `MPG-DEC-046`. Product/WIP subject: `PROD-REP-001`. Under `MPG-DEC-046`, MPG Reputation is MPG's temporary primary execution focus for a bounded market-ready product-development program, while active Professional Business Websites productization is paused. The [authoritative product direction](../products/mpg-reputation/README.md) and [PRD v0.1](../products/mpg-reputation/PRD.md) own requirements and the implementation baseline; this section owns task status and closure evidence. These `REP-*` IDs do not alter or duplicate the `WEB-001` through `WEB-027` audit above. The MPG Founder is accountable for prioritization and acceptance; no staffing or budget is inferred.
 
 `RECORDED` means governance direction exists, not product readiness. `VERIFIED` means a bounded internal technical closure has passed its recorded engineering checks; it does not imply pilot, delivery, market or legal readiness. `IN_PROGRESS` means active work remains inside the authorized boundary. `TODO` means work is within the authorized development boundary but not completed. `GATED` means dependent evidence or separate authorization is required before the consequential action. `DEFERRED` means excluded from the first build. No row advances a service lifecycle or approves public solicitation.
 
 | ID | Category | Status | Bounded deliverable / closure evidence | Dependencies or gate |
 |---|---|---|---|---|
-| REP-GOV-001 | GOV | RECORDED | Owner decisions `MPG-DEC-038`–`045`, product direction and secondary WIP allocation linked and consistent | Preserve Stage 1, website primary, one secondary and dormant umbrella site |
+| REP-GOV-001 | GOV | RECORDED | Owner decisions `MPG-DEC-038`–`046`, product direction, market-ready build program, and temporary primary execution focus linked and consistent | Preserve Stage 1; PBW remains #1 commercial sequence but paused; Stage 2+ and umbrella site remain inactive |
 | REP-GOV-002 | GOV | TODO | Define bounded product service record, lifecycle evidence and mappings to relevant capabilities/tools/assets; no unsupported readiness claims | PRD scope; G1–G13 and lifecycle policy before pilot/release claims |
 | REP-GOV-003 | GOV | RECORDED | Separate product-repository creation and first implementation baseline authorized by `MPG-DEC-044`; establish local repository and private remote where safely available | Keep Company OS as governance; no public release or production customer messaging |
 | REP-PRD-001 | PRD | RECORDED | Owner-authorized [PRD v0.1](../products/mpg-reputation/PRD.md) defines the bounded vertical slice, security, test and failure requirements | Final vertical, trial terms, commercial terms and later-product requirements remain unresolved |
@@ -82,11 +82,13 @@ Authority: `MPG-DEC-038` through `MPG-DEC-045`. Product/WIP subject: `PROD-REP-0
 | REP-PRD-002 | PRD | DEFERRED | Full CRM, native mobile apps, HighLevel clone, drag-and-drop workflow builder, dozens of integrations, automatic AI review replies, white-label agency/reseller platform, unlimited messaging, complex marketing platform, microservices/Kubernetes | Excluded from first build; any later scope needs evidence and WIP review |
 | REP-GOV-004 | GOV | DEFERRED | Full MPG umbrella website stays in the separate Stage 7 company project | Not a Reputation prerequisite or deliverable; Stage 7 remains inactive |
 | REP-GOV-005 | GOV | VERIFIED | V0.1 internal technical foundation and synthetic vertical slice accepted under `MPG-DEC-045`, supported by the recorded clean database reset, 73 passing tests with zero skips, lint, typecheck and production build | Internal milestone only; no real-customer pilot, production messaging, delivery readiness, legal readiness, marketing or launch authority |
-| REP-UX-002 | UX | IN_PROGRESS | Controlled staging and founder product-usability validation: authenticated owner walkthrough, truthful route inventory, business-readable exceptions, responsive critical paths and secret-free owner access instructions | Synthetic data and Console email only; external hosted accounts/credentials may require owner action |
+| REP-UX-002 | UX | VERIFIED | Controlled staging and founder product-usability validation baseline established: authenticated owner walkthrough, responsive critical paths, realtime event dispatch and observability, and secret-free staging access verified | Synthetic data and Console email baseline; external hosted accounts/credentials require owner action; proven usability baseline |
+| REP-MR-000 | GOV | IN_PROGRESS | MR-0 Governance Reconciliation: Synchronize Company OS and product repository decisions, project status, roadmaps, and agent instructions under `MPG-DEC-046` | Prerequisite for MR-1 engineering; no commercial activation |
+| REP-MR-001 | MSG | TODO | MR-1 Production Messaging Core: Resend production email architecture, templates, sender identity, domain authentication, bounce/complaint webhooks, delivery monitoring, and retry hardening | `REP-MR-000`; synthetic and developer testing first; LIVE customer messaging remains OFF until separately authorized; SMS gated |
 
-Review the secondary scope at each milestone and before spend, integration or pilot commitments. Pause secondary work when it displaces primary obligations or lacks material capacity, compliance, data or cost controls. No calendar deadline, supplier account, validated capability, production environment or completed implementation is implied.
+Review program scope at each milestone and before spend, integration or pilot commitments. No calendar deadline, supplier account, validated capability, production environment or completed commercial implementation is implied.
 
-**Immediate next action:** Establish controlled staging where available and complete founder product-usability validation of the accepted V0.1 workflow. Do not begin a real-customer pilot, production messaging, commercial launch or any deferred integration.
+**Immediate next action:** Complete MR-0 Governance Reconciliation, then execute MR-1 Production Messaging Core. LIVE customer messaging remains OFF until separately authorized. Do not begin a real-customer pilot, commercial launch, or any deferred integration.
 
 
 ## Client Project Readiness & Dependency Detection
@@ -147,7 +149,7 @@ Implementation depends on later authorized customer discovery, service-definitio
 
 ## Activation Gate
 
-Stage 0 acceptance is recorded under `MPG-DEC-032`, and Stage 1 is active under `MPG-DEC-033`, but those decisions do not activate this cross-stage service-readiness backlog as a whole. Work within authorized Stage 1 company, customer, market, positioning, and brand-foundation scope may proceed. `MPG-DEC-038` separately authorizes the bounded MPG Reputation secondary build scope above; other later-stage backlog work requires its applicable stage or a separate bounded authorization. Professional Business Websites may advance through its lifecycle only on evidence; public marketing requires all applicable gates, explicit owner marketing approval, lifecycleStatus = ACTIVE, and marketingApproved = true.
+Stage 0 acceptance is recorded under `MPG-DEC-032`, and Stage 1 is active under `MPG-DEC-033`, but those decisions do not activate this cross-stage service-readiness backlog as a whole. Work within authorized Stage 1 company, customer, market, positioning, and brand-foundation scope may proceed. `MPG-DEC-046` separately authorizes the bounded MPG Reputation market-ready product-development program above as temporary primary execution focus; other later-stage backlog work requires its applicable stage or a separate bounded authorization. Professional Business Websites remains first in the commercial sequence, but active work is paused; it may advance through its lifecycle only on evidence; public marketing requires all applicable gates, explicit owner marketing approval, lifecycleStatus = ACTIVE, and marketingApproved = true.
 
 ## Dependencies
 

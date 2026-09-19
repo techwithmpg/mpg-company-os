@@ -6,7 +6,7 @@
 | Status | ACTIVE |
 | Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
-| Last Updated | 2026-09-18 |
+| Last Updated | 2026-09-19 |
 | Public Safe | Yes |
 | Authority | Mandatory repository instruction subject to the source-of-truth hierarchy |
 
@@ -75,11 +75,11 @@ Do not turn broad founder learning into a list of company services or unsupporte
 
 ### Protect focus
 
-MPG productizes one major new service family at a time by default. The primary track is Professional Business Websites. At most one meaningful secondary learning/incubation track may run concurrently. The allocated track is MPG Reputation / Review & Reputation Automation — owner-authorized secondary incubation/build track under `MPG-DEC-038`.
+MPG productizes one major new service family at a time by default. Professional Business Websites remains the first commercial productization family in the accepted commercial sequence (`MPG-DEC-029`). Under `MPG-DEC-046`, active productization work on Professional Business Websites is temporarily paused so MPG Reputation / Review & Reputation Automation can receive primary execution attention for a bounded market-ready product-development program.
 
 Do not introduce unrelated scope or advance parked work. Learning, purchasing a tool, or identifying a partner does not authorize productization.
 
-For MPG Reputation, follow [the product direction](products/mpg-reputation/README.md) and `MPG-DEC-038` through `MPG-DEC-045`. Product design, development, controlled staging and founder product-usability validation are bounded authorizations within the secondary slot, not later-stage company activation. The separate product repository is authorized and contains implementation code; do not place that code in Company OS. V0.1 technical acceptance is an internal milestone only. Stage 7 and the main MPG umbrella website remain untouched; all pilot, delivery, commercial and publication gates still apply.
+For MPG Reputation, follow [the product direction](products/mpg-reputation/README.md) and `MPG-DEC-038` through `MPG-DEC-046`. Product design, development, and market-ready preparation are bounded authorizations under `MPG-DEC-046`, not later-stage company activation. The separate product repository is authorized and contains implementation code; do not place that code in Company OS. V0.1 technical acceptance and V0.2 controlled staging are internal engineering baselines only. Building commercial infrastructure does not grant lifecycle ACTIVE, marketing approval, public launch, real-customer messaging, final pricing, or legal/compliance approval. Stage 7 and the main MPG umbrella website remain untouched; all pilot, delivery, commercial and publication gates still apply.
 
 ### Protect the service gate
 
