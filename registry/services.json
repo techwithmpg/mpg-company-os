@@ -5,9 +5,9 @@
     "status": "ACCEPTED",
     "stage": "STAGE_0",
     "owner": "MPG Founder",
-    "lastUpdated": "2026-09-17",
+    "lastUpdated": "2026-09-19",
     "publicSafe": true,
-    "authority": "Owner-authorized Stage 0 baseline, MPG-DEC-029 sequence and MPG-DEC-038 secondary allocation"
+    "authority": "Owner-authorized Stage 0 baseline, MPG-DEC-029 commercial sequence, and temporary execution allocation under MPG-DEC-046"
   },
   "allowedValues": {
     "lifecycleStatus": [
@@ -67,15 +67,23 @@
     "wipAllocation": {
       "primaryCommercialTrack": {
         "serviceId": "TECH-WEB-001",
-        "status": "ACTIVE_PRODUCTIZATION"
+        "status": "PAUSED_PRODUCTIZATION",
+        "ownerDecision": "repo:docs/02-decision-register.md#mpg-dec-046",
+        "notes": "Professional Business Websites remains first in the accepted commercial productization sequence, but active productization is temporarily paused under MPG-DEC-046."
       },
-      "secondaryCapabilityTrack": {
+      "primaryExecutionFocus": {
         "subjectId": "PROD-REP-001",
-        "status": "ACTIVE",
-        "ownerDecision": "repo:docs/02-decision-register.md#mpg-dec-038",
+        "status": "ACTIVE_MARKET_READY_BUILD",
+        "ownerDecision": "repo:docs/02-decision-register.md#mpg-dec-046",
         "name": "MPG Reputation / Review & Reputation Automation",
         "productDocument": "repo:products/mpg-reputation/README.md",
-        "notes": "Allocated secondary incubation/build WIP only; not service lifecycle ACTIVE, marketing approval or later-stage activation."
+        "notes": "Temporary primary execution focus for the bounded market-ready product-development program. This is WIP allocation only and does not grant service lifecycle ACTIVE, marketing approval, pilot authority, live customer messaging, or public launch."
+      },
+      "secondaryCapabilityTrack": {
+        "subjectId": null,
+        "status": "UNALLOCATED",
+        "ownerDecision": "NONE",
+        "notes": "No secondary capability/productization track is currently open under MPG-DEC-046."
       }
     },
     "publicationPredicate": "lifecycleStatus == ACTIVE && marketingApproved == true",
@@ -124,7 +132,7 @@
       ],
       "requiredPartners": [],
       "readinessGates": {
-        "G1": {"status": "NOT_ASSESSED", "evidence": [], "notes": "Customer segment and demand evidence remain to be established."},
+        "G1": {"status": "NOT_ASSESSED", "evidence": [], "notes": "First service family in the accepted commercial productization sequence. Lifecycle remains BUILDING_CAPABILITY, but active productization execution is temporarily paused under MPG-DEC-046. Not available for sale."},
         "G2": {"status": "NOT_ASSESSED", "evidence": [], "notes": "Capabilities are deliberately unassessed in the Stage 0 registry."},
         "G3": {"status": "NOT_ASSESSED", "evidence": [], "notes": "Delivery stack, accounts, reliability, and cost remain to be selected and verified."},
         "G4": {"status": "NOT_ASSESSED", "evidence": [], "notes": "Required delivery and commercial assets remain to be audited."},

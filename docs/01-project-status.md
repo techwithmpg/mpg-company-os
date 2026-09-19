@@ -137,7 +137,7 @@ Production messaging architecture may be engineered within authorized milestone 
 | Partner dependency | Future trade, logistics, regulated, and specialist work may rely on third parties | Partner due diligence, explicit delivery mode, and partner readiness gate |
 | Evidence gaps | Skills, tools, assets, processes, economics, and proof are not yet fully assessed | Readiness registers and service launch gates preserve unknowns |
 | Brand overclaiming | Strategic pillars may be read as active divisions or offers | Brand architecture labels them as capability domains, not market claims |
-| Two concurrent tracks | Reputation work may displace website productization and exceed founder bandwidth | One primary plus one secondary; review capacity before each milestone and pause secondary work if primary obligations suffer |
+| Execution focus drift | Reputation work could unintentionally reopen paused website productization or an additional incubation track | `MPG-DEC-046`: Reputation is temporary primary execution focus; PBW productization paused; no secondary track currently open; review capacity at each milestone |
 | Messaging compliance | US/Canada sender, registration, consent, and unsubscribe controls remain unverified | Email-first trial recommendation; country policy engine and professional pre-launch review |
 | Customer-data privacy | Completion events and attribution introduce personal information | Minimize collection, isolate organizations, define retention/export/deletion; keep private data outside this repository |
 | Provider dependency | Messaging and Google access, pricing, or APIs may change | Provider adapters, current capability/cost checks, failure handling and exit plans |

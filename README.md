@@ -6,7 +6,7 @@
 | Status | ACTIVE GOVERNANCE — STAGE 1 ACTIVE |
 | Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
-| Last Updated | 2026-09-17 |
+| Last Updated | 2026-09-19 |
 | Public Safe | Yes |
 | Authority | Stage 0 governance accepted under `MPG-DEC-032`; Stage 1 activated under `MPG-DEC-033` |
 
@@ -24,14 +24,15 @@ This is a company repository, not merely a website repository. The website is on
 | Current active stage | **Stage 1 — Company and Brand Foundation — ACTIVE** |
 | Next company stage | **Stage 2 — Services, Offers and Pricing — NOT ACTIVATED** |
 | Commercial priority | **Professional Business Websites** |
-| Primary build track | Website service productization |
-| Secondary incubation/build track | MPG Reputation / Review & Reputation Automation — owner-authorized secondary incubation/build track under `MPG-DEC-038` |
+| Commercial sequence priority | **Professional Business Websites** — active productization temporarily paused under `MPG-DEC-046` |
+| Primary execution focus | **MPG Reputation / Review & Reputation Automation** — bounded market-ready build under `MPG-DEC-046` |
+| Secondary incubation/build track | **None currently open** |
 | Publicly marketable services | Determined only by the service registry and publication gate; never inferred from this README |
 | Next gate | Owner acceptance/completion of Stage 1 and a separate decision on Stage 2 activation |
 
 Stage 0 remains the accepted governance baseline. Stage 1 is **ACTIVE** under `MPG-DEC-033` and operates within the Stage 0 controls. Stage 2 and all later stages are **NOT ACTIVATED**. Stage 1 activation does not itself approve a service, price, customer segment, partnership, capability claim, marketing claim, or additional productization track.
 
-MPG Reputation is authorized for requirements, architecture, UX/technical design, prototypes, application development, testing, provider evaluation, and internal pilots as the single secondary incubation/build track. Its dedicated product website/application may proceed independently of the future MPG umbrella website under `MPG-DEC-039`. This bounded authorization does not activate Stage 2, Stage 7, or any other later company stage, change the primary commercial sequence, or grant service activation, final pricing, marketing approval, unrestricted customer solicitation, or public launch. The main MPG umbrella website remains a separate later-stage project; no temporary umbrella site is a prerequisite. See the [authoritative product direction](products/mpg-reputation/README.md).
+Under `MPG-DEC-046`, MPG Reputation is MPG's temporary primary execution focus for a bounded market-ready product-development program. Professional Business Websites remains first in the accepted commercial productization sequence, but active website-service productization is temporarily paused. No secondary productization or incubation track is currently open. The dedicated MPG Reputation product website/application remains authorized independently of the future MPG umbrella website. This focused execution decision does not activate Stage 2, Stage 7, any service lifecycle state, production customer messaging, marketing approval, unrestricted solicitation, final pricing, or public launch.
 
 ## Accepted company foundation
 

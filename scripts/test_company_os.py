@@ -127,36 +127,104 @@ class GovernanceRegressionTests(unittest.TestCase):
             errors,
         )
 
-    def test_professional_websites_is_the_only_primary_productization(self) -> None:
+    def test_professional_websites_sequence_priority_is_paused_under_dec_046(self) -> None:
         services = self.registries["services"]
         wip = services["governance"]["wipAllocation"]
-        self.assertEqual(services["governance"]["currentStage"], "STAGE_1")
-        self.assertEqual(wip["primaryCommercialTrack"]["serviceId"], "TECH-WEB-001")
-        active_states = {
-            "BUILDING_CAPABILITY",
-            "INTERNAL_READY",
-            "PILOT_READY",
-            "PILOTING",
-            "DELIVERY_READY",
-            "MARKET_APPROVED",
-        }
+        primary = wip["primaryCommercialTrack"]
+
         self.assertEqual(
-            [service["id"] for service in services["services"] if service["lifecycleStatus"] in active_states],
-            ["TECH-WEB-001"],
+            services["governance"]["currentStage"],
+            "STAGE_1",
+        )
+        self.assertEqual(
+            primary["serviceId"],
+            "TECH-WEB-001",
+        )
+        self.assertEqual(
+            primary["status"],
+            "PAUSED_PRODUCTIZATION",
+        )
+        self.assertEqual(
+            primary["ownerDecision"],
+            "repo:docs/02-decision-register.md#mpg-dec-046",
+        )
+        self.assertTrue(
+            validator.is_traceable_reference(
+                primary["ownerDecision"],
+                repository_only=True,
+            )
         )
 
-    def test_reputation_allocation_does_not_authorize_publication(self) -> None:
+        # Lifecycle readiness is preserved; execution WIP is what is paused.
+        self.assertEqual(
+            self.service("TECH-WEB-001")["lifecycleStatus"],
+            "BUILDING_CAPABILITY",
+        )
+
+    def test_reputation_is_temporary_primary_execution_focus_without_publication(self) -> None:
         services = self.registries["services"]
-        secondary = services["governance"]["wipAllocation"]["secondaryCapabilityTrack"]
-        self.assertEqual(secondary["status"], "ACTIVE")
-        self.assertEqual(secondary["subjectId"], "PROD-REP-001")
-        self.assertEqual(secondary["ownerDecision"], "repo:docs/02-decision-register.md#mpg-dec-038")
-        self.assertTrue(validator.is_traceable_reference(secondary["ownerDecision"], repository_only=True))
-        self.assertTrue(validator.is_traceable_reference(secondary["productDocument"], repository_only=True))
-        self.assertTrue(all(service["lifecycleStatus"] != "ACTIVE" for service in services["services"]))
-        self.assertTrue(all(not service["marketingApproved"] for service in services["services"]))
-        self.assertTrue(all(not service["publiclyMarketable"] for service in services["services"]))
-        self.assertIn("No services are currently approved", render_catalogue(services))
+        wip = services["governance"]["wipAllocation"]
+
+        execution = wip["primaryExecutionFocus"]
+        secondary = wip["secondaryCapabilityTrack"]
+
+        self.assertEqual(
+            execution["subjectId"],
+            "PROD-REP-001",
+        )
+        self.assertEqual(
+            execution["status"],
+            "ACTIVE_MARKET_READY_BUILD",
+        )
+        self.assertEqual(
+            execution["ownerDecision"],
+            "repo:docs/02-decision-register.md#mpg-dec-046",
+        )
+        self.assertTrue(
+            validator.is_traceable_reference(
+                execution["ownerDecision"],
+                repository_only=True,
+            )
+        )
+        self.assertTrue(
+            validator.is_traceable_reference(
+                execution["productDocument"],
+                repository_only=True,
+            )
+        )
+
+        self.assertEqual(
+            secondary["status"],
+            "UNALLOCATED",
+        )
+        self.assertIsNone(secondary["subjectId"])
+        self.assertEqual(
+            secondary["ownerDecision"],
+            "NONE",
+        )
+
+        self.assertTrue(
+            all(
+                service["lifecycleStatus"] != "ACTIVE"
+                for service in services["services"]
+            )
+        )
+        self.assertTrue(
+            all(
+                not service["marketingApproved"]
+                for service in services["services"]
+            )
+        )
+        self.assertTrue(
+            all(
+                not service["publiclyMarketable"]
+                for service in services["services"]
+            )
+        )
+        self.assertIn(
+            "No services are currently approved",
+            render_catalogue(services),
+        )
 
     def test_brand_content_is_future_architecture_not_a_service(self) -> None:
         architecture = (validator.ROOT / "docs" / "03-brand-architecture.md").read_text(encoding="utf-8")

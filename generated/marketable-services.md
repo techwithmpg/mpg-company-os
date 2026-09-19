@@ -2,7 +2,7 @@
 
 # MPG Marketable Services
 
-Source registry date: 2026\-09\-17
+Source registry date: 2026\-09\-19
 
 Publication rule: a service appears here only when its lifecycle status is `ACTIVE` and owner marketing approval is `true`; its derived `publiclyMarketable` flag must therefore also be `true`.
 

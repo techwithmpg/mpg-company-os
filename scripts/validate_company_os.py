@@ -840,32 +840,103 @@ def main() -> int:
             )
 
     wip = governance.get("wipAllocation")
-    validation.require(isinstance(wip, dict), "Service governance wipAllocation must be an object.")
+    validation.require(
+        isinstance(wip, dict),
+        "Service governance wipAllocation must be an object.",
+    )
     wip = wip if isinstance(wip, dict) else {}
+
     primary = wip.get("primaryCommercialTrack")
+    execution = wip.get("primaryExecutionFocus")
     secondary = wip.get("secondaryCapabilityTrack")
-    validation.require(isinstance(primary, dict), "wipAllocation.primaryCommercialTrack must be an object.")
-    validation.require(isinstance(secondary, dict), "wipAllocation.secondaryCapabilityTrack must be an object.")
+
+    validation.require(
+        isinstance(primary, dict),
+        "wipAllocation.primaryCommercialTrack must be an object.",
+    )
+    validation.require(
+        isinstance(execution, dict),
+        "wipAllocation.primaryExecutionFocus must be an object.",
+    )
+    validation.require(
+        isinstance(secondary, dict),
+        "wipAllocation.secondaryCapabilityTrack must be an object.",
+    )
+
     primary = primary if isinstance(primary, dict) else {}
+    execution = execution if isinstance(execution, dict) else {}
     secondary = secondary if isinstance(secondary, dict) else {}
+
     primary_service_id = primary.get("serviceId")
-    validation.require(primary_service_id == "TECH-WEB-001", "The current primary commercial track must remain TECH-WEB-001.")
-    validation.require(primary.get("status") == "ACTIVE_PRODUCTIZATION", "The current primary commercial track must be ACTIVE_PRODUCTIZATION.")
+
+    validation.require(
+        primary_service_id == "TECH-WEB-001",
+        "Professional Business Websites must remain first in the accepted commercial sequence.",
+    )
+    validation.require(
+        primary.get("status") == "PAUSED_PRODUCTIZATION",
+        "Professional Business Websites productization must remain paused under MPG-DEC-046.",
+    )
+    validation.require(
+        primary.get("ownerDecision")
+        == "repo:docs/02-decision-register.md#mpg-dec-046",
+        "The paused commercial track must reference MPG-DEC-046.",
+    )
+    validation.require(
+        is_traceable_reference(
+            primary.get("ownerDecision"),
+            repository_only=True,
+        ),
+        "The paused commercial track requires a repository-backed owner decision.",
+    )
+
     validation.require(
         productizing == [primary_service_id],
-        "WIP violation: the sole active productization record must be the allocated primary track; found "
+        "Only Professional Business Websites may remain in a pre-market active lifecycle state "
+        "under the accepted commercial sequence; found "
         + ", ".join(str(item) for item in productizing),
     )
-    validation.require(secondary.get("status") in {"UNALLOCATED", "ACTIVE", "PAUSED"}, "Secondary capability track has invalid status.")
-    if secondary.get("status") == "UNALLOCATED":
-        validation.require(secondary.get("subjectId") is None, "An unallocated secondary capability track must have subjectId=null.")
-        validation.require(secondary.get("ownerDecision") == "NONE", "An unallocated secondary capability track must have ownerDecision=NONE.")
-    else:
-        validation.require(isinstance(secondary.get("subjectId"), str) and bool(secondary["subjectId"].strip()), "An allocated secondary capability track requires one subjectId.")
-        validation.require(
-            is_traceable_reference(secondary.get("ownerDecision"), repository_only=True),
-            "An allocated secondary capability track requires a repository-backed owner decision.",
-        )
+
+    validation.require(
+        execution.get("subjectId") == "PROD-REP-001",
+        "MPG Reputation must be the temporary primary execution focus under MPG-DEC-046.",
+    )
+    validation.require(
+        execution.get("status") == "ACTIVE_MARKET_READY_BUILD",
+        "MPG Reputation must carry ACTIVE_MARKET_READY_BUILD WIP status.",
+    )
+    validation.require(
+        execution.get("ownerDecision")
+        == "repo:docs/02-decision-register.md#mpg-dec-046",
+        "The primary execution focus must reference MPG-DEC-046.",
+    )
+    validation.require(
+        is_traceable_reference(
+            execution.get("ownerDecision"),
+            repository_only=True,
+        ),
+        "The primary execution focus requires a repository-backed owner decision.",
+    )
+    validation.require(
+        is_traceable_reference(
+            execution.get("productDocument"),
+            repository_only=True,
+        ),
+        "The primary execution focus requires a repository-backed product document.",
+    )
+
+    validation.require(
+        secondary.get("status") == "UNALLOCATED",
+        "No secondary capability track may be open during the MPG-DEC-046 focused execution period.",
+    )
+    validation.require(
+        secondary.get("subjectId") is None,
+        "An unallocated secondary capability track must have subjectId=null.",
+    )
+    validation.require(
+        secondary.get("ownerDecision") == "NONE",
+        "An unallocated secondary capability track must have ownerDecision=NONE.",
+    )
 
     validate_generated(services_registry, validation)
 

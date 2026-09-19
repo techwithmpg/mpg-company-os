@@ -12,6 +12,14 @@
 
 This changelog records material Company OS changes. It does not replace Git history, the project status, or the decision register. No versions or earlier baselines are inferred where none exist.
 
+## 2026-09-19 — MR-2 customer activation accepted and execution governance reconciled
+
+- Recorded MR-2 Customer Activation as complete / accepted after the synthetic activation lifecycle proof and clean engineering gate.
+- Set MR-3 Completion Source Platform as the next planned engineering milestone; it remains not yet started during this reconciliation.
+- Reconciled the machine-readable WIP allocation with `MPG-DEC-046`: Professional Business Websites remains first in the commercial sequence with active productization paused; MPG Reputation is the temporary primary execution focus; no secondary track is open.
+- Updated governance validation and regression tests so they enforce the current `MPG-DEC-046` allocation instead of the superseded pre-046 primary/secondary WIP state.
+- Preserved Stage 1, Stage 2+ inactive status, and all pilot, live messaging, pricing, legal, marketing and release gates.
+
 ## 2026-09-19 — MPG Reputation market-ready build program authorized
 
 - Recorded `MPG-DEC-046`, authorizing MPG Reputation as MPG's temporary primary execution focus for a bounded market-ready product-development program.
