@@ -6,7 +6,7 @@
 | Status | ACTIVE |
 | Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
-| Last Updated | 2026-09-19 |
+| Last Updated | 2026-09-22 |
 | Public Safe | Yes |
 | Authority | Mandatory repository instruction subject to the source-of-truth hierarchy |
 
@@ -79,7 +79,9 @@ MPG productizes one major new service family at a time by default. Professional 
 
 Do not introduce unrelated scope or advance parked work. Learning, purchasing a tool, or identifying a partner does not authorize productization.
 
-For MPG Reputation, follow [the product direction](products/mpg-reputation/README.md) and `MPG-DEC-038` through `MPG-DEC-046`. Product design, development, and market-ready preparation are bounded authorizations under `MPG-DEC-046`, not later-stage company activation. The separate product repository is authorized and contains implementation code; do not place that code in Company OS. V0.1 technical acceptance and V0.2 controlled staging are internal engineering baselines only. Building commercial infrastructure does not grant lifecycle ACTIVE, marketing approval, public launch, real-customer messaging, final pricing, or legal/compliance approval. Stage 7 and the main MPG umbrella website remain untouched; all pilot, delivery, commercial and publication gates still apply.
+For MPG Reputation, follow [the product direction](products/mpg-reputation/README.md) and `MPG-DEC-038` through `MPG-DEC-049`. Product design, development, and market-ready preparation are bounded authorizations under `MPG-DEC-046`, not later-stage company activation. The separate product repository is authorized and contains implementation code; do not place that code in Company OS. V0.1 technical acceptance and V0.2 controlled staging are internal engineering baselines only. Building commercial infrastructure does not grant lifecycle ACTIVE, marketing approval, public launch, real-customer messaging, final pricing, or legal/compliance approval. Stage 7 and the main MPG umbrella website remain untouched; all pilot, delivery, commercial and publication gates still apply.
+
+**MR-5 — PAUSED AT SAFE ENGINEERING CHECKPOINT / EXTERNAL BILLING PROVIDER DEPENDENCY** (`MPG-DEC-049`). MR-5 remains INCOMPLETE, not accepted or closed. **MR-6 — Admin / Support / Observability is ACTIVE NEXT** under the accepted sequencing exception; preparation is authorized, with the first bounded implementation handed off separately. Execution exception (`MPG-DEC-049`): MR-5 safe checkpoint → remaining MR-5 PAUSED → MR-6 ACTIVE NEXT → MR-7 remains after MR-6. MR-5C remainder and MR-5D/E/F resume when billing-provider/account eligibility, verification and setup are resolved, before any gate materially dependent on production billing or commercial charging. MR-8 remains GATED until all prerequisites are deliberately reconciled; this exception does not waive MR-5 dependencies. Billing-provider research may proceed separately; Stripe is not automatically replaced and is not declared unavailable. This reconciliation prepares MR-6; do not restart billing or implement unrelated roadmap work.
 
 ### Protect the service gate
 

@@ -6,7 +6,7 @@
 | Status | CURRENT — STAGE 1 ACTIVE |
 | Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
-| Last Updated | 2026-09-19 |
+| Last Updated | 2026-09-22 |
 | Public Safe | Yes |
 | Authority | Current operational snapshot; decisions remain authoritative in the decision register |
 
@@ -59,7 +59,7 @@ The dedicated product website/application authorization remains in force under `
 
 ### Market-ready development objective
 
-Development progresses through the following sequential gates:
+The original roadmap progresses through the following sequential gates (retained as historical intent; the accepted execution exception is recorded below):
 ```text
 Controlled Staging
 → Production Core
@@ -75,6 +75,12 @@ Controlled Staging
 → Market Release
 ```
 Each transition remains strictly evidence- and gate-controlled.
+
+**MR-5 — PAUSED AT SAFE ENGINEERING CHECKPOINT / EXTERNAL BILLING PROVIDER DEPENDENCY** (`MPG-DEC-049`). MR-5 remains INCOMPLETE, not accepted or closed. **MR-6 — Admin / Support / Observability is ACTIVE NEXT** under the accepted sequencing exception; preparation is authorized, with the first bounded implementation handed off separately.
+
+Safe product checkpoint: `d654656b59810877502d2e737dd236ae83b9c379` (parent `8d6629aa70498fa13de19e43614c2d5f95b891f4`), synchronized to both product remotes. Billing persistence and the partial MR-5C signature/environment, durable intake and provider-truth correlation work are preserved. The resolver is not wired into a webhook processor; subscription projection and recovery remain unfinished. MR-5D — Checkout + Customer Portal, MR-5E — Controlled entitlement synchronization, and MR-5F — Hosted billing-provider test-mode acceptance are **DEFERRED / PAUSED**.
+
+Execution exception (`MPG-DEC-049`): MR-5 safe checkpoint → remaining MR-5 PAUSED → MR-6 ACTIVE NEXT → MR-7 remains after MR-6. MR-5C remainder and MR-5D/E/F resume when billing-provider/account eligibility, verification and setup are resolved, before any gate materially dependent on production billing or commercial charging. MR-8 remains GATED until all prerequisites are deliberately reconciled; this exception does not waive MR-5 dependencies. Billing-provider research may proceed separately; Stripe is not automatically replaced and is not declared unavailable.
 
 **Current product status:** V0.1 internal technical foundation accepted (`MPG-DEC-045`); V0.2 controlled staging / founder usability proven baseline; market-ready development program authorized under `MPG-DEC-046`.
 
@@ -116,6 +122,7 @@ The following are supported by the owner-directed bootstrap and repository state
 - MPG Reputation temporary primary execution focus and market-ready product-development program explicitly authorized under `MPG-DEC-046` on 2026-09-19; active Professional Business Websites productization temporarily paused; Stage 1 remains active; Stage 2 and later company stages remain not activated; commercial release, live messaging, and public marketing remain gated.
 - MPG Reputation MR-3 Completion Source Platform explicitly accepted and MR-4 Trial / Usage / Economics activated under `MPG-DEC-047` on 2026-09-19; this advances the bounded market-ready engineering program only and does not authorize final trial terms, pricing, billing, live messaging, pilot operation, public launch, marketing approval, lifecycle `ACTIVE`, legal/compliance readiness, or Stage 2 activation.
 - MPG Reputation MR-4 Trial / Usage / Economics explicitly accepted and MR-5 Billing activated under `MPG-DEC-048` on 2026-09-19; this advances only the bounded market-ready product program and does not authorize final pricing, live messaging, pilot operation, public launch, marketing approval, lifecycle `ACTIVE`, legal/compliance readiness, or Stage 2 activation.
+- MPG Reputation safe MR-5 pause and MR-6 sequencing exception accepted under `MPG-DEC-049` on 2026-09-22; no MR-5 acceptance, commercial activation or later Company Stage activation.
 
 Stage 1 activation preserves every Stage 0 service-readiness and governance control.
 
@@ -123,7 +130,7 @@ Stage 1 activation preserves every Stage 0 service-readiness and governance cont
 
 **Execute the MPG Reputation Market-Ready Build Program under MPG-DEC-046.**
 
-Execution focus is directed to the sequential market-ready milestones (MR-0 through MR-11). MR-0 is the accepted governance baseline; MR-1 Production Messaging Core local engineering is complete with MR-1B-H hosted domain validation deferred; MR-2 Customer Activation is complete / accepted; MR-3 Completion Source Platform is complete / accepted under `MPG-DEC-047`; MR-4 Trial / Usage / Economics is complete / accepted under `MPG-DEC-048`; MR-5 Billing is now the active bounded engineering milestone. Final pricing and commercial billing terms remain unapproved and separately gated. Stage 1 — Company and Brand Foundation remains the active company stage under `MPG-DEC-033`, but broad company/brand development is paused while MPG Reputation receives primary execution attention. Stage 2 and all later stages remain NOT ACTIVATED.
+Execution focus is directed to the sequential market-ready milestones (MR-0 through MR-11). MR-0 is the accepted governance baseline; MR-1 Production Messaging Core local engineering is complete with MR-1B-H hosted domain validation deferred; MR-2 Customer Activation is complete / accepted; MR-3 Completion Source Platform is complete / accepted under `MPG-DEC-047`; MR-4 Trial / Usage / Economics is complete / accepted under `MPG-DEC-048`; MR-5 Billing is paused and incomplete at the safe engineering checkpoint; MR-6 Admin / Support / Observability is the next active milestone under `MPG-DEC-049`. Final pricing and commercial billing terms remain unapproved and separately gated. Stage 1 — Company and Brand Foundation remains the active company stage under `MPG-DEC-033`, but broad company/brand development is paused while MPG Reputation receives primary execution attention. Stage 2 and all later stages remain NOT ACTIVATED.
 
 Production messaging architecture may be engineered within authorized milestone boundaries, but live customer messaging remains OFF until separately authorized. Professional Business Websites remains first in the accepted commercial productization sequence, with active work paused. Company OS remains governance; application implementation code belongs exclusively in `mpg-reputation`.
 

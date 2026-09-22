@@ -6,7 +6,7 @@
 | Status | ACTIVE GOVERNANCE — STAGE 1 ACTIVE |
 | Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
-| Last Updated | 2026-09-19 |
+| Last Updated | 2026-09-22 |
 | Public Safe | Yes |
 | Authority | Stage 0 governance accepted under `MPG-DEC-032`; Stage 1 activated under `MPG-DEC-033` |
 
@@ -33,6 +33,10 @@ This is a company repository, not merely a website repository. The website is on
 Stage 0 remains the accepted governance baseline. Stage 1 is **ACTIVE** under `MPG-DEC-033` and operates within the Stage 0 controls. Stage 2 and all later stages are **NOT ACTIVATED**. Stage 1 activation does not itself approve a service, price, customer segment, partnership, capability claim, marketing claim, or additional productization track.
 
 Under `MPG-DEC-046`, MPG Reputation is MPG's temporary primary execution focus for a bounded market-ready product-development program. Professional Business Websites remains first in the accepted commercial productization sequence, but active website-service productization is temporarily paused. No secondary productization or incubation track is currently open. The dedicated MPG Reputation product website/application remains authorized independently of the future MPG umbrella website. This focused execution decision does not activate Stage 2, Stage 7, any service lifecycle state, production customer messaging, marketing approval, unrestricted solicitation, final pricing, or public launch.
+
+**MR-5 — PAUSED AT SAFE ENGINEERING CHECKPOINT / EXTERNAL BILLING PROVIDER DEPENDENCY** (`MPG-DEC-049`). MR-5 remains INCOMPLETE, not accepted or closed. **MR-6 — Admin / Support / Observability is ACTIVE NEXT** under the accepted sequencing exception; preparation is authorized, with the first bounded implementation handed off separately.
+
+Execution exception (`MPG-DEC-049`): MR-5 safe checkpoint → remaining MR-5 PAUSED → MR-6 ACTIVE NEXT → MR-7 remains after MR-6. MR-5C remainder and MR-5D/E/F resume when billing-provider/account eligibility, verification and setup are resolved, before any gate materially dependent on production billing or commercial charging. MR-8 remains GATED until all prerequisites are deliberately reconciled; this exception does not waive MR-5 dependencies. Billing-provider research may proceed separately; Stripe is not automatically replaced and is not declared unavailable. See [product direction](products/mpg-reputation/README.md) for checkpoint and remaining work.
 
 ## Accepted company foundation
 

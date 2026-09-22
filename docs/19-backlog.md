@@ -7,9 +7,9 @@
 - **Document:** Company OS Backlog
 - **Stage:** Cross-stage planning; current active company stage is Stage 1
 - **Owner:** MPG Founder
-- **Last Updated:** 2026-09-19
+- **Last Updated:** 2026-09-22
 - **Public Safe:** Yes
-- **Authority:** Framework and readiness questions; `REP-*` build scope authorized by `MPG-DEC-038` through `MPG-DEC-046`. Inclusion alone does not authorize execution, spend or release.
+- **Authority:** Framework and readiness questions; `REP-*` build scope authorized by `MPG-DEC-038` through `MPG-DEC-049`. Inclusion alone does not authorize execution, spend or release.
 
 ## Purpose
 
@@ -53,13 +53,13 @@ Maintain a public-safe, decision-oriented backlog for authorized future-stage wo
 
 **OWNER-AUTHORIZED MARKET-READY BUILD PROGRAM — NOT COMMERCIAL RELEASE**
 
-Authority: `MPG-DEC-038` through `MPG-DEC-046`. Product/WIP subject: `PROD-REP-001`. Under `MPG-DEC-046`, MPG Reputation is MPG's temporary primary execution focus for a bounded market-ready product-development program, while active Professional Business Websites productization is paused. The [authoritative product direction](../products/mpg-reputation/README.md) and [PRD v0.1](../products/mpg-reputation/PRD.md) own requirements and the implementation baseline; this section owns task status and closure evidence. These `REP-*` IDs do not alter or duplicate the `WEB-001` through `WEB-027` audit above. The MPG Founder is accountable for prioritization and acceptance; no staffing or budget is inferred.
+Authority: `MPG-DEC-038` through `MPG-DEC-049`. Product/WIP subject: `PROD-REP-001`. Under `MPG-DEC-046`, MPG Reputation is MPG's temporary primary execution focus for a bounded market-ready product-development program, while active Professional Business Websites productization is paused. The [authoritative product direction](../products/mpg-reputation/README.md) and [PRD v0.1](../products/mpg-reputation/PRD.md) own requirements and the implementation baseline; this section owns task status and closure evidence. These `REP-*` IDs do not alter or duplicate the `WEB-001` through `WEB-027` audit above. The MPG Founder is accountable for prioritization and acceptance; no staffing or budget is inferred.
 
-`RECORDED` means governance direction exists, not product readiness. `VERIFIED` means a bounded internal technical closure has passed its recorded engineering checks; it does not imply pilot, delivery, market or legal readiness. `IN_PROGRESS` means active work remains inside the authorized boundary. `TODO` means work is within the authorized development boundary but not completed. `GATED` means dependent evidence or separate authorization is required before the consequential action. `DEFERRED` means excluded from the first build. No row advances a service lifecycle or approves public solicitation.
+`RECORDED` means governance direction exists, not product readiness. `VERIFIED` means a bounded internal technical closure has passed its recorded engineering checks; it does not imply pilot, delivery, market or legal readiness. `IN_PROGRESS` means active work remains inside the authorized boundary. `TODO` means work is within the authorized development boundary but not completed. `GATED` means dependent evidence or separate authorization is required before the consequential action. `DEFERRED` means excluded from the first build or explicitly paused under a recorded owner decision; MR-5 deferral under `MPG-DEC-049` preserves its later completion requirement. No row advances a service lifecycle or approves public solicitation.
 
 | ID | Category | Status | Bounded deliverable / closure evidence | Dependencies or gate |
 |---|---|---|---|---|
-| REP-GOV-001 | GOV | RECORDED | Owner decisions `MPG-DEC-038`–`046`, product direction, market-ready build program, and temporary primary execution focus linked and consistent | Preserve Stage 1; PBW remains #1 commercial sequence but paused; Stage 2+ and umbrella site remain inactive |
+| REP-GOV-001 | GOV | RECORDED | Owner decisions `MPG-DEC-038`–`049`, product direction, market-ready build program, and temporary primary execution focus linked and consistent | Preserve Stage 1; PBW remains #1 commercial sequence but paused; Stage 2+ and umbrella site remain inactive |
 | REP-GOV-002 | GOV | TODO | Define bounded product service record, lifecycle evidence and mappings to relevant capabilities/tools/assets; no unsupported readiness claims | PRD scope; G1–G13 and lifecycle policy before pilot/release claims |
 | REP-GOV-003 | GOV | RECORDED | Separate product-repository creation and first implementation baseline authorized by `MPG-DEC-044`; establish local repository and private remote where safely available | Keep Company OS as governance; no public release or production customer messaging |
 | REP-PRD-001 | PRD | RECORDED | Owner-authorized [PRD v0.1](../products/mpg-reputation/PRD.md) defines the bounded vertical slice, security, test and failure requirements | Final vertical, trial terms, commercial terms and later-product requirements remain unresolved |
@@ -86,11 +86,22 @@ Authority: `MPG-DEC-038` through `MPG-DEC-046`. Product/WIP subject: `PROD-REP-0
 | REP-MR-000 | GOV | VERIFIED | MR-0 Governance Reconciliation: Synchronized Company OS and product repository decisions, project status, roadmaps, and agent instructions under `MPG-DEC-046` | Prerequisite for MR-1 engineering; no commercial activation |
 | REP-MR-001 | MSG | VERIFIED | MR-1 Production Messaging Core local engineering accepted: provider transport/events, sender identity, neutral templates, unsubscribe/suppression, delivery truth, reminder lifecycle, privacy and failure recovery verified | MR-1B-H hosted domain validation remains deferred; LIVE customer messaging remains OFF |
 | REP-MR-002 | UX | VERIFIED | MR-2 Customer Activation accepted: explicit Google destination test/confirmation, centralized activation readiness, dashboard checklist, Quick Complete activation gate, recovery/pause path and lifecycle acceptance proof | No pilot, live messaging, market approval or public launch implied |
-| REP-MR-003 | INT | TODO | MR-3 Completion Source Platform: authenticated universal completion API/webhook, tenant routing, replay protection, rate limiting, canonical normalization, idempotency, ingestion audit/debugging and adapter contracts | `REP-MR-002`; security and tenant-isolation proof required before external-system adoption |
+| REP-MR-003 | INT | VERIFIED | MR-3 Completion Source Platform accepted under `MPG-DEC-047`: authenticated ingestion, tenant isolation, replay/rate controls, idempotency, audit and adapter contracts | Native connectors remain separately gated |
+| REP-MR-004 | ECON | VERIFIED | MR-4 Trial / Usage / Economics accepted under `MPG-DEC-048` | Final trial/commercial terms remain unapproved |
+| REP-MR-005 | BILLING | DEFERRED | MR-5 PAUSED AT SAFE ENGINEERING CHECKPOINT / EXTERNAL BILLING PROVIDER DEPENDENCY under `MPG-DEC-049`; INCOMPLETE, not accepted or closed; safe checkpoint `d654656b59810877502d2e737dd236ae83b9c379` preserves completed work | Resolve billing-provider/account eligibility, verification and setup; resume before billing-dependent gates |
+| REP-MR-005C | BILLING | DEFERRED | Partial MR-5C checkpoint includes signature/environment controls, durable claims/intake and provider-truth organization correlation; processor wiring, subscription projection and recovery remain PAUSED | Resume with MR-5; do not infer webhook-program completion or entitlement mutation |
+| REP-MR-005D | BILLING | DEFERRED | MR-5D — Checkout + Customer Portal — DEFERRED / PAUSED | Billing-provider dependency; secure organization correlation and MR-5C completion |
+| REP-MR-005E | BILLING | DEFERRED | MR-5E — Controlled entitlement synchronization — DEFERRED / PAUSED | Billing-provider dependency; trusted projection, replay/order safety and approved domain policy |
+| REP-MR-005F | BILLING | DEFERRED | MR-5F — Hosted billing-provider test-mode acceptance — DEFERRED / PAUSED | MR-5C/D/E, configured test account and synthetic acceptance evidence |
+| REP-BILLING-001 | BILLING | GATED | Resolve billing-provider/account eligibility, verification and setup; record evidence and any explicit provider decision | Research may continue separately; no claim Stripe is unavailable, automatic replacement, live charging or final policy approval |
+| REP-MR-006 | OPS | IN_PROGRESS | MR-6 Admin / Support / Observability ACTIVE NEXT under `MPG-DEC-049`; preparation/handoff only in this reconciliation, no MR-6 feature implemented | Recommended MR-6A: audited read-only organization/location inspection with explicit support grants plus tenant membership; security negative tests required |
+| REP-MR-006B | OPS | TODO | Later MR-6: bounded exception queue, deliverability telemetry, recovery visibility and audited support interventions | MR-6A verified first; no arbitrary SQL, broad service-role reads, customer PII exposure or billing resumption |
+| REP-MR-006X | OPS | DEFERRED | Full support ticketing, impersonation, bulk recovery, global tenant browsing, advanced alerts/vendor adoption and dashboards for unbuilt features | Evidence and bounded scope required; MR-7 legal/retention work and marketing remain outside MR-6 |
+| REP-MR-008 | PILOT | GATED | Reconcile MR-1 through MR-7 prerequisites explicitly before MR-8 activation, including MR-5 completion and deferred MR-1B-H | `MPG-DEC-049` does not waive billing dependencies or authorize a real-customer pilot |
 
 Review program scope at each milestone and before spend, integration or pilot commitments. No calendar deadline, supplier account, validated capability, production environment or completed commercial implementation is implied.
 
-**Immediate next action:** Complete the MR-2 transition governance reconciliation, then begin MR-3 Completion Source Platform. LIVE customer messaging remains OFF. Do not begin a real-customer pilot, commercial launch, billing implementation or deferred native connector.
+**Immediate next action:** Implement MR-6A audited, read-only organization/location inspection after the clean pause/governance handoff. MR-5 remains paused and incomplete; MR-7 remains after MR-6; MR-8 prerequisites must be reconciled. LIVE customer messaging remains OFF. No real-customer pilot, commercial launch or billing resumption is authorized by this handoff.
 
 
 ## Client Project Readiness & Dependency Detection
