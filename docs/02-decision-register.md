@@ -82,7 +82,7 @@ When a decision changes, add a new stable ID, retain the earlier entry, update i
 
 ## Decision dependencies
 
-- `MPG-DEC-038` through `MPG-DEC-050` govern the bounded MPG Reputation product direction, implementation baseline, internal engineering milestones, and market-ready build program. `MPG-DEC-047` accepts MR-3 — Completion Source Platform and activates MR-4 — Trial / Usage / Economics. `MPG-DEC-046` establishes MPG Reputation as the temporary primary execution focus, superseding only the execution/WIP allocation portions of `MPG-DEC-008`, `020`, and `038` while pausing active Professional Business Websites productization. Technical, commercial, and operational requirements remain governed by [the product document](../products/mpg-reputation/README.md) and [PRD v0.1](../products/mpg-reputation/PRD.md).
+- `MPG-DEC-038` through `MPG-DEC-051` govern the bounded MPG Reputation product direction, implementation baseline, internal engineering milestones, and market-ready build program. `MPG-DEC-047` accepts MR-3 — Completion Source Platform and activates MR-4 — Trial / Usage / Economics. `MPG-DEC-046` establishes MPG Reputation as the temporary primary execution focus, superseding only the execution/WIP allocation portions of `MPG-DEC-008`, `020`, and `038` while pausing active Professional Business Websites productization. Technical, commercial, and operational requirements remain governed by [the product document](../products/mpg-reputation/README.md) and [PRD v0.1](../products/mpg-reputation/PRD.md).
 
 - `MPG-DEC-008`, `020`, and `029` govern current work prioritization; `MPG-DEC-007` is retained only as superseded history.
 - `MPG-DEC-006`, `016`, `017`, `021`, `022`, and `023` govern service readiness and public claims.
@@ -102,6 +102,8 @@ As of 2026-09-19, `MPG-DEC-046` temporarily supersedes the execution and WIP all
 As of 2026-09-22, `MPG-DEC-049` supersedes only the immediate MR-5 execution sequence under `MPG-DEC-048`: remaining billing implementation is paused at the preserved safe checkpoint and MR-6 becomes the next active engineering milestone. MR-4 acceptance and the historical MR-5 activation remain recorded verbatim. MR-5 is incomplete; billing-dependent gates and the MR-8 prerequisite review remain mandatory.
 
 As of 2026-09-24, `MPG-DEC-050` supersedes only the "MR-6 ACTIVE NEXT" execution state created by `MPG-DEC-049`, recording MR-6 as COMPLETE / ACCEPTED and activating MR-7 as the next bounded engineering milestone. `MPG-DEC-049` continues to govern the MR-5 pause and unresolved billing-provider/account dependency. MR-5 remains incomplete; billing-dependent gates and the MR-8 prerequisite review remain mandatory.
+
+As of 2026-10-17, `MPG-DEC-051` supersedes only stale MR-7 execution wording under `MPG-DEC-050` that identified Case B as the next technical step. It records the later Owner direction that C5C2-H hosted Case A verification and the MR-7 Technical-Control Packet are accepted/merged evidence, hosted Supabase remains the engineering/test database, Case B is owner-excluded / do not implement, and qualified US/Canada legal/compliance review is the current external gate before review-dependent Terms/Privacy decisions. `MPG-DEC-050` remains historical authority for MR-6 acceptance and MR-7 activation; `MPG-DEC-049` continues to govern the MR-5 pause. MR-8, live messaging, live billing, pilot, public launch and Stage 2 remain gated.
 
 ## Superseded decisions
 
