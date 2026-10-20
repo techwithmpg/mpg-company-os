@@ -124,6 +124,10 @@ Assume all repository content and Git history are public. Do not add:
 
 Use redacted, synthetic, or structural examples only. Confidential records belong in approved private storage; if operations require them here, stop and request a visibility/storage decision first. Follow `SECURITY.md` and `operating-model/information-handling.md`.
 
+## MPG Reputation accelerated delivery method (`MPG-DEC-052`)
+
+Within an owner-approved product engineering workstream, favor **one coherent feature/integration PR with multiple scoped, reversible commits** over creating a separate PR for every routine helper, test or document. Deliver complete synthetic client/admin user journeys and real acceptance evidence, not merely unwired foundations. Run targeted checks during implementation and applicable full lint/typecheck/build, database/RLS/tenant/security regression, authenticated browser acceptance and whole-diff review at integration checkpoints. A strictly fail-closed Markdown-only pull-request CI fast path may avoid heavyweight verification **only if every changed path is documented and no executable/config/security/migration file changed**; do not weaken code-path verification or branch protection. Consult the product repository delivery playbook after it is reviewed/merged. This process decision does **not** override MR-5 paused/incomplete, MR-7 active/legal review, MR-8 pilot gates, merge/deployment controls, provider activation, final pricing or Company Stage. See the authoritative decision register.
+
 ## Working method
 
 ### Before changing files
