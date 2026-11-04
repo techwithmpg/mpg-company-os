@@ -6,9 +6,15 @@
 | Status | CURRENT — STAGE 1 ACTIVE |
 | Stage | Stage 1 — Company and Brand Foundation |
 | Owner | MPG Founder |
-| Last Updated | 2026-10-17 |
+| Last Updated | 2026-11-04 |
 | Public Safe | Yes |
 | Authority | Current operational snapshot; decisions remain authoritative in the decision register |
+
+## CURRENT OWNER EXECUTION OVERRIDE — MPG-DEC-053 (2026-11-04)
+
+The Owner has explicitly prioritized **MR-9 Product Website / Acquisition Funnel development**, followed by **MR-10 Marketing Engine development**. This is a bounded **development-order exception**, not a production or commercial release. MR-5 billing stays **PAUSED / INCOMPLETE** (including the unmerged billing PR stack), remaining MR-1 sender/provider validation stays **DEFERRED**, and remaining MR-7 legal/compliance activity is **PAUSED** while MR-7 remains formally **IN PROGRESS**. MR-8 Controlled Pilot and MR-11 Market Release are still **GATED**.
+
+Proceed with internal/staging-only website pages, truthful marketing content, product explanation, accessible responsive UI, privacy-preserving synthetic analytics design, and disabled/not-yet-live acquisition flows. Do **not** collect real prospect/customer data, enable live campaigns, bypass authentication/RLS, approve commercial pricing, activate live messaging/billing, publish the commercial website, claim compliance, begin a pilot, or change Company Stage. All applicable gates must be reconciled and explicitly approved before those actions. Earlier milestone summaries below preserve their historical acceptance evidence; this section controls **current work priority**.
 
 ## ACCEPTED GOVERNANCE BASELINE
 
